@@ -20,7 +20,22 @@
       "upload_date": "20260416",
       "thumbnail_url": "https://i.ytimg.com/vi/9HkO8masPT0/maxresdefault.jpg",
       "url": "https://youtu.be/9HkO8masPT0",
-      "thumb": "thumbs/캔바-ai/9HkO8masPT0.jpg"
+      "thumb": "thumbs/캔바-ai/9HkO8masPT0.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "중앙",
+        "main_visual": "혼합",
+        "background_tone": "화려함",
+        "colors": [
+          "#6B3FE0",
+          "#FF6B35",
+          "#00C896"
+        ],
+        "main_copy": "Canva Create 2026 Keynote",
+        "hook_words": [
+          "Canva Create"
+        ]
+      }
     },
     {
       "id": "aIUAAqnZRkw",
@@ -33,7 +48,22 @@
       "upload_date": "20260416",
       "thumbnail_url": "https://i.ytimg.com/vi/aIUAAqnZRkw/maxresdefault.jpg",
       "url": "https://youtu.be/aIUAAqnZRkw",
-      "thumb": "thumbs/캔바-ai/aIUAAqnZRkw.jpg"
+      "thumb": "thumbs/캔바-ai/aIUAAqnZRkw.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "없음",
+        "main_visual": "로고",
+        "background_tone": "그라데이션",
+        "colors": [
+          "#7A3DFF",
+          "#00C8FF",
+          "#FFFFFF"
+        ],
+        "main_copy": "How we use Canva ai 2.0",
+        "hook_words": [
+          "Canva ai 2.0"
+        ]
+      }
     },
     {
       "id": "WRjR9cw7KyU",
@@ -46,7 +76,23 @@
       "upload_date": "20240920",
       "thumbnail_url": "https://i.ytimg.com/vi/WRjR9cw7KyU/maxresdefault.jpg",
       "url": "https://youtu.be/WRjR9cw7KyU",
-      "thumb": "thumbs/캔바-ai/WRjR9cw7KyU.jpg"
+      "thumb": "thumbs/캔바-ai/WRjR9cw7KyU.jpg",
+      "analysis": {
+        "copy_pattern": "총정리",
+        "person_position": "없음",
+        "main_visual": "로고",
+        "background_tone": "그라데이션",
+        "colors": [
+          "#1A1A4E",
+          "#00C8FF",
+          "#FFFFFF"
+        ],
+        "main_copy": "오늘부터 바로 쓰는 캔바 완벽정리 / 초보자를 위한, 60분 특강",
+        "hook_words": [
+          "완벽정리",
+          "60분 특강"
+        ]
+      }
     },
     {
       "id": "VnMAgSd0BUg",
@@ -59,7 +105,23 @@
       "upload_date": "20260513",
       "thumbnail_url": "https://i.ytimg.com/vi_webp/VnMAgSd0BUg/maxresdefault.webp",
       "url": "https://youtu.be/VnMAgSd0BUg",
-      "thumb": "thumbs/캔바-ai/VnMAgSd0BUg.jpg"
+      "thumb": "thumbs/캔바-ai/VnMAgSd0BUg.jpg",
+      "analysis": {
+        "copy_pattern": "대비",
+        "person_position": "중앙",
+        "main_visual": "혼합",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A1A",
+          "#FF6B35",
+          "#FFB300"
+        ],
+        "main_copy": "PPT·캔바 진짜로 졸업합니다 / 이젠 클로드 디자인",
+        "hook_words": [
+          "졸업합니다",
+          "클로드"
+        ]
+      }
     },
     {
       "id": "ieNU-EvLKXc",
@@ -72,7 +134,22 @@
       "upload_date": "20251031",
       "thumbnail_url": "https://i.ytimg.com/vi/ieNU-EvLKXc/maxresdefault.jpg",
       "url": "https://youtu.be/ieNU-EvLKXc",
-      "thumb": "thumbs/캔바-ai/ieNU-EvLKXc.jpg"
+      "thumb": "thumbs/캔바-ai/ieNU-EvLKXc.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "없음",
+        "main_visual": "로고",
+        "background_tone": "그라데이션",
+        "colors": [
+          "#E91E63",
+          "#B86EFF",
+          "#FFFFFF"
+        ],
+        "main_copy": "Canva Video 2.0",
+        "hook_words": [
+          "Video 2.0"
+        ]
+      }
     },
     {
       "id": "GyGmyy5tlIA",
@@ -85,7 +162,22 @@
       "upload_date": "20250523",
       "thumbnail_url": "https://i.ytimg.com/vi/GyGmyy5tlIA/maxresdefault.jpg",
       "url": "https://youtu.be/GyGmyy5tlIA",
-      "thumb": "thumbs/캔바-ai/GyGmyy5tlIA.jpg"
+      "thumb": "thumbs/캔바-ai/GyGmyy5tlIA.jpg",
+      "analysis": {
+        "copy_pattern": "질문",
+        "person_position": "우",
+        "main_visual": "혼합",
+        "background_tone": "밝음",
+        "colors": [
+          "#A3B5C2",
+          "#FFFFFF",
+          "#FFF400"
+        ],
+        "main_copy": "챗GPT안에 Canva / 아직도 모른다고?",
+        "hook_words": [
+          "아직도 모른다고"
+        ]
+      }
     },
     {
       "id": "WJ8Jj44ehWE",
@@ -98,7 +190,22 @@
       "upload_date": "20260417",
       "thumbnail_url": "https://i.ytimg.com/vi/WJ8Jj44ehWE/maxresdefault.jpg",
       "url": "https://youtu.be/WJ8Jj44ehWE",
-      "thumb": "thumbs/캔바-ai/WJ8Jj44ehWE.jpg"
+      "thumb": "thumbs/캔바-ai/WJ8Jj44ehWE.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "없음",
+        "main_visual": "로고",
+        "background_tone": "그라데이션",
+        "colors": [
+          "#2837FF",
+          "#00C8FF",
+          "#FFFFFF"
+        ],
+        "main_copy": "Introducing Canva ai 2.0",
+        "hook_words": [
+          "Introducing"
+        ]
+      }
     },
     {
       "id": "r55HF8nxQwA",
@@ -111,7 +218,22 @@
       "upload_date": "20260407",
       "thumbnail_url": "https://i.ytimg.com/vi_webp/r55HF8nxQwA/maxresdefault.webp",
       "url": "https://youtu.be/r55HF8nxQwA",
-      "thumb": "thumbs/캔바-ai/r55HF8nxQwA.jpg"
+      "thumb": "thumbs/캔바-ai/r55HF8nxQwA.jpg",
+      "analysis": {
+        "copy_pattern": "결과",
+        "person_position": "좌",
+        "main_visual": "혼합",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A2E",
+          "#FFE100",
+          "#00D9C8"
+        ],
+        "main_copy": "NotebookLM + Canva 'Magic Layers' = Perfection",
+        "hook_words": [
+          "Perfection"
+        ]
+      }
     },
     {
       "id": "buG_WiRrnxI",
@@ -124,7 +246,23 @@
       "upload_date": "20251113",
       "thumbnail_url": "https://i.ytimg.com/vi_lc/buG_WiRrnxI/maxresdefault_en-US.jpg",
       "url": "https://youtu.be/buG_WiRrnxI",
-      "thumb": "thumbs/캔바-ai/buG_WiRrnxI.jpg"
+      "thumb": "thumbs/캔바-ai/buG_WiRrnxI.jpg",
+      "analysis": {
+        "copy_pattern": "질문",
+        "person_position": "우",
+        "main_visual": "혼합",
+        "background_tone": "어두움",
+        "colors": [
+          "#0E2533",
+          "#4FCBE0",
+          "#FFFFFF"
+        ],
+        "main_copy": "AI가 진짜 다 해준다고? / 2025 캔바, 바뀐 업데이트 공개!",
+        "hook_words": [
+          "진짜 다 해준다고",
+          "공개"
+        ]
+      }
     },
     {
       "id": "k-dM_4Oe3aw",
@@ -137,7 +275,22 @@
       "upload_date": "20251030",
       "thumbnail_url": "https://i.ytimg.com/vi_webp/k-dM_4Oe3aw/maxresdefault.webp",
       "url": "https://youtu.be/k-dM_4Oe3aw",
-      "thumb": "thumbs/캔바-ai/k-dM_4Oe3aw.jpg"
+      "thumb": "thumbs/캔바-ai/k-dM_4Oe3aw.jpg",
+      "analysis": {
+        "copy_pattern": "충격",
+        "person_position": "좌",
+        "main_visual": "혼합",
+        "background_tone": "화려함",
+        "colors": [
+          "#B86EFF",
+          "#E91E63",
+          "#FFFFFF"
+        ],
+        "main_copy": "Canva Ai Drop!",
+        "hook_words": [
+          "Drop!"
+        ]
+      }
     },
     {
       "id": "yKt9puwEUyw",

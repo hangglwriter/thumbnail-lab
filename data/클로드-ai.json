@@ -1,0 +1,558 @@
+{
+  "keyword": "클로드 AI",
+  "slug": "클로드-ai",
+  "queries": [
+    "클로드 AI",
+    "Claude AI 한국어",
+    "Claude Code"
+  ],
+  "updated": "2026-05-18 22:56",
+  "count": 30,
+  "videos": [
+    {
+      "id": "mBHRPeg8zPU",
+      "title": "Tragic mistake... Anthropic leaks Claude’s source code",
+      "channel": "Fireship",
+      "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+      "views": 3199186,
+      "duration": 442,
+      "format": "long",
+      "upload_date": "20260401",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/mBHRPeg8zPU/maxresdefault.webp",
+      "url": "https://youtu.be/mBHRPeg8zPU",
+      "thumb": "thumbs/클로드-ai/mBHRPeg8zPU.jpg",
+      "analysis": {
+        "copy_pattern": "충격",
+        "person_position": "없음",
+        "main_visual": "일러스트",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A1A",
+          "#FF3D3D",
+          "#F4E8C8"
+        ],
+        "main_copy": "CLAUDE CRACKED",
+        "hook_words": [
+          "CRACKED"
+        ]
+      }
+    },
+    {
+      "id": "6eBSHbLKuN0",
+      "title": "Mastering Claude Code in 30 minutes",
+      "channel": "Anthropic",
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+      "views": 1284455,
+      "duration": 1687,
+      "format": "long",
+      "upload_date": "20250522",
+      "thumbnail_url": "https://i.ytimg.com/vi/6eBSHbLKuN0/maxresdefault.jpg",
+      "url": "https://youtu.be/6eBSHbLKuN0",
+      "thumb": "thumbs/클로드-ai/6eBSHbLKuN0.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "없음",
+        "main_visual": "일러스트",
+        "background_tone": "밝음",
+        "colors": [
+          "#B9D4C7",
+          "#1A1A1A",
+          "#FFFFFF"
+        ],
+        "main_copy": "Code w/ Claude / Livestream May 22",
+        "hook_words": [
+          "Livestream"
+        ]
+      }
+    },
+    {
+      "id": "brtbMmCkghM",
+      "title": "AI '클로드 코워크'에 시장 '출렁'‥기존 소프트웨어 다 망한다? (2026.02.06/뉴스데스크/MBC)",
+      "channel": "MBCNEWS",
+      "channel_id": "UCF4Wxdo3inmxP-Y59wXDsFw",
+      "views": 1167376,
+      "duration": 150,
+      "format": "long",
+      "upload_date": "20260206",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/brtbMmCkghM/maxresdefault.webp",
+      "url": "https://youtu.be/brtbMmCkghM",
+      "thumb": "thumbs/클로드-ai/brtbMmCkghM.jpg",
+      "analysis": {
+        "copy_pattern": "충격",
+        "person_position": "없음",
+        "main_visual": "혼합",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A1A",
+          "#FFE100",
+          "#FFFFFF"
+        ],
+        "main_copy": "괴물 '비서 AI' 출현에·· / '구독 SW' 연쇄 도미노",
+        "hook_words": [
+          "괴물",
+          "도미노"
+        ]
+      }
+    },
+    {
+      "id": "ntDIxaeo3Wg",
+      "title": "Claude Code - Full Tutorial for Beginners",
+      "channel": "Tech With Tim",
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "views": 985791,
+      "duration": 2148,
+      "format": "long",
+      "upload_date": "20260227",
+      "thumbnail_url": "https://i.ytimg.com/vi/ntDIxaeo3Wg/maxresdefault.jpg",
+      "url": "https://youtu.be/ntDIxaeo3Wg",
+      "thumb": "thumbs/클로드-ai/ntDIxaeo3Wg.jpg",
+      "analysis": {
+        "copy_pattern": "총정리",
+        "person_position": "없음",
+        "main_visual": "로고",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A1A",
+          "#F26B4B",
+          "#FFE100"
+        ],
+        "main_copy": "CLAUDE CODE FULL TUTORIAL FOR BEGINNERS",
+        "hook_words": [
+          "FULL TUTORIAL",
+          "BEGINNERS"
+        ]
+      }
+    },
+    {
+      "id": "eMZmDH3T2bY",
+      "title": "Claude Code Tutorial for Beginners",
+      "channel": "Kevin Stratvert",
+      "channel_id": "UCfJT_eYDTmDE-ovKaxVE1ig",
+      "views": 826404,
+      "duration": 883,
+      "format": "long",
+      "upload_date": "20251222",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/eMZmDH3T2bY/maxresdefault.webp",
+      "url": "https://youtu.be/eMZmDH3T2bY",
+      "thumb": "thumbs/클로드-ai/eMZmDH3T2bY.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "우",
+        "main_visual": "인물",
+        "background_tone": "어두움",
+        "colors": [
+          "#2A1810",
+          "#FF6B35",
+          "#FFFFFF"
+        ],
+        "main_copy": "Claude CODE",
+        "hook_words": [
+          "CODE"
+        ]
+      }
+    },
+    {
+      "id": "mpALXah_PBg",
+      "title": "Build & Sell with Claude Code (10+ Hour Course)",
+      "channel": "Nate Herk | AI Automation",
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "views": 614502,
+      "duration": 36005,
+      "format": "long",
+      "upload_date": "20260312",
+      "thumbnail_url": "https://i.ytimg.com/vi/mpALXah_PBg/maxresdefault.jpg",
+      "url": "https://youtu.be/mpALXah_PBg",
+      "thumb": "thumbs/클로드-ai/mpALXah_PBg.jpg",
+      "analysis": {
+        "copy_pattern": "총정리",
+        "person_position": "우",
+        "main_visual": "혼합",
+        "background_tone": "밝음",
+        "colors": [
+          "#FFFFFF",
+          "#1A1A1A",
+          "#FF6B35"
+        ],
+        "main_copy": "FULL COURSE 8단계 / Setup·Tokens·Commands·Skills·Websites·Sub-agents·Agent Teams·Make Money",
+        "hook_words": [
+          "FULL COURSE",
+          "Make Money"
+        ]
+      }
+    },
+    {
+      "id": "8o6qC5qw4r0",
+      "title": "AI 잘 쓰는 사람들이 클로드 스킬 먼저 세팅하는 이유",
+      "channel": "유튜브신쌤",
+      "channel_id": "UC-6DLwseTZG-l4JprVV2MIQ",
+      "views": 593728,
+      "duration": 668,
+      "format": "long",
+      "upload_date": "20260228",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/8o6qC5qw4r0/maxresdefault.webp",
+      "url": "https://youtu.be/8o6qC5qw4r0",
+      "thumb": "thumbs/클로드-ai/8o6qC5qw4r0.jpg",
+      "analysis": {
+        "copy_pattern": "대비",
+        "person_position": "없음",
+        "main_visual": "로고",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A1A",
+          "#FF3D3D",
+          "#FFE100"
+        ],
+        "main_copy": "AI 좀 한다는 사람들이 / 요즘 클로드 쓰는 이유 / 이래서 다들 갈아탔구나",
+        "hook_words": [
+          "갈아탔구나",
+          "요즘 클로드"
+        ]
+      }
+    },
+    {
+      "id": "fl1DSmwQKKY",
+      "title": "What is Claude Code?",
+      "channel": "Claude",
+      "channel_id": "UCV03SRZXJEz-hchIAogeJOg",
+      "views": 582044,
+      "duration": 175,
+      "format": "long",
+      "upload_date": "20260505",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/fl1DSmwQKKY/maxresdefault.webp",
+      "url": "https://youtu.be/fl1DSmwQKKY",
+      "thumb": "thumbs/클로드-ai/fl1DSmwQKKY.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "없음",
+        "main_visual": "일러스트",
+        "background_tone": "밝음",
+        "colors": [
+          "#EEE3CC",
+          "#2A2535",
+          "#F26B4B"
+        ],
+        "main_copy": "Claude Code / Opus 4.6 · Claude Max",
+        "hook_words": [
+          "Claude Code"
+        ]
+      }
+    },
+    {
+      "id": "O6Lw_4Hh0mQ",
+      "title": "클로드 초보자 가이드 2026 | 이 영상 하나로 끝내세요.",
+      "channel": "그린코끼리 AI",
+      "channel_id": "UCtjw0e8tJrn4mS9nhbLZZ7A",
+      "views": 481109,
+      "duration": 1628,
+      "format": "long",
+      "upload_date": "20260310",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/O6Lw_4Hh0mQ/maxresdefault.webp",
+      "url": "https://youtu.be/O6Lw_4Hh0mQ",
+      "thumb": "thumbs/클로드-ai/O6Lw_4Hh0mQ.jpg",
+      "analysis": {
+        "copy_pattern": "대비",
+        "person_position": "없음",
+        "main_visual": "로고",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A1A",
+          "#FFE100",
+          "#00FF80"
+        ],
+        "main_copy": "미국 앱스토어 1위 / 클로드 초보자가이드",
+        "hook_words": [
+          "1위",
+          "초보자가이드"
+        ]
+      }
+    },
+    {
+      "id": "gv0WHhKelSE",
+      "title": "Claude Code best practices | Code w/ Claude",
+      "channel": "Anthropic",
+      "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+      "views": 469895,
+      "duration": 1553,
+      "format": "long",
+      "upload_date": "20250731",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/gv0WHhKelSE/maxresdefault.webp",
+      "url": "https://youtu.be/gv0WHhKelSE",
+      "thumb": "thumbs/클로드-ai/gv0WHhKelSE.jpg",
+      "analysis": {
+        "copy_pattern": "정보",
+        "person_position": "우",
+        "main_visual": "혼합",
+        "background_tone": "어두움",
+        "colors": [
+          "#1A1A1A",
+          "#F4E8C8",
+          "#FFFFFF"
+        ],
+        "main_copy": "Claude Code best practices / Code w/ Claude",
+        "hook_words": [
+          "best practices"
+        ]
+      }
+    },
+    {
+      "id": "mZzhfPle9QU",
+      "title": "How I use Claude Code (Meta Staff Engineer Tips)",
+      "channel": "John Kim",
+      "channel_id": "UCiZotp9tZ4uXgXEjHDUYzBQ",
+      "views": 425011,
+      "duration": 2772,
+      "format": "long",
+      "upload_date": "20260207",
+      "thumbnail_url": "https://i.ytimg.com/vi/mZzhfPle9QU/maxresdefault.jpg",
+      "url": "https://youtu.be/mZzhfPle9QU",
+      "thumb": "thumbs/클로드-ai/mZzhfPle9QU.jpg"
+    },
+    {
+      "id": "LACyqdAfnaw",
+      "title": "Why devs are OBSESSED with Claude Code",
+      "channel": "Alberta Tech",
+      "channel_id": "UCkdgAA0rfK7lG5dv4o__Paw",
+      "views": 415393,
+      "duration": 715,
+      "format": "long",
+      "upload_date": "20260419",
+      "thumbnail_url": "https://i.ytimg.com/vi/LACyqdAfnaw/maxresdefault.jpg",
+      "url": "https://youtu.be/LACyqdAfnaw",
+      "thumb": "thumbs/클로드-ai/LACyqdAfnaw.jpg"
+    },
+    {
+      "id": "brLhhkUqcn4",
+      "title": "Claude Code Essentials",
+      "channel": "freeCodeCamp.org",
+      "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "views": 379681,
+      "duration": 44410,
+      "format": "long",
+      "upload_date": "20260323",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/brLhhkUqcn4/maxresdefault.webp",
+      "url": "https://youtu.be/brLhhkUqcn4",
+      "thumb": "thumbs/클로드-ai/brLhhkUqcn4.jpg"
+    },
+    {
+      "id": "EJyuu6zlQCg",
+      "title": "5 Claude Code skills I use every single day",
+      "channel": "Matt Pocock",
+      "channel_id": "UCswG6FSbgZjbWtdf_hMLaow",
+      "views": 350667,
+      "duration": 1002,
+      "format": "long",
+      "upload_date": "20260316",
+      "thumbnail_url": "https://i.ytimg.com/vi/EJyuu6zlQCg/maxresdefault.jpg",
+      "url": "https://youtu.be/EJyuu6zlQCg",
+      "thumb": "thumbs/클로드-ai/EJyuu6zlQCg.jpg"
+    },
+    {
+      "id": "qsZ-GV34S0o",
+      "title": "상위 0.1%만 알고있는 AI 활용법, 클로드 압도적 성능의 비결과 고수만 아는 숨은 기능 (김덕진 소장) | 주식아지트 EP.2",
+      "channel": "깨비증권 마블TV [KB증권]",
+      "channel_id": "UCD0k4Kq7SJROxxV-9N5v8IA",
+      "views": 350479,
+      "duration": 5712,
+      "format": "long",
+      "upload_date": "20260418",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/qsZ-GV34S0o/maxresdefault.webp",
+      "url": "https://youtu.be/qsZ-GV34S0o",
+      "thumb": "thumbs/클로드-ai/qsZ-GV34S0o.jpg"
+    },
+    {
+      "id": "VVWxx9vHOG8",
+      "title": "클로드로 업무 생산성 20배 올리는 제일 쉬운 방법 | 80%는 모르고 있는 클로드의 미친 기능",
+      "channel": "로사장 ",
+      "channel_id": "UCD4-IJEjeAtc2Md6xy6x_zQ",
+      "views": 321461,
+      "duration": 689,
+      "format": "long",
+      "upload_date": "20260401",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/VVWxx9vHOG8/maxresdefault.webp",
+      "url": "https://youtu.be/VVWxx9vHOG8",
+      "thumb": "thumbs/클로드-ai/VVWxx9vHOG8.jpg"
+    },
+    {
+      "id": "IuyVVtr1uhY",
+      "title": "Claude Code Tutorial - Build Apps 10x Faster with AI",
+      "channel": "Programming with Mosh",
+      "channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "views": 316895,
+      "duration": 3491,
+      "format": "long",
+      "upload_date": "20260324",
+      "thumbnail_url": "https://i.ytimg.com/vi/IuyVVtr1uhY/maxresdefault.jpg",
+      "url": "https://youtu.be/IuyVVtr1uhY",
+      "thumb": "thumbs/클로드-ai/IuyVVtr1uhY.jpg"
+    },
+    {
+      "id": "qYqIhX9hTQk",
+      "title": "FULL Claude Code Tutorial for Beginners in 2026! (Step-By-Step)",
+      "channel": "Tech With Tim",
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "views": 300840,
+      "duration": 909,
+      "format": "long",
+      "upload_date": "20260329",
+      "thumbnail_url": "https://i.ytimg.com/vi/qYqIhX9hTQk/maxresdefault.jpg",
+      "url": "https://youtu.be/qYqIhX9hTQk",
+      "thumb": "thumbs/클로드-ai/qYqIhX9hTQk.jpg"
+    },
+    {
+      "id": "ocQ7ZKhHU5Q",
+      "title": "Claude Code on your Phone is OFFICIAL (it changes  everything)",
+      "channel": "NetworkChuck",
+      "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+      "views": 296023,
+      "duration": 451,
+      "format": "long",
+      "upload_date": "20260226",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/ocQ7ZKhHU5Q/maxresdefault.webp",
+      "url": "https://youtu.be/ocQ7ZKhHU5Q",
+      "thumb": "thumbs/클로드-ai/ocQ7ZKhHU5Q.jpg"
+    },
+    {
+      "id": "HFcVTALckhw",
+      "title": "클로드 쓴다면 당장 이거 써보세요 | 클로드 코워크 15분만에 마스터하기 (비 개발자도 클릭 한 번으로 가능합니다)",
+      "channel": "소소한 AI 입문노트 | 소에노",
+      "channel_id": "UCSftqyavYFpdAcnghLZE05A",
+      "views": 279845,
+      "duration": 879,
+      "format": "long",
+      "upload_date": "20260417",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/HFcVTALckhw/maxresdefault.webp",
+      "url": "https://youtu.be/HFcVTALckhw",
+      "thumb": "thumbs/클로드-ai/HFcVTALckhw.jpg"
+    },
+    {
+      "id": "bSHLtglLbJA",
+      "title": "(1부) 챗GPT vs 제미나이 vs 클로드, AI 승자 답 나왔습니다 (서울시립대학교 김덕진 겸임교수)",
+      "channel": "Understanding : All the Knowledge in the World",
+      "channel_id": "UCIUni4ScRp4mqPXsxy62L5w",
+      "views": 273984,
+      "duration": 3561,
+      "format": "long",
+      "upload_date": "20260421",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/bSHLtglLbJA/maxresdefault.webp",
+      "url": "https://youtu.be/bSHLtglLbJA",
+      "thumb": "thumbs/클로드-ai/bSHLtglLbJA.jpg"
+    },
+    {
+      "id": "qfVqIhkWL7A",
+      "title": "클로드 코워크 A to Z 이 영상 하나로 끝내드려요 l AI 비서, 데이터분석, 보고서 작성 실습까지",
+      "channel": "이동훈의 루트AI",
+      "channel_id": "UCDq9_N34UnlMSlFB4kWE15w",
+      "views": 241253,
+      "duration": 712,
+      "format": "long",
+      "upload_date": "20260219",
+      "thumbnail_url": "https://i.ytimg.com/vi/qfVqIhkWL7A/maxresdefault.jpg",
+      "url": "https://youtu.be/qfVqIhkWL7A",
+      "thumb": "thumbs/클로드-ai/qfVqIhkWL7A.jpg"
+    },
+    {
+      "id": "qOvc9IUKEIc",
+      "title": "How Anthropic Engineers ACTUALLY Prompt Claude Code",
+      "channel": "Austin Marchese",
+      "channel_id": "UCFeFVytEkT8kaqPCJZGFswg",
+      "views": 234945,
+      "duration": 645,
+      "format": "long",
+      "upload_date": "20260515",
+      "thumbnail_url": "https://i.ytimg.com/vi/qOvc9IUKEIc/maxresdefault.jpg",
+      "url": "https://youtu.be/qOvc9IUKEIc",
+      "thumb": "thumbs/클로드-ai/qOvc9IUKEIc.jpg"
+    },
+    {
+      "id": "REyKGV6Hkjs",
+      "title": "AI 잘쓰는 사람들이 요즘 클로드 스킬에 미쳐있는 이유 | 클로드 쓴다면 무조건 이 기능 쓰셔야합니다 (200% 활용법 전부 공개)",
+      "channel": "긍정필터",
+      "channel_id": "UCOwTVgbotezbpQ8POZ_-pMg",
+      "views": 229638,
+      "duration": 1097,
+      "format": "long",
+      "upload_date": "20260401",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/REyKGV6Hkjs/maxresdefault.webp",
+      "url": "https://youtu.be/REyKGV6Hkjs",
+      "thumb": "thumbs/클로드-ai/REyKGV6Hkjs.jpg"
+    },
+    {
+      "id": "qLMYOhaKcZs",
+      "title": "The Ultimate Beginner's Guide to Claude Code",
+      "channel": "Ali Abdaal",
+      "channel_id": "UCoOae5nYA7VqaXzerajD0lg",
+      "views": 210771,
+      "duration": 4006,
+      "format": "long",
+      "upload_date": "20260418",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/qLMYOhaKcZs/maxresdefault.webp",
+      "url": "https://youtu.be/qLMYOhaKcZs",
+      "thumb": "thumbs/클로드-ai/qLMYOhaKcZs.jpg"
+    },
+    {
+      "id": "Qvv1CHw-on8",
+      "title": "코딩 몰라도 OK - 상위 1% 엔지니어가 알려주는 클로드 코드·코워크·클로드 스킬 “제대로” 쓰는 법",
+      "channel": "AI 콘텐츠 마스터 세인투",
+      "channel_id": "UCU2XQH56ZZFUbpeuPr4jzrg",
+      "views": 193185,
+      "duration": 1520,
+      "format": "long",
+      "upload_date": "20260318",
+      "thumbnail_url": "https://i.ytimg.com/vi/Qvv1CHw-on8/maxresdefault.jpg",
+      "url": "https://youtu.be/Qvv1CHw-on8",
+      "thumb": "thumbs/클로드-ai/Qvv1CHw-on8.jpg"
+    },
+    {
+      "id": "UPtmKh1vMN8",
+      "title": "CLAUDE CODE ADVANCED FULL COURSE (3 HOURS)",
+      "channel": "Nick Saraev",
+      "channel_id": "UCbo-KbSjJDG6JWQ_MTZ_rNA",
+      "views": 185111,
+      "duration": 11903,
+      "format": "long",
+      "upload_date": "20260328",
+      "thumbnail_url": "https://i.ytimg.com/vi/UPtmKh1vMN8/maxresdefault.jpg",
+      "url": "https://youtu.be/UPtmKh1vMN8",
+      "thumb": "thumbs/클로드-ai/UPtmKh1vMN8.jpg"
+    },
+    {
+      "id": "3HVH2Iuplqo",
+      "title": "Claude Code Tutorial for Beginners",
+      "channel": "Sabrina Ramonov 🍄",
+      "channel_id": "UCiGWNa6QK6CiKPvv5-YPv8g",
+      "views": 182282,
+      "duration": 2103,
+      "format": "long",
+      "upload_date": "20260219",
+      "thumbnail_url": "https://i.ytimg.com/vi/3HVH2Iuplqo/maxresdefault.jpg",
+      "url": "https://youtu.be/3HVH2Iuplqo",
+      "thumb": "thumbs/클로드-ai/3HVH2Iuplqo.jpg"
+    },
+    {
+      "id": "wkv2ifxPpF8",
+      "title": "How to Make Claude Code Your AI Engineering Team",
+      "channel": "Y Combinator",
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+      "views": 177156,
+      "duration": 1309,
+      "format": "long",
+      "upload_date": "20260423",
+      "thumbnail_url": "https://i.ytimg.com/vi_webp/wkv2ifxPpF8/maxresdefault.webp",
+      "url": "https://youtu.be/wkv2ifxPpF8",
+      "thumb": "thumbs/클로드-ai/wkv2ifxPpF8.jpg"
+    },
+    {
+      "id": "uogzSxOw4LU",
+      "title": "The Ultimate Claude Code Guide | MCP, Skills & More",
+      "channel": "Tech With Tim",
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "views": 149965,
+      "duration": 2260,
+      "format": "long",
+      "upload_date": "20260413",
+      "thumbnail_url": "https://i.ytimg.com/vi/uogzSxOw4LU/maxresdefault.jpg",
+      "url": "https://youtu.be/uogzSxOw4LU",
+      "thumb": "thumbs/클로드-ai/uogzSxOw4LU.jpg"
+    }
+  ]
+}
