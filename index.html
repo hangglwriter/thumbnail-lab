@@ -199,6 +199,7 @@ function cardEl(v) {
         <span>📅 ${fmtDate(v.upload_date)}</span>
       </div>
       ${renderAnalysis(a, v.id)}
+      ${renderScriptToggle(v)}
     </div>
   `;
   card.querySelector('.fav-btn').onclick = (e) => {
@@ -233,6 +234,25 @@ function renderAnalysis(a, vid) {
     </div>
     ${a.hook_words?.length ? `<div class="text-[11px] text-amber-300/80 mt-0.5">키워드: ${a.hook_words.join(' · ')}</div>` : ''}
     ${a.main_copy ? `<div class="text-[11px] text-gray-400 mt-0.5 line-clamp-2 italic">"${escape(a.main_copy)}"</div>` : ''}
+  `;
+}
+
+function renderScriptToggle(v) {
+  const s = v.script_analysis;
+  if (!s) return '';
+  const uid = 'sc-' + v.id;
+  return `
+    <details class="mt-1 border-t border-gray-800 pt-1.5" id="${uid}">
+      <summary class="text-xs text-amber-300/90 cursor-pointer hover:text-amber-200 select-none">📝 스크립트 분석 보기 (${fmtNum(v.views)}회 영상)</summary>
+      <div class="mt-2 text-[11px] text-gray-300 space-y-2">
+        ${s.intro_hook ? `<div><b class="text-amber-300">인트로 후크 (0~30초)</b><br><span class="text-gray-400">${escape(s.intro_hook)}</span></div>` : ''}
+        ${s.structure?.length ? `<div><b class="text-amber-300">구조</b><br>${s.structure.map(st => `<div class="text-gray-400">• ${escape(st)}</div>`).join('')}</div>` : ''}
+        ${s.hook_techniques?.length ? `<div><b class="text-amber-300">핵심 후크 단어</b><br><span class="text-gray-400">${s.hook_techniques.map(escape).join(' · ')}</span></div>` : ''}
+        ${s.cta ? `<div><b class="text-amber-300">CTA</b><br><span class="text-gray-400">${escape(s.cta)}</span></div>` : ''}
+        ${s.why_popular ? `<div><b class="text-amber-300">왜 인기를 끌었나</b><br><span class="text-gray-400">${escape(s.why_popular)}</span></div>` : ''}
+        ${s.benchmark_for_hangglwriter ? `<div class="bg-amber-950/30 border border-amber-900/50 rounded p-2"><b class="text-amber-300">💡 행글라이터 벤치마킹</b><br><span class="text-amber-100/90">${escape(s.benchmark_for_hangglwriter)}</span></div>` : ''}
+      </div>
+    </details>
   `;
 }
 

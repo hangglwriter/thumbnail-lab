@@ -8,3 +8,6 @@ _search*.jsonl
 Thumbs.db
 
 .vercel
+
+# 자막 파일 (큰 텍스트, 분석 결과만 push)
+subs/
