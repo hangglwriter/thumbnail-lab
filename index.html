@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>썸네일 랩 - 인기 유튜브 썸네일 영감</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: -apple-system, "Noto Sans KR", "Segoe UI", sans-serif; }
+  .thumb-card { transition: transform .15s ease, box-shadow .15s ease; }
+  .thumb-card:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,.4); }
+  .chip { font-size: 11px; padding: 2px 8px; border-radius: 999px; }
+  .scrollbar-thin::-webkit-scrollbar { width: 6px; height: 6px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: #555; border-radius: 3px; }
+</style>
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen">
+
+<header class="sticky top-0 z-20 bg-gray-900/95 backdrop-blur border-b border-gray-800">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center gap-3">
+    <h1 class="text-xl font-bold flex items-center gap-2">
+      <span class="text-amber-400">🎨</span>
+      썸네일 랩
+      <span class="text-xs text-gray-500 font-normal">유튜브 인기 썸네일 영감</span>
+    </h1>
+    <div class="flex-1"></div>
+    <input id="search" type="text" placeholder="🔍 제목·채널 검색"
+           class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm w-full sm:w-64 focus:outline-none focus:border-amber-400">
+    <select id="sort" class="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm">
+      <option value="views">조회수순</option>
+      <option value="date">최신순</option>
+    </select>
+    <button id="favOnly" class="bg-gray-800 border border-gray-700 hover:border-amber-400 rounded-lg px-3 py-1.5 text-sm">
+      ★ 즐겨찾기만
+    </button>
+  </div>
+  <div class="max-w-7xl mx-auto px-4 pb-3 flex flex-wrap gap-2 items-center" id="keywordTabs">
+    <span class="text-xs text-gray-500">키워드:</span>
+  </div>
+  <div class="max-w-7xl mx-auto px-4 pb-3 flex flex-wrap gap-2 items-center text-xs" id="filterBar">
+    <span class="text-gray-500">필터:</span>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="format" data-value="">전체</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="format" data-value="long">롱폼</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="format" data-value="shorts">쇼츠</button>
+    <span class="text-gray-700 mx-1">|</span>
+    <span class="text-gray-500">패턴:</span>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="pattern" data-value="">전체</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="pattern" data-value="대비">대비</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="pattern" data-value="충격">충격</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="pattern" data-value="질문">질문</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="pattern" data-value="총정리">총정리</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="pattern" data-value="결과">결과</button>
+    <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="pattern" data-value="정보">정보</button>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 py-6">
+  <div id="status" class="text-sm text-gray-500 mb-4">로딩 중...</div>
+  <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>
+  <div id="empty" class="hidden text-center text-gray-500 py-12">표시할 영상이 없습니다.</div>
+</main>
+
+<footer class="border-t border-gray-800 mt-12">
+  <div class="max-w-7xl mx-auto px-4 py-4 text-xs text-gray-600 flex flex-wrap items-center gap-3">
+    <span>썸네일 랩 - 행글라이터</span>
+    <span class="text-gray-800">|</span>
+    <span>썸네일 출처: 각 채널 저작권</span>
+    <span class="text-gray-800">|</span>
+    <span id="lastUpdate"></span>
+  </div>
+</footer>
+
+<script>
+const state = {
+  keywords: [],
+  activeKeyword: null,
+  allVideos: [],
+  search: '',
+  sort: 'views',
+  favOnly: false,
+  filters: { format: '', pattern: '' },
+  favs: new Set(JSON.parse(localStorage.getItem('thumblab_favs') || '[]')),
+};
+
+function fmtNum(n) {
+  if (n >= 10000) return (n / 10000).toFixed(1).replace(/\.0$/, '') + '만';
+  if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + '천';
+  return n.toLocaleString();
+}
+function fmtDuration(s) {
+  if (!s) return '';
+  const m = Math.floor(s / 60), sec = s % 60;
+  return m + ':' + String(sec).padStart(2, '0');
+}
+function fmtDate(d) {
+  if (!d || d.length < 8) return '';
+  return d.slice(0, 4) + '.' + d.slice(4, 6) + '.' + d.slice(6, 8);
+}
+
+async function loadKeywords() {
+  try {
+    const r = await fetch('data/keywords.json');
+    if (!r.ok) throw new Error('no index');
+    const j = await r.json();
+    state.keywords = j.keywords || [];
+    renderTabs();
+    if (state.keywords.length > 0) {
+      await loadKeyword(state.keywords[0].slug);
+    } else {
+      document.getElementById('status').textContent = '데이터 없음. scripts/collect.py 실행 필요.';
+    }
+  } catch (e) {
+    document.getElementById('status').textContent = '키워드 인덱스 로드 실패: ' + e.message;
+  }
+}
+
+async function loadKeyword(slug) {
+  state.activeKeyword = slug;
+  document.getElementById('status').textContent = '로딩...';
+  try {
+    const r = await fetch('data/' + encodeURIComponent(slug) + '.json');
+    const j = await r.json();
+    state.allVideos = j.videos || [];
+    document.getElementById('lastUpdate').textContent = '갱신: ' + (j.updated || '-') + ' / 키워드 "' + j.keyword + '"';
+    renderTabs();
+    render();
+  } catch (e) {
+    document.getElementById('status').textContent = '로드 실패: ' + e.message;
+  }
+}
+
+function renderTabs() {
+  const el = document.getElementById('keywordTabs');
+  el.innerHTML = '<span class="text-xs text-gray-500">키워드:</span>';
+  for (const k of state.keywords) {
+    const b = document.createElement('button');
+    b.textContent = k.keyword + ' (' + k.count + ')';
+    b.className = 'chip border ' + (k.slug === state.activeKeyword
+      ? 'bg-amber-500 text-gray-900 border-amber-400 font-semibold'
+      : 'bg-gray-800 border-gray-700 hover:border-amber-400');
+    b.onclick = () => loadKeyword(k.slug);
+    el.appendChild(b);
+  }
+}
+
+function render() {
+  let videos = state.allVideos.slice();
+
+  if (state.search) {
+    const q = state.search.toLowerCase();
+    videos = videos.filter(v =>
+      v.title.toLowerCase().includes(q) || (v.channel || '').toLowerCase().includes(q)
+    );
+  }
+  if (state.favOnly) {
+    videos = videos.filter(v => state.favs.has(v.id));
+  }
+  if (state.filters.format) {
+    videos = videos.filter(v => v.format === state.filters.format);
+  }
+  if (state.filters.pattern) {
+    videos = videos.filter(v => v.analysis?.copy_pattern === state.filters.pattern);
+  }
+  if (state.sort === 'views') {
+    videos.sort((a, b) => b.views - a.views);
+  } else if (state.sort === 'date') {
+    videos.sort((a, b) => (b.upload_date || '').localeCompare(a.upload_date || ''));
+  }
+
+  document.getElementById('status').textContent = `${videos.length}개 표시 (전체 ${state.allVideos.length}개)`;
+  document.getElementById('empty').classList.toggle('hidden', videos.length > 0);
+
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  for (const v of videos) {
+    grid.appendChild(cardEl(v));
+  }
+}
+
+function cardEl(v) {
+  const isFav = state.favs.has(v.id);
+  const a = v.analysis || {};
+  const card = document.createElement('div');
+  card.className = 'thumb-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800';
+  card.innerHTML = `
+    <a href="${v.url}" target="_blank" rel="noopener" class="block relative aspect-video bg-gray-800">
+      ${v.thumb ? `<img src="${v.thumb}" alt="" class="w-full h-full object-cover" loading="lazy">` : `<div class="flex items-center justify-center h-full text-gray-600 text-xs">no thumb</div>`}
+      <span class="absolute bottom-1 right-1 bg-black/70 text-white text-xs px-1.5 py-0.5 rounded">${fmtDuration(v.duration)}</span>
+      ${v.format === 'shorts' ? `<span class="absolute top-1 left-1 bg-red-500/90 text-white text-[10px] px-1.5 py-0.5 rounded">SHORTS</span>` : ''}
+    </a>
+    <div class="p-3 flex flex-col gap-1.5">
+      <div class="flex items-start justify-between gap-2">
+        <a href="${v.url}" target="_blank" rel="noopener" class="text-sm font-medium leading-snug hover:text-amber-300 line-clamp-2">${escape(v.title)}</a>
+        <button class="fav-btn text-lg leading-none ${isFav ? 'text-amber-400' : 'text-gray-600 hover:text-amber-400'}" data-id="${v.id}" title="즐겨찾기">★</button>
+      </div>
+      <div class="text-xs text-gray-400 truncate">${escape(v.channel || '-')}</div>
+      <div class="text-xs text-gray-500 flex items-center gap-2 flex-wrap">
+        <span>👁 ${fmtNum(v.views)}</span>
+        <span>📅 ${fmtDate(v.upload_date)}</span>
+      </div>
+      ${renderAnalysis(a, v.id)}
+    </div>
+  `;
+  card.querySelector('.fav-btn').onclick = (e) => {
+    e.preventDefault();
+    toggleFav(v.id);
+  };
+  return card;
+}
+
+function renderAnalysis(a, vid) {
+  if (!a || Object.keys(a).length === 0) {
+    return `<div class="text-[10px] text-gray-600 italic">분석 전 (analyze.py 실행)</div>`;
+  }
+  const colorChips = (a.colors || []).map(c =>
+    `<span class="w-3 h-3 rounded-full border border-gray-700" style="background:${c}" title="${c}"></span>`
+  ).join('');
+  const patternColors = {
+    '대비': 'bg-blue-900 text-blue-200',
+    '충격': 'bg-red-900 text-red-200',
+    '질문': 'bg-purple-900 text-purple-200',
+    '총정리': 'bg-green-900 text-green-200',
+    '결과': 'bg-amber-900 text-amber-200',
+    '정보': 'bg-gray-800 text-gray-300',
+  };
+  const patternCls = patternColors[a.copy_pattern] || 'bg-gray-800 text-gray-300';
+  return `
+    <div class="flex flex-wrap items-center gap-1.5 mt-1">
+      ${a.copy_pattern ? `<span class="chip ${patternCls}">${a.copy_pattern}</span>` : ''}
+      ${a.main_visual ? `<span class="chip bg-gray-800 text-gray-300">${a.main_visual}</span>` : ''}
+      ${a.person_position && a.person_position !== '없음' ? `<span class="chip bg-gray-800 text-gray-400">인물:${a.person_position}</span>` : ''}
+      <span class="flex gap-1 ml-auto">${colorChips}</span>
+    </div>
+    ${a.hook_words?.length ? `<div class="text-[11px] text-amber-300/80 mt-0.5">키워드: ${a.hook_words.join(' · ')}</div>` : ''}
+    ${a.main_copy ? `<div class="text-[11px] text-gray-400 mt-0.5 line-clamp-2 italic">"${escape(a.main_copy)}"</div>` : ''}
+  `;
+}
+
+function escape(s) {
+  return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function toggleFav(id) {
+  if (state.favs.has(id)) state.favs.delete(id);
+  else state.favs.add(id);
+  localStorage.setItem('thumblab_favs', JSON.stringify([...state.favs]));
+  render();
+}
+
+// 이벤트 바인딩
+document.getElementById('search').addEventListener('input', e => {
+  state.search = e.target.value; render();
+});
+document.getElementById('sort').addEventListener('change', e => {
+  state.sort = e.target.value; render();
+});
+document.getElementById('favOnly').addEventListener('click', e => {
+  state.favOnly = !state.favOnly;
+  e.target.classList.toggle('bg-amber-500', state.favOnly);
+  e.target.classList.toggle('text-gray-900', state.favOnly);
+  render();
+});
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const k = btn.dataset.key, v = btn.dataset.value;
+    state.filters[k] = v;
+    document.querySelectorAll(`.filter-btn[data-key="${k}"]`).forEach(b => {
+      b.classList.toggle('bg-amber-500', b.dataset.value === v);
+      b.classList.toggle('text-gray-900', b.dataset.value === v);
+    });
+    render();
+  });
+});
+
+loadKeywords();
+</script>
+
+</body>
+</html>

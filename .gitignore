@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.vercel
+node_modules/
+_search*.jsonl
+.DS_Store
+Thumbs.db
