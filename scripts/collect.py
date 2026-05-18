@@ -104,6 +104,8 @@ def main():
     parser.add_argument("--top", type=int, default=30, help="저장할 최종 개수 (조회수순)")
     parser.add_argument("--filter", default="", help="제목에 포함돼야 하는 키워드(콤마 구분)")
     parser.add_argument("--add-id", action="append", default=[], help="검색 결과에 없는 영상 ID 직접 추가 (큐레이션용)")
+    parser.add_argument("--exclude-channel", default="", help="제외할 채널명 키워드 (콤마 구분, 부분 매칭). 공식/광고/뉴스 제외용")
+    parser.add_argument("--min-views", type=int, default=0, help="최소 조회수 (이하 제외)")
     args = parser.parse_args()
 
     keyword = args.keyword
@@ -128,6 +130,20 @@ def main():
             vid: r for vid, r in all_rows.items()
             if any(t in r["title"].lower() for t in terms)
         }
+
+    if args.exclude_channel:
+        excl = [t.strip().lower() for t in args.exclude_channel.split(",") if t.strip()]
+        before = len(all_rows)
+        all_rows = {
+            vid: r for vid, r in all_rows.items()
+            if not any(t in r["channel"].lower() for t in excl)
+        }
+        print(f"  exclude-channel: {before - len(all_rows)}개 제외")
+
+    if args.min_views > 0:
+        before = len(all_rows)
+        all_rows = {vid: r for vid, r in all_rows.items() if r["views"] >= args.min_views}
+        print(f"  min-views {args.min_views:,}: {before - len(all_rows)}개 제외")
 
     rows = sorted(all_rows.values(), key=lambda r: -r["views"])[: args.top]
 
