@@ -1,10 +1,94 @@
 {
   "keywords": [
     {
+      "slug": "1분-책-요약",
+      "keyword": "1분 책 요약",
+      "count": 30,
+      "updated": "2026-05-19 15:38"
+    },
+    {
+      "slug": "ai",
+      "keyword": "AI",
+      "count": 30,
+      "updated": "2026-05-19 23:22"
+    },
+    {
+      "slug": "meta-ai-한국",
+      "keyword": "Meta AI 한국",
+      "count": 20,
+      "updated": "2026-05-19 22:48"
+    },
+    {
+      "slug": "공감대화법",
+      "keyword": "공감대화법",
+      "count": 30,
+      "updated": "2026-05-19 15:38"
+    },
+    {
+      "slug": "메타-ai",
+      "keyword": "메타 AI",
+      "count": 30,
+      "updated": "2026-05-19 22:42"
+    },
+    {
+      "slug": "메타-ai-무료",
+      "keyword": "메타 AI 무료",
+      "count": 20,
+      "updated": "2026-05-19 22:49"
+    },
+    {
+      "slug": "부부-소통",
+      "keyword": "부부 소통",
+      "count": 30,
+      "updated": "2026-05-19 15:38"
+    },
+    {
+      "slug": "심리-책-추천",
+      "keyword": "심리 책 추천",
+      "count": 30,
+      "updated": "2026-05-19 15:38"
+    },
+    {
+      "slug": "영상-ai",
+      "keyword": "영상 AI",
+      "count": 20,
+      "updated": "2026-05-19 23:22"
+    },
+    {
+      "slug": "이-책-꼭-읽어야",
+      "keyword": "이 책 꼭 읽어야",
+      "count": 30,
+      "updated": "2026-05-19 15:36"
+    },
+    {
+      "slug": "이미지-ai",
+      "keyword": "이미지 AI",
+      "count": 6,
+      "updated": "2026-05-19 23:22"
+    },
+    {
+      "slug": "인생책",
+      "keyword": "인생책",
+      "count": 30,
+      "updated": "2026-05-19 15:36"
+    },
+    {
+      "slug": "자기계발-책-쇼츠",
+      "keyword": "자기계발 책 쇼츠",
+      "count": 30,
+      "updated": "2026-05-19 15:36"
+    },
+    {
       "slug": "제미나이",
       "keyword": "제미나이",
       "count": 30,
       "updated": "2026-05-18 23:21"
+    },
+    {
+      "slug": "책-추천-쇼츠",
+      "keyword": "책 추천 쇼츠",
+      "count": 29,
+      "updated": "2026-05-19 15:36"
     },
     {
       "slug": "챗gpt",
