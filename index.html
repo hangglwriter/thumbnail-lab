@@ -180,12 +180,15 @@ function render() {
 function cardEl(v) {
   const isFav = state.favs.has(v.id);
   const a = v.analysis || {};
+  const hasToken = window.thumblabAdmin?.hasToken();
   const card = document.createElement('div');
-  card.className = 'thumb-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800';
+  card.className = 'thumb-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800 relative';
   card.innerHTML = `
+    ${hasToken ? `<button class="delete-btn" data-id="${v.id}" title="삭제">✕</button>` : ''}
+    ${v.added_manually ? `<span class="absolute top-1.5 left-1.5 bg-amber-500/90 text-gray-900 text-[10px] px-1.5 py-0.5 rounded font-bold z-[4]">📥 수동</span>` : ''}
     <a href="${v.url}" target="_blank" rel="noopener" class="block relative aspect-video bg-gray-800">
-      ${v.thumb ? `<img src="${v.thumb}" alt="" class="w-full h-full object-cover" loading="lazy">` : `<div class="flex items-center justify-center h-full text-gray-600 text-xs">no thumb</div>`}
-      <span class="absolute bottom-1 right-1 bg-black/70 text-white text-xs px-1.5 py-0.5 rounded">${fmtDuration(v.duration)}</span>
+      ${v.thumb || v.thumbnail_url ? `<img src="${v.thumb || v.thumbnail_url}" alt="" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/${v.id}/hqdefault.jpg'">` : `<div class="flex items-center justify-center h-full text-gray-600 text-xs">no thumb</div>`}
+      ${v.duration ? `<span class="absolute bottom-1 right-1 bg-black/70 text-white text-xs px-1.5 py-0.5 rounded">${fmtDuration(v.duration)}</span>` : ''}
       ${v.format === 'shorts' ? `<span class="absolute top-1 left-1 bg-red-500/90 text-white text-[10px] px-1.5 py-0.5 rounded">SHORTS</span>` : ''}
     </a>
     <div class="p-3 flex flex-col gap-1.5">
@@ -206,6 +209,14 @@ function cardEl(v) {
     e.preventDefault();
     toggleFav(v.id);
   };
+  const delBtn = card.querySelector('.delete-btn');
+  if (delBtn) {
+    delBtn.onclick = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      window.thumblabAdmin.deleteVideo(state.activeKeyword, v.id);
+    };
+  }
   return card;
 }
 
@@ -292,8 +303,13 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
   });
 });
 
+// admin.js에서 사용
+window.thumblabState = state;
+window.thumblabRender = render;
+
 loadKeywords();
 </script>
+<script src="admin.js?v=1"></script>
 
 </body>
 </html>
