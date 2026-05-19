@@ -18,7 +18,24 @@
       "upload_date": "20251203",
       "thumbnail_url": "https://i.ytimg.com/vi/F13IRvz2-5Y/maxresdefault.jpg",
       "url": "https://youtu.be/F13IRvz2-5Y",
-      "thumb": "thumbs/나노바나나/F13IRvz2-5Y.jpg"
+      "thumb": "thumbs/나노바나나/F13IRvz2-5Y.jpg",
+      "analysis": {
+        "copy_pattern": "충격",
+        "person_position": "좌",
+        "main_visual": "혼합",
+        "background_tone": "화려함",
+        "colors": [
+          "#F4D03F",
+          "#FFFFFF",
+          "#1A1A2E"
+        ],
+        "main_copy": "직장인을 위한 실전 예제 14가지 / 나노바나나 / 미쳤습니다",
+        "hook_words": [
+          "미쳤습니다",
+          "실전",
+          "14가지"
+        ]
+      }
     },
     {
       "id": "kxygF7tujlo",
@@ -31,7 +48,24 @@
       "upload_date": "20251219",
       "thumbnail_url": "https://i.ytimg.com/vi_webp/kxygF7tujlo/maxresdefault.webp",
       "url": "https://youtu.be/kxygF7tujlo",
-      "thumb": "thumbs/나노바나나/kxygF7tujlo.jpg"
+      "thumb": "thumbs/나노바나나/kxygF7tujlo.jpg",
+      "analysis": {
+        "copy_pattern": "결과",
+        "person_position": "없음",
+        "main_visual": "스크린샷",
+        "background_tone": "밝음",
+        "colors": [
+          "#FFFFFF",
+          "#F4D03F",
+          "#FF3D3D"
+        ],
+        "main_copy": "나노 바나나 프로 / 실전 활용 예제 TOP 10",
+        "hook_words": [
+          "TOP 10",
+          "실전",
+          "활용"
+        ]
+      }
     },
     {
       "id": "mIkW3YEGQ-M",
@@ -44,7 +78,23 @@
       "upload_date": "20251124",
       "thumbnail_url": "https://i.ytimg.com/vi_webp/mIkW3YEGQ-M/maxresdefault.webp",
       "url": "https://youtu.be/mIkW3YEGQ-M",
-      "thumb": "thumbs/나노바나나/mIkW3YEGQ-M.jpg"
+      "thumb": "thumbs/나노바나나/mIkW3YEGQ-M.jpg",
+      "analysis": {
+        "copy_pattern": "충격",
+        "person_position": "없음",
+        "main_visual": "스크린샷",
+        "background_tone": "어두움",
+        "colors": [
+          "#000000",
+          "#FFFFFF",
+          "#7FBC4A"
+        ],
+        "main_copy": "지금 안보면 뒤쳐진다 / 나노바나나 프로",
+        "hook_words": [
+          "뒤쳐진다",
+          "지금 안보면"
+        ]
+      }
     },
     {
       "id": "Lpacw3_EsVQ",
@@ -57,7 +107,24 @@
       "upload_date": "20251121",
       "thumbnail_url": "https://i.ytimg.com/vi/Lpacw3_EsVQ/maxresdefault.jpg",
       "url": "https://youtu.be/Lpacw3_EsVQ",
-      "thumb": "thumbs/나노바나나/Lpacw3_EsVQ.jpg"
+      "thumb": "thumbs/나노바나나/Lpacw3_EsVQ.jpg",
+      "analysis": {
+        "copy_pattern": "충격",
+        "person_position": "없음",
+        "main_visual": "일러스트",
+        "background_tone": "어두움",
+        "colors": [
+          "#3D1A0A",
+          "#F4D03F",
+          "#FFFFFF"
+        ],
+        "main_copy": "나노바나나 프로 출시 / 디자이너들 다 잘릴듯...ㄷㄷ",
+        "hook_words": [
+          "디자이너 다 잘릴듯",
+          "출시",
+          "ㄷㄷ"
+        ]
+      }
     },
     {
       "id": "wcl41hexeYU",
@@ -70,7 +137,24 @@
       "upload_date": "20251128",
       "thumbnail_url": "https://i.ytimg.com/vi/wcl41hexeYU/maxresdefault.jpg",
       "url": "https://youtu.be/wcl41hexeYU",
-      "thumb": "thumbs/나노바나나/wcl41hexeYU.jpg"
+      "thumb": "thumbs/나노바나나/wcl41hexeYU.jpg",
+      "analysis": {
+        "copy_pattern": "결과",
+        "person_position": "우",
+        "main_visual": "혼합",
+        "background_tone": "밝음",
+        "colors": [
+          "#FFFFFF",
+          "#F4D03F",
+          "#FF3D3D"
+        ],
+        "main_copy": "제미나이 3.0 / 괴물 같은 13가지 기능!",
+        "hook_words": [
+          "괴물",
+          "13가지",
+          "기능"
+        ]
+      }
     },
     {
       "id": "SqjOXrbM2c4",
@@ -83,7 +167,23 @@
       "upload_date": "20250918",
       "thumbnail_url": "https://i.ytimg.com/vi/SqjOXrbM2c4/maxresdefault.jpg",
       "url": "https://youtu.be/SqjOXrbM2c4",
-      "thumb": "thumbs/나노바나나/SqjOXrbM2c4.jpg"
+      "thumb": "thumbs/나노바나나/SqjOXrbM2c4.jpg",
+      "analysis": {
+        "copy_pattern": "총정리",
+        "person_position": "우",
+        "main_visual": "혼합",
+        "background_tone": "밝음",
+        "colors": [
+          "#FFFFFF",
+          "#F4D03F",
+          "#FF3D3D"
+        ],
+        "main_copy": "제미나이 나노바나나 이미지 / A부터 Z까지 정리!",
+        "hook_words": [
+          "A부터 Z까지",
+          "정리"
+        ]
+      }
     },
     {
       "id": "-kf7uc2-OXc",
@@ -96,7 +196,23 @@
       "upload_date": "20251223",
       "thumbnail_url": "https://i.ytimg.com/vi/-kf7uc2-OXc/maxresdefault.jpg",
       "url": "https://youtu.be/-kf7uc2-OXc",
-      "thumb": "thumbs/나노바나나/-kf7uc2-OXc.jpg"
+      "thumb": "thumbs/나노바나나/-kf7uc2-OXc.jpg",
+      "analysis": {
+        "copy_pattern": "충격",
+        "person_position": "우",
+        "main_visual": "혼합",
+        "background_tone": "그라데이션",
+        "colors": [
+          "#8E44AD",
+          "#F4D03F",
+          "#FFFFFF"
+        ],
+        "main_copy": "나노바나나프로 / 충격적인 10가지 기능",
+        "hook_words": [
+          "충격적인",
+          "10가지"
+        ]
+      }
     },
     {
       "id": "chAWZ7ufKwc",
@@ -109,7 +225,23 @@
       "upload_date": "20251211",
       "thumbnail_url": "https://i.ytimg.com/vi_webp/chAWZ7ufKwc/maxresdefault.webp",
       "url": "https://youtu.be/chAWZ7ufKwc",
-      "thumb": "thumbs/나노바나나/chAWZ7ufKwc.jpg"
+      "thumb": "thumbs/나노바나나/chAWZ7ufKwc.jpg",
+      "analysis": {
+        "copy_pattern": "질문",
+        "person_position": "중앙",
+        "main_visual": "인물",
+        "background_tone": "그라데이션",
+        "colors": [
+          "#1A1A2E",
+          "#FF6B35",
+          "#FFFFFF"
+        ],
+        "main_copy": "나노 바나나 프로가 / 이렇게 엄청나다고?",
+        "hook_words": [
+          "엄청나다고",
+          "?"
+        ]
+      }
     },
     {
       "id": "Sv617Vjk_zw",
