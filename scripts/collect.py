@@ -80,19 +80,21 @@ def download_thumb(video_id: str, out_path: Path) -> bool:
     return False
 
 
-def update_keywords_index(keyword: str, count: int):
+def update_keywords_index(keyword: str, count: int, category: str = "general"):
     idx_path = DATA_DIR / "keywords.json"
     idx = {"keywords": []}
     if idx_path.exists():
         idx = json.loads(idx_path.read_text(encoding="utf-8"))
     entries = {k["slug"]: k for k in idx.get("keywords", [])}
+    existing = entries.get(slug(keyword), {})
     entries[slug(keyword)] = {
         "slug": slug(keyword),
         "keyword": keyword,
+        "category": category or existing.get("category", "general"),
         "count": count,
         "updated": time.strftime("%Y-%m-%d %H:%M"),
     }
-    idx["keywords"] = sorted(entries.values(), key=lambda k: k["keyword"])
+    idx["keywords"] = sorted(entries.values(), key=lambda k: (k.get("category", "general"), k["keyword"]))
     idx_path.write_text(json.dumps(idx, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -106,6 +108,8 @@ def main():
     parser.add_argument("--add-id", action="append", default=[], help="검색 결과에 없는 영상 ID 직접 추가 (큐레이션용)")
     parser.add_argument("--exclude-channel", default="", help="제외할 채널명 키워드 (콤마 구분, 부분 매칭). 공식/광고/뉴스 제외용")
     parser.add_argument("--min-views", type=int, default=0, help="최소 조회수 (이하 제외)")
+    parser.add_argument("--shorts-only", action="store_true", help="duration<=70초 (쇼츠)만 저장")
+    parser.add_argument("--category", default="general", help="키워드 카테고리 (general/ai/shorts/books 등)")
     args = parser.parse_args()
 
     keyword = args.keyword
@@ -144,6 +148,11 @@ def main():
         before = len(all_rows)
         all_rows = {vid: r for vid, r in all_rows.items() if r["views"] >= args.min_views}
         print(f"  min-views {args.min_views:,}: {before - len(all_rows)}개 제외")
+
+    if args.shorts_only:
+        before = len(all_rows)
+        all_rows = {vid: r for vid, r in all_rows.items() if r["format"] == "shorts"}
+        print(f"  shorts-only: {before - len(all_rows)}개 제외 (롱폼 빼고 쇼츠만)")
 
     rows = sorted(all_rows.values(), key=lambda r: -r["views"])[: args.top]
 
@@ -202,7 +211,7 @@ def main():
         "videos": rows,
     }
     out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    update_keywords_index(keyword, len(rows))
+    update_keywords_index(keyword, len(rows), args.category)
 
     print(f"\n  저장: {out_json}")
     print(f"  썸네일: {out_thumbs_dir} ({len(list(out_thumbs_dir.glob('*.jpg')))}개)")

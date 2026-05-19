@@ -34,9 +34,7 @@
       ★ 즐겨찾기만
     </button>
   </div>
-  <div class="max-w-7xl mx-auto px-4 pb-3 flex flex-wrap gap-2 items-center" id="keywordTabs">
-    <span class="text-xs text-gray-500">키워드:</span>
-  </div>
+  <div class="max-w-7xl mx-auto px-4 pb-3 space-y-1.5" id="keywordTabs"></div>
   <div class="max-w-7xl mx-auto px-4 pb-3 flex flex-wrap gap-2 items-center text-xs" id="filterBar">
     <span class="text-gray-500">필터:</span>
     <button class="filter-btn chip bg-gray-800 border border-gray-700" data-key="format" data-value="">전체</button>
@@ -117,6 +115,34 @@ async function loadKeywords() {
 async function loadKeyword(slug) {
   state.activeKeyword = slug;
   document.getElementById('status').textContent = '로딩...';
+
+  // 가상 탭: 전체 쇼츠 = 모든 키워드의 format=shorts 통합
+  if (slug === '__all_shorts__') {
+    try {
+      const allVideos = [];
+      for (const k of state.keywords) {
+        try {
+          const r = await fetch('data/' + encodeURIComponent(k.slug) + '.json');
+          if (!r.ok) continue;
+          const j = await r.json();
+          for (const v of (j.videos || [])) {
+            if (v.format === 'shorts') {
+              v.__keyword = k.keyword;
+              allVideos.push(v);
+            }
+          }
+        } catch (e) { /* skip */ }
+      }
+      state.allVideos = allVideos;
+      document.getElementById('lastUpdate').textContent = '전체 쇼츠 통합 (' + allVideos.length + '건)';
+      renderTabs();
+      render();
+    } catch (e) {
+      document.getElementById('status').textContent = '전체 쇼츠 로드 실패: ' + e.message;
+    }
+    return;
+  }
+
   try {
     const r = await fetch('data/' + encodeURIComponent(slug) + '.json');
     const j = await r.json();
@@ -129,17 +155,61 @@ async function loadKeyword(slug) {
   }
 }
 
+const CATEGORY_LABELS = {
+  ai: { label: '🤖 AI 도구', color: 'text-cyan-400' },
+  books: { label: '📚 책·자기계발', color: 'text-emerald-400' },
+  shorts: { label: '🎬 쇼츠 벤치마킹', color: 'text-pink-400' },
+  general: { label: '📁 기타', color: 'text-gray-400' },
+};
+
 function renderTabs() {
   const el = document.getElementById('keywordTabs');
-  el.innerHTML = '<span class="text-xs text-gray-500">키워드:</span>';
+  el.innerHTML = '';
+
+  // 카테고리별 그룹화
+  const groups = {};
   for (const k of state.keywords) {
-    const b = document.createElement('button');
-    b.textContent = k.keyword + ' (' + k.count + ')';
-    b.className = 'chip border ' + (k.slug === state.activeKeyword
-      ? 'bg-amber-500 text-gray-900 border-amber-400 font-semibold'
-      : 'bg-gray-800 border-gray-700 hover:border-amber-400');
-    b.onclick = () => loadKeyword(k.slug);
-    el.appendChild(b);
+    const cat = k.category || 'general';
+    if (!groups[cat]) groups[cat] = [];
+    groups[cat].push(k);
+  }
+
+  // 카테고리 순서: ai → shorts → books → general
+  const order = ['ai', 'shorts', 'books', 'general'];
+  const sortedCats = order.filter(c => groups[c]).concat(Object.keys(groups).filter(c => !order.includes(c)));
+
+  // 첫 줄: 전체 쇼츠 가상 탭 + 카테고리 토글
+  const topRow = document.createElement('div');
+  topRow.className = 'flex flex-wrap gap-2 items-center';
+  topRow.innerHTML = '<span class="text-xs text-gray-500">바로가기:</span>';
+
+  const allShortsBtn = document.createElement('button');
+  const isAllShorts = state.activeKeyword === '__all_shorts__';
+  allShortsBtn.textContent = '🎬 전체 쇼츠';
+  allShortsBtn.title = '모든 키워드의 쇼츠 통합';
+  allShortsBtn.className = 'chip border ' + (isAllShorts
+    ? 'bg-pink-500 text-gray-900 border-pink-400 font-semibold'
+    : 'bg-gray-800 border-pink-700/50 text-pink-300 hover:border-pink-400');
+  allShortsBtn.onclick = () => loadKeyword('__all_shorts__');
+  topRow.appendChild(allShortsBtn);
+  el.appendChild(topRow);
+
+  // 카테고리별 키워드 줄
+  for (const cat of sortedCats) {
+    const meta = CATEGORY_LABELS[cat] || { label: '📁 ' + cat, color: 'text-gray-400' };
+    const row = document.createElement('div');
+    row.className = 'flex flex-wrap gap-2 items-center';
+    row.innerHTML = `<span class="text-xs ${meta.color} font-semibold min-w-[110px]">${meta.label}</span>`;
+    for (const k of groups[cat].sort((a, b) => b.count - a.count)) {
+      const b = document.createElement('button');
+      b.textContent = k.keyword + ' (' + k.count + ')';
+      b.className = 'chip border ' + (k.slug === state.activeKeyword
+        ? 'bg-amber-500 text-gray-900 border-amber-400 font-semibold'
+        : 'bg-gray-800 border-gray-700 hover:border-amber-400');
+      b.onclick = () => loadKeyword(k.slug);
+      row.appendChild(b);
+    }
+    el.appendChild(row);
   }
 }
 
@@ -200,6 +270,7 @@ function cardEl(v) {
       <div class="text-xs text-gray-500 flex items-center gap-2 flex-wrap">
         <span>👁 ${fmtNum(v.views)}</span>
         <span>📅 ${fmtDate(v.upload_date)}</span>
+        ${v.__keyword ? `<span class="text-pink-400/80">🏷 ${escape(v.__keyword)}</span>` : ''}
       </div>
       ${renderAnalysis(a, v.id)}
       ${renderScriptToggle(v)}
@@ -309,7 +380,7 @@ window.thumblabRender = render;
 
 loadKeywords();
 </script>
-<script src="admin.js?v=1"></script>
+<script src="admin.js?v=2"></script>
 
 </body>
 </html>

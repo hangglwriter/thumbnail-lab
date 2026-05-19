@@ -277,7 +277,7 @@
   }
 
   // ── 핵심: 추가 ─────────────────────────────────────────────
-  async function addVideo(url, slugChoice, newKeywordName) {
+  async function addVideo(url, slugChoice, newKeywordName, newCategory) {
     const videoId = parseVideoId(url);
     if (!videoId) throw new Error("유효한 YouTube URL이 아님");
 
@@ -320,7 +320,7 @@
       slug = slug.replace(/[^\w가-힣\-]/g, "");
       if (!slug) throw new Error("유효하지 않은 키워드 이름");
       // keywords.json 갱신
-      await addToKeywordsIndex(slug, newKeywordName.trim(), 1);
+      await addToKeywordsIndex(slug, newKeywordName.trim(), 1, newCategory || "general");
     } else {
       slug = slugChoice;
     }
@@ -360,17 +360,18 @@
     return { slug, videoId };
   }
 
-  async function addToKeywordsIndex(slug, keyword, count) {
+  async function addToKeywordsIndex(slug, keyword, count, category) {
     const path = "data/keywords.json";
     const file = await ghGet(path);
+    const today = new Date().toISOString().slice(0, 10);
     let data;
     if (file) {
       data = JSON.parse(b64decode(file.content));
       if (!data.keywords.some(k => k.slug === slug)) {
-        data.keywords.push({ slug, keyword, count, updated: new Date().toISOString().slice(0, 10) });
+        data.keywords.push({ slug, keyword, category: category || "general", count, updated: today });
       }
     } else {
-      data = { keywords: [{ slug, keyword, count, updated: new Date().toISOString().slice(0, 10) }] };
+      data = { keywords: [{ slug, keyword, category: category || "general", count, updated: today }] };
     }
     await ghPut(path, JSON.stringify(data, null, 2), file?.sha, `add keyword: ${slug}`);
   }
@@ -396,6 +397,13 @@
         <div class="new-kw-row" id="new-kw-row">
           <label>새 키워드 이름</label>
           <input type="text" id="add-new-keyword" placeholder="예: 무료 영상 AI">
+          <label>카테고리</label>
+          <select id="add-category">
+            <option value="ai">🤖 AI 도구</option>
+            <option value="shorts">🎬 쇼츠 벤치마킹</option>
+            <option value="books">📚 책·자기계발</option>
+            <option value="general">📁 기타</option>
+          </select>
           <div class="admin-help">공백은 - 로 변환, 특수문자 제거 → slug로 사용</div>
         </div>
 
@@ -426,6 +434,7 @@
       const url = document.getElementById("add-url").value.trim();
       const slug = document.getElementById("add-keyword").value;
       const newKw = document.getElementById("add-new-keyword").value.trim();
+      const newCat = document.getElementById("add-category").value;
       if (!url) return setModalStatus("URL 입력 필요", "err");
       if (!slug) return setModalStatus("키워드 선택 필요", "err");
       if (slug === "__new__" && !newKw) return setModalStatus("새 키워드 이름 입력 필요", "err");
@@ -436,7 +445,7 @@
       setModalStatus("oEmbed 정보 가져오는 중...", "warn");
 
       try {
-        const result = await addVideo(url, slug, newKw);
+        const result = await addVideo(url, slug, newKw, newCat);
         setModalStatus(`✅ 추가 완료 (${result.slug}) - 사이트 1~2분 후 자동 갱신`, "ok");
         // 키워드 인덱스 리로드 트리거
         setTimeout(() => {
