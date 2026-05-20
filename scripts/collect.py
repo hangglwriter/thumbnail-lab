@@ -47,6 +47,28 @@ def yt_search(query: str, count: int) -> list[dict]:
     return rows
 
 
+def yt_search_shorts(query: str, count: int) -> list[dict]:
+    """YouTube 검색의 sp=EgIYAQ%3D%3D 필터 = Type: Shorts 전용.
+    ytsearch가 일반 영상 위주로 잡는 한계 회피용."""
+    print(f"  shorts search: {query} (top {count})")
+    q = query.replace(" ", "+")
+    sp_url = f"https://www.youtube.com/results?search_query={q}&sp=EgIYAQ%3D%3D"
+    env = os.environ.copy()
+    env["PYTHONIOENCODING"] = "utf-8"
+    proc = subprocess.run(
+        ["yt-dlp", sp_url, "--playlist-end", str(count), "--dump-json", "--no-warnings"],
+        capture_output=True, text=True, encoding="utf-8", env=env, errors="replace",
+    )
+    rows = []
+    for line in proc.stdout.splitlines():
+        try:
+            d = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        rows.append(d)
+    return rows
+
+
 def normalize(d: dict) -> dict:
     duration = d.get("duration") or 0
     return {
@@ -109,6 +131,7 @@ def main():
     parser.add_argument("--exclude-channel", default="", help="제외할 채널명 키워드 (콤마 구분, 부분 매칭). 공식/광고/뉴스 제외용")
     parser.add_argument("--min-views", type=int, default=0, help="최소 조회수 (이하 제외)")
     parser.add_argument("--shorts-only", action="store_true", help="duration<=70초 (쇼츠)만 저장")
+    parser.add_argument("--shorts-search", action="store_true", help="YouTube 쇼츠 전용 검색 URL 사용 (sp=EgIYAQ). --shorts-only 자동 적용")
     parser.add_argument("--category", default="general", help="키워드 카테고리 (general/ai/shorts/books 등)")
     args = parser.parse_args()
 
@@ -120,8 +143,11 @@ def main():
 
     queries = [keyword] + args.extra
     all_rows: dict[str, dict] = {}
+    search_fn = yt_search_shorts if args.shorts_search else yt_search
+    if args.shorts_search:
+        args.shorts_only = True  # 쇼츠 검색이면 자동으로 쇼츠 필터
     for q in queries:
-        for d in yt_search(q, args.count):
+        for d in search_fn(q, args.count):
             r = normalize(d)
             if not r["id"]:
                 continue
