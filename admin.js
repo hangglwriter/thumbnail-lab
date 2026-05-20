@@ -399,6 +399,7 @@
           <input type="text" id="add-new-keyword" placeholder="예: 무료 영상 AI">
           <label>카테고리</label>
           <select id="add-category">
+            <option value="google-io">🆕 구글 I/O 2026</option>
             <option value="ai">🤖 AI 도구</option>
             <option value="shorts">🎬 쇼츠 벤치마킹</option>
             <option value="books">📚 책·자기계발</option>

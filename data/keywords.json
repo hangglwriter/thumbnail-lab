@@ -113,6 +113,48 @@
       "category": "books"
     },
     {
+      "slug": "gemini-35-flash",
+      "keyword": "Gemini 3.5 Flash",
+      "category": "google-io",
+      "count": 28,
+      "updated": "2026-05-21 08:43"
+    },
+    {
+      "slug": "gemini-omni",
+      "keyword": "Gemini Omni",
+      "category": "google-io",
+      "count": 27,
+      "updated": "2026-05-21 08:43"
+    },
+    {
+      "slug": "gemini-spark",
+      "keyword": "Gemini Spark",
+      "category": "google-io",
+      "count": 20,
+      "updated": "2026-05-21 08:44"
+    },
+    {
+      "slug": "google-io-2026",
+      "keyword": "Google I/O 2026",
+      "category": "google-io",
+      "count": 26,
+      "updated": "2026-05-21 08:42"
+    },
+    {
+      "slug": "구글-io-2026",
+      "keyword": "구글 IO 2026",
+      "category": "google-io",
+      "count": 26,
+      "updated": "2026-05-21 08:46"
+    },
+    {
+      "slug": "구글-io-2026-한국",
+      "keyword": "구글 IO 2026 한국",
+      "category": "google-io",
+      "count": 18,
+      "updated": "2026-05-21 08:52"
+    },
+    {
       "slug": "1분-책-요약",
       "keyword": "1분 책 요약",
       "category": "shorts",

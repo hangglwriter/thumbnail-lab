@@ -156,6 +156,7 @@ async function loadKeyword(slug) {
 }
 
 const CATEGORY_LABELS = {
+  'google-io': { label: '🆕 구글 I/O 2026', color: 'text-amber-300' },
   ai: { label: '🤖 AI 도구', color: 'text-cyan-400' },
   books: { label: '📚 책·자기계발', color: 'text-emerald-400' },
   shorts: { label: '🎬 쇼츠 벤치마킹', color: 'text-pink-400' },
@@ -174,8 +175,8 @@ function renderTabs() {
     groups[cat].push(k);
   }
 
-  // 카테고리 순서: ai → shorts → books → general
-  const order = ['ai', 'shorts', 'books', 'general'];
+  // 카테고리 순서: google-io 최신 → ai → shorts → books → general
+  const order = ['google-io', 'ai', 'shorts', 'books', 'general'];
   const sortedCats = order.filter(c => groups[c]).concat(Object.keys(groups).filter(c => !order.includes(c)));
 
   // 첫 줄: 전체 쇼츠 가상 탭 + 카테고리 토글
