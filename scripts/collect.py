@@ -69,6 +69,28 @@ def yt_search_shorts(query: str, count: int) -> list[dict]:
     return rows
 
 
+def yt_channel_shorts(channel_url: str, count: int) -> list[dict]:
+    """채널의 /shorts 페이지에서 영상 풀 정보 수집.
+    channel_url: 'https://www.youtube.com/@핸들' 또는 그대로 '/shorts' 포함도 OK."""
+    if not channel_url.rstrip("/").endswith("/shorts"):
+        channel_url = channel_url.rstrip("/") + "/shorts"
+    print(f"  channel shorts: {channel_url} (top {count})")
+    env = os.environ.copy()
+    env["PYTHONIOENCODING"] = "utf-8"
+    proc = subprocess.run(
+        ["yt-dlp", channel_url, "--playlist-end", str(count), "--dump-json", "--no-warnings"],
+        capture_output=True, text=True, encoding="utf-8", env=env, errors="replace",
+    )
+    rows = []
+    for line in proc.stdout.splitlines():
+        try:
+            d = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        rows.append(d)
+    return rows
+
+
 def normalize(d: dict) -> dict:
     duration = d.get("duration") or 0
     return {
@@ -132,6 +154,7 @@ def main():
     parser.add_argument("--min-views", type=int, default=0, help="최소 조회수 (이하 제외)")
     parser.add_argument("--shorts-only", action="store_true", help="duration<=70초 (쇼츠)만 저장")
     parser.add_argument("--shorts-search", action="store_true", help="YouTube 쇼츠 전용 검색 URL 사용 (sp=EgIYAQ). --shorts-only 자동 적용")
+    parser.add_argument("--channel", default="", help="채널 URL (예: https://www.youtube.com/@bookvore). 쇼츠만 자동 수집")
     parser.add_argument("--category", default="general", help="키워드 카테고리 (general/ai/shorts/books 등)")
     args = parser.parse_args()
 
@@ -143,16 +166,26 @@ def main():
 
     queries = [keyword] + args.extra
     all_rows: dict[str, dict] = {}
-    search_fn = yt_search_shorts if args.shorts_search else yt_search
-    if args.shorts_search:
-        args.shorts_only = True  # 쇼츠 검색이면 자동으로 쇼츠 필터
-    for q in queries:
-        for d in search_fn(q, args.count):
+    if args.channel:
+        # 채널 모드: 쿼리 무시, 채널 쇼츠 페이지만 수집
+        args.shorts_only = True
+        for d in yt_channel_shorts(args.channel, args.count):
             r = normalize(d)
             if not r["id"]:
                 continue
             if r["id"] not in all_rows:
                 all_rows[r["id"]] = r
+    else:
+        search_fn = yt_search_shorts if args.shorts_search else yt_search
+        if args.shorts_search:
+            args.shorts_only = True  # 쇼츠 검색이면 자동으로 쇼츠 필터
+        for q in queries:
+            for d in search_fn(q, args.count):
+                r = normalize(d)
+                if not r["id"]:
+                    continue
+                if r["id"] not in all_rows:
+                    all_rows[r["id"]] = r
 
     if args.filter:
         terms = [t.strip().lower() for t in args.filter.split(",") if t.strip()]
