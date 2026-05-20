@@ -216,6 +216,12 @@ function renderTabs() {
 function render() {
   let videos = state.allVideos.slice();
 
+  // 로컬 숨김 필터 (토큰 없을 때 사용한 임시 숨김)
+  const hidden = new Set(JSON.parse(localStorage.getItem('thumblab_hidden') || '[]'));
+  if (hidden.size > 0) {
+    videos = videos.filter(v => !hidden.has(v.id));
+  }
+
   if (state.search) {
     const q = state.search.toLowerCase();
     videos = videos.filter(v =>
@@ -250,11 +256,10 @@ function render() {
 function cardEl(v) {
   const isFav = state.favs.has(v.id);
   const a = v.analysis || {};
-  const hasToken = window.thumblabAdmin?.hasToken();
   const card = document.createElement('div');
   card.className = 'thumb-card bg-gray-900 rounded-xl overflow-hidden border border-gray-800 relative';
   card.innerHTML = `
-    ${hasToken ? `<button class="delete-btn" data-id="${v.id}" title="삭제">✕</button>` : ''}
+    <button class="delete-btn" data-id="${v.id}" title="삭제 (토큰 필요)">✕</button>
     ${v.added_manually ? `<span class="absolute top-1.5 left-1.5 bg-amber-500/90 text-gray-900 text-[10px] px-1.5 py-0.5 rounded font-bold z-[4]">📥 수동</span>` : ''}
     <a href="${v.url}" target="_blank" rel="noopener" class="block relative aspect-video bg-gray-800">
       ${v.thumb || v.thumbnail_url ? `<img src="${v.thumb || v.thumbnail_url}" alt="" class="w-full h-full object-cover" loading="lazy" onerror="this.src='https://i.ytimg.com/vi/${v.id}/hqdefault.jpg'">` : `<div class="flex items-center justify-center h-full text-gray-600 text-xs">no thumb</div>`}
@@ -282,10 +287,28 @@ function cardEl(v) {
   };
   const delBtn = card.querySelector('.delete-btn');
   if (delBtn) {
-    delBtn.onclick = (e) => {
+    delBtn.onclick = async (e) => {
       e.preventDefault();
       e.stopPropagation();
-      window.thumblabAdmin.deleteVideo(state.activeKeyword, v.id);
+      const admin = window.thumblabAdmin;
+      if (!admin) {
+        alert('admin.js 로드 안 됨. 페이지 새로고침');
+        return;
+      }
+      if (!admin.hasToken()) {
+        if (confirm('영구 삭제하려면 GitHub 토큰이 필요해.\n지금 입력할래?\n(취소 누르면 이 카드만 임시 숨김)')) {
+          admin.promptToken();
+          return;
+        } else {
+          // 로컬 hide fallback
+          const hidden = JSON.parse(localStorage.getItem('thumblab_hidden') || '[]');
+          if (!hidden.includes(v.id)) hidden.push(v.id);
+          localStorage.setItem('thumblab_hidden', JSON.stringify(hidden));
+          render();
+          return;
+        }
+      }
+      admin.deleteVideo(state.activeKeyword, v.id);
     };
   }
   return card;
@@ -380,7 +403,7 @@ window.thumblabRender = render;
 
 loadKeywords();
 </script>
-<script src="admin.js?v=2"></script>
+<script src="admin.js?v=3"></script>
 
 </body>
 </html>
