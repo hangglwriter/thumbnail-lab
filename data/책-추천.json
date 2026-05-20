@@ -18,7 +18,27 @@
       "upload_date": "20250819",
       "thumbnail_url": "https://i.ytimg.com/vi/oT7wnfq-Nx8/maxresdefault.jpg",
       "url": "https://youtu.be/oT7wnfq-Nx8",
-      "thumb": "thumbs/책-추천/oT7wnfq-Nx8.jpg"
+      "thumb": "thumbs/책-추천/oT7wnfq-Nx8.jpg",
+      "script_analysis": {
+        "intro_hook": "문을 열자 아빠의 머리가 내 발등 위로 떨어졌다",
+        "structure": [
+          "0~7초 즉시 충격 스토리 시작 (제목 그대로)",
+          "7~17초 이야기 전개 (가정부 탈출 + 무덤덤)",
+          "17~28초 **반전 1** (가정부가 실은 살인청부업자)",
+          "28~50초 **반전 2 + 갈등** (성인 후 동료로 재회, 그녀가 변함, 복수)",
+          "50~58초 **클리프행어** (그녀가 말했다... 결말 공개 X)",
+          "58~66초 음악 여운"
+        ],
+        "hook_techniques": [
+          "즉시 충격 (첫 문장 폭발)",
+          "반전 2회",
+          "클리프행어 (책으로 유도)",
+          "스토리텔링 압축"
+        ],
+        "cta": "없음 - 클리프행어 자체가 책 클릭 유도",
+        "why_popular": "책 한 권의 스토리를 1분에 압축 + 결말만 숨김. 시청자가 '책 사서 결말 봐야겠다' 자연 유도. 도서명(파과) 해시태그로 검색 유입",
+        "benchmark_for_hangglwriter": "위너책쓰기 수강생 책 소개 쇼츠에 직접 적용 가능: 첫 문장 폭발 + 1분 압축 + 마지막 클리프행어. 책 표지 노출 X (시각은 만화/일러스트)"
+      }
     },
     {
       "id": "MQqLtHgViPs",
