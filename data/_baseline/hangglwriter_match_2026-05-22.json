@@ -1,0 +1,833 @@
+{
+  "generated": "2026-05-22",
+  "total": 108,
+  "top_15": [
+    {
+      "id": "nhMBSSSZZEA",
+      "score": 7,
+      "reasons": {
+        "tutorial": 4,
+        "curation": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "nhMBSSSZZEA",
+        "title": "AI 혼자서 12시간 만에 OS 뚝딱? 구글 I/O 2026에서 공개한 핵심 내용 총정리",
+        "channel": "머니네버슬립",
+        "channel_id": "UCBF61jlG6g2CNHDLKaJhysw",
+        "views": 3669,
+        "duration": 478,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/nhMBSSSZZEA/maxresdefault.jpg",
+        "url": "https://youtu.be/nhMBSSSZZEA",
+        "thumb": "thumbs/구글-io-2026/nhMBSSSZZEA.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "JzB0nOW36Mc",
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "JzB0nOW36Mc",
+        "title": "[구글 I/O 2026 총정리] 마침내 열린 AGI 시대, 제미나이 3.5 플래시와 혁신적인 AI 생태계 | 구글이 선언한 자율형 AI 에이전트",
+        "channel": "z2zlife",
+        "channel_id": "UCMU_E_ribTOk7HNXpTle2Rw",
+        "views": 990,
+        "duration": 767,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi/JzB0nOW36Mc/maxresdefault.jpg",
+        "url": "https://youtu.be/JzB0nOW36Mc",
+        "thumb": "thumbs/구글-io-2026/JzB0nOW36Mc.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "ofhbzuc4zwM",
+      "score": 4,
+      "reasons": {
+        "free_kr": 1,
+        "friendly": 1,
+        "usecase": 1,
+        "good_length": 1
+      },
+      "video": {
+        "id": "ofhbzuc4zwM",
+        "title": "Gemini Omni Video Generator | Make FREE AI Videos (Dialogues + Lip Sync)  | AI Video Kaise Banaye",
+        "channel": "Talk Money With Pavan",
+        "channel_id": "UCqpdVWIzEQUcbf4pAxlneOQ",
+        "views": 20623,
+        "duration": 443,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/ofhbzuc4zwM/maxresdefault.jpg",
+        "url": "https://youtu.be/ofhbzuc4zwM",
+        "thumb": "thumbs/gemini-omni/ofhbzuc4zwM.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "XOhr8kjI6XM",
+      "score": 4,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 1,
+        "good_length": 1
+      },
+      "video": {
+        "id": "XOhr8kjI6XM",
+        "title": "Gemini Omni vs Seedance 2.0 vs Kling 3.0 — Ultimate AI Video Showdown (45 Videos, Who Wins?)",
+        "channel": "Dom the AI Tutor | Tech Tutor Zones",
+        "channel_id": "UCIcnYEnoWTaKD0XRzdH8Rtw",
+        "views": 9598,
+        "duration": 483,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/XOhr8kjI6XM/maxresdefault.webp",
+        "url": "https://youtu.be/XOhr8kjI6XM",
+        "thumb": "thumbs/gemini-omni/XOhr8kjI6XM.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "TRJHbbI018w",
+      "score": 4,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "TRJHbbI018w",
+        "title": "구글 I/O 2026 한국어 정리 + 한국 시장 분석 (6분 50초)",
+        "channel": "클로드와 제이크",
+        "channel_id": "UCK_PEoUd9ZDybOH-Wi3nbDQ",
+        "views": 39,
+        "duration": 410,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/TRJHbbI018w/maxresdefault.jpg",
+        "url": "https://youtu.be/TRJHbbI018w",
+        "thumb": "thumbs/구글-io-2026-한국/TRJHbbI018w.jpg"
+      },
+      "keywords": [
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "7T0ZQuWn2jw",
+      "score": 3,
+      "reasons": {
+        "dev_channel": -3,
+        "tutorial": 4,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "7T0ZQuWn2jw",
+        "title": "Google IO Antigravity 2.0, Gemini 3.5 Flash 7분 정리",
+        "channel": "코드팩토리",
+        "channel_id": "UCxZ2AlaT0hOmxzZVbF_j_Sw",
+        "views": 30806,
+        "duration": 445,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/7T0ZQuWn2jw/maxresdefault.webp",
+        "url": "https://youtu.be/7T0ZQuWn2jw",
+        "thumb": "thumbs/구글-io-2026/7T0ZQuWn2jw.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국",
+        "gemini-35-flash"
+      ]
+    },
+    {
+      "id": "9RJrGu_eEj4",
+      "score": 3,
+      "reasons": {
+        "tutorial": 2,
+        "good_length": 1
+      },
+      "video": {
+        "id": "9RJrGu_eEj4",
+        "title": "Gemini OMNI vs Seedance 2 | 20+ Prompts you need to try",
+        "channel": "Atomic Gains",
+        "channel_id": "UCit1DYz8CX_yLaTTdU7lubA",
+        "views": 23198,
+        "duration": 869,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/9RJrGu_eEj4/maxresdefault.jpg",
+        "url": "https://youtu.be/9RJrGu_eEj4",
+        "thumb": "thumbs/gemini-omni/9RJrGu_eEj4.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "9HWMGjt8GJM",
+      "score": 3,
+      "reasons": {
+        "tutorial": 2,
+        "good_length": 1
+      },
+      "video": {
+        "id": "9HWMGjt8GJM",
+        "title": "Testei o Gemini 3.5 Flash: ganha do Pro, mas com um PORÉM",
+        "channel": "Helio Arreche - VibeCoding",
+        "channel_id": "UCIhBhRpaWD3-n8YKZcEtR6Q",
+        "views": 4360,
+        "duration": 725,
+        "format": "long",
+        "upload_date": "20260521",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/9HWMGjt8GJM/maxresdefault.webp",
+        "url": "https://youtu.be/9HWMGjt8GJM",
+        "thumb": "thumbs/gemini-35-flash/9HWMGjt8GJM.jpg"
+      },
+      "keywords": [
+        "gemini-35-flash"
+      ]
+    },
+    {
+      "id": "Rnx4urGSCT8",
+      "score": 3,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 1
+      },
+      "video": {
+        "id": "Rnx4urGSCT8",
+        "title": "Gemini Omni VS Seedance 2.0 | Who Wins? Best AI Video Generator Compare",
+        "channel": "HitPaw",
+        "channel_id": "UCQwRggaotgiMcPbiCOsJeBA",
+        "views": 4097,
+        "duration": 206,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/Rnx4urGSCT8/maxresdefault.jpg",
+        "url": "https://youtu.be/Rnx4urGSCT8",
+        "thumb": "thumbs/gemini-omni/Rnx4urGSCT8.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "4krFcxKhLHc",
+      "score": 2,
+      "reasons": {
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "4krFcxKhLHc",
+        "title": "AI 1황 구글의 미친 신제품 공개! 삼성 글래스와 새로운 구글북 등장??",
+        "channel": "ITSub잇섭",
+        "channel_id": "UCdUcjkyZtf-1WJyPPiETF1g",
+        "views": 236067,
+        "duration": 737,
+        "format": "long",
+        "upload_date": "20260521",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/4krFcxKhLHc/maxresdefault.webp",
+        "url": "https://youtu.be/4krFcxKhLHc",
+        "thumb": "thumbs/구글-io-2026/4krFcxKhLHc.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "gFkujb3IBFE",
+      "score": 2,
+      "reasons": {
+        "tutorial": 2,
+        "shock": -1,
+        "korean": 1
+      },
+      "video": {
+        "id": "gFkujb3IBFE",
+        "title": "충격! 구글이 또 일냈다! Google I/O 2026 제미나이 옴니 AI에이전트 완벽 정리",
+        "channel": "퀀텀점프클럽 QuantumJumpClub(QJC) ",
+        "channel_id": "UCifUR1eEHhhXxK_Q_XoArPQ",
+        "views": 8555,
+        "duration": 1174,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/gFkujb3IBFE/maxresdefault.jpg",
+        "url": "https://youtu.be/gFkujb3IBFE",
+        "thumb": "thumbs/구글-io-2026/gFkujb3IBFE.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "-CbIdTsdMho",
+      "score": 2,
+      "reasons": {
+        "usecase": 1,
+        "good_length": 1
+      },
+      "video": {
+        "id": "-CbIdTsdMho",
+        "title": "Gemini Omni Explained — Full Breakdown of Google's New Video Model",
+        "channel": "RandomAI",
+        "channel_id": "UCuyTqd701wPfaLRJY2C_4_A",
+        "views": 7322,
+        "duration": 614,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/-CbIdTsdMho/maxresdefault.webp",
+        "url": "https://youtu.be/-CbIdTsdMho",
+        "thumb": "thumbs/gemini-omni/-CbIdTsdMho.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "QvH5EGQkG1o",
+      "score": 2,
+      "reasons": {
+        "friendly": 1,
+        "good_length": 1
+      },
+      "video": {
+        "id": "QvH5EGQkG1o",
+        "title": "Build Anything With Gemini 3.5 Flash, Here's How..",
+        "channel": "Julian Goldie SEO",
+        "channel_id": "UCGpsgNbzdF7BECCVbB1COHw",
+        "views": 960,
+        "duration": 529,
+        "format": "long",
+        "upload_date": "20260521",
+        "thumbnail_url": "https://i.ytimg.com/vi/QvH5EGQkG1o/maxresdefault.jpg",
+        "url": "https://youtu.be/QvH5EGQkG1o",
+        "thumb": "thumbs/gemini-35-flash/QvH5EGQkG1o.jpg"
+      },
+      "keywords": [
+        "gemini-35-flash"
+      ]
+    },
+    {
+      "id": "1p334v40npw",
+      "score": 1,
+      "reasons": {
+        "friendly": 1,
+        "usecase": 1,
+        "shock": -1
+      },
+      "video": {
+        "id": "1p334v40npw",
+        "title": "I'm scared to make this video",
+        "channel": "Theo - t3․gg",
+        "channel_id": "UCbRP3c757lWg9M-U7TyEkXA",
+        "views": 172151,
+        "duration": 1416,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/1p334v40npw/maxresdefault.webp",
+        "url": "https://youtu.be/1p334v40npw",
+        "thumb": "thumbs/gemini-35-flash/1p334v40npw.jpg"
+      },
+      "keywords": [
+        "gemini-35-flash"
+      ]
+    },
+    {
+      "id": "IrA0mzZTwLo",
+      "score": 1,
+      "reasons": {
+        "usecase": 1,
+        "shock": -1,
+        "good_length": 1
+      },
+      "video": {
+        "id": "IrA0mzZTwLo",
+        "title": "Gemini Omni is Totally Wild (Google’s New Video Model)",
+        "channel": "Paul J Lipsky",
+        "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+        "views": 149999,
+        "duration": 494,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi/IrA0mzZTwLo/maxresdefault.jpg",
+        "url": "https://youtu.be/IrA0mzZTwLo",
+        "thumb": "thumbs/gemini-omni/IrA0mzZTwLo.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    }
+  ],
+  "kr_top_10": [
+    {
+      "id": "nhMBSSSZZEA",
+      "score": 7,
+      "reasons": {
+        "tutorial": 4,
+        "curation": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "nhMBSSSZZEA",
+        "title": "AI 혼자서 12시간 만에 OS 뚝딱? 구글 I/O 2026에서 공개한 핵심 내용 총정리",
+        "channel": "머니네버슬립",
+        "channel_id": "UCBF61jlG6g2CNHDLKaJhysw",
+        "views": 3669,
+        "duration": 478,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/nhMBSSSZZEA/maxresdefault.jpg",
+        "url": "https://youtu.be/nhMBSSSZZEA",
+        "thumb": "thumbs/구글-io-2026/nhMBSSSZZEA.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "JzB0nOW36Mc",
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "JzB0nOW36Mc",
+        "title": "[구글 I/O 2026 총정리] 마침내 열린 AGI 시대, 제미나이 3.5 플래시와 혁신적인 AI 생태계 | 구글이 선언한 자율형 AI 에이전트",
+        "channel": "z2zlife",
+        "channel_id": "UCMU_E_ribTOk7HNXpTle2Rw",
+        "views": 990,
+        "duration": 767,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi/JzB0nOW36Mc/maxresdefault.jpg",
+        "url": "https://youtu.be/JzB0nOW36Mc",
+        "thumb": "thumbs/구글-io-2026/JzB0nOW36Mc.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "TRJHbbI018w",
+      "score": 4,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "TRJHbbI018w",
+        "title": "구글 I/O 2026 한국어 정리 + 한국 시장 분석 (6분 50초)",
+        "channel": "클로드와 제이크",
+        "channel_id": "UCK_PEoUd9ZDybOH-Wi3nbDQ",
+        "views": 39,
+        "duration": 410,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/TRJHbbI018w/maxresdefault.jpg",
+        "url": "https://youtu.be/TRJHbbI018w",
+        "thumb": "thumbs/구글-io-2026-한국/TRJHbbI018w.jpg"
+      },
+      "keywords": [
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "7T0ZQuWn2jw",
+      "score": 3,
+      "reasons": {
+        "dev_channel": -3,
+        "tutorial": 4,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "7T0ZQuWn2jw",
+        "title": "Google IO Antigravity 2.0, Gemini 3.5 Flash 7분 정리",
+        "channel": "코드팩토리",
+        "channel_id": "UCxZ2AlaT0hOmxzZVbF_j_Sw",
+        "views": 30806,
+        "duration": 445,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/7T0ZQuWn2jw/maxresdefault.webp",
+        "url": "https://youtu.be/7T0ZQuWn2jw",
+        "thumb": "thumbs/구글-io-2026/7T0ZQuWn2jw.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국",
+        "gemini-35-flash"
+      ]
+    },
+    {
+      "id": "4krFcxKhLHc",
+      "score": 2,
+      "reasons": {
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "4krFcxKhLHc",
+        "title": "AI 1황 구글의 미친 신제품 공개! 삼성 글래스와 새로운 구글북 등장??",
+        "channel": "ITSub잇섭",
+        "channel_id": "UCdUcjkyZtf-1WJyPPiETF1g",
+        "views": 236067,
+        "duration": 737,
+        "format": "long",
+        "upload_date": "20260521",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/4krFcxKhLHc/maxresdefault.webp",
+        "url": "https://youtu.be/4krFcxKhLHc",
+        "thumb": "thumbs/구글-io-2026/4krFcxKhLHc.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "gFkujb3IBFE",
+      "score": 2,
+      "reasons": {
+        "tutorial": 2,
+        "shock": -1,
+        "korean": 1
+      },
+      "video": {
+        "id": "gFkujb3IBFE",
+        "title": "충격! 구글이 또 일냈다! Google I/O 2026 제미나이 옴니 AI에이전트 완벽 정리",
+        "channel": "퀀텀점프클럽 QuantumJumpClub(QJC) ",
+        "channel_id": "UCifUR1eEHhhXxK_Q_XoArPQ",
+        "views": 8555,
+        "duration": 1174,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/gFkujb3IBFE/maxresdefault.jpg",
+        "url": "https://youtu.be/gFkujb3IBFE",
+        "thumb": "thumbs/구글-io-2026/gFkujb3IBFE.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "TQv52-AKOoE",
+      "score": 1,
+      "reasons": {
+        "korean": 1
+      },
+      "video": {
+        "id": "TQv52-AKOoE",
+        "title": "우리 AI는 대답 대신 '일'을 합니다 (구글 I/O 2026리뷰)",
+        "channel": "안될과학 Unrealscience",
+        "channel_id": "UCMc4EmuDxnHPc6pgGW-QWvQ",
+        "views": 20763,
+        "duration": 1009,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/TQv52-AKOoE/maxresdefault.jpg",
+        "url": "https://youtu.be/TQv52-AKOoE",
+        "thumb": "thumbs/구글-io-2026/TQv52-AKOoE.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "AG-2A6Ij0CE",
+      "score": 1,
+      "reasons": {
+        "shock": -1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "AG-2A6Ij0CE",
+        "title": "구글 IO 2026 보셨나요? 완전 미쳤습니다!!!",
+        "channel": "AI프로",
+        "channel_id": "UCvxERPRwLYs-nbzBRKQNDmw",
+        "views": 237,
+        "duration": 498,
+        "format": "long",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/AG-2A6Ij0CE/maxresdefault.jpg",
+        "url": "https://youtu.be/AG-2A6Ij0CE",
+        "thumb": "thumbs/구글-io-2026/AG-2A6Ij0CE.jpg"
+      },
+      "keywords": [
+        "구글-io-2026",
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "GqXwJajyeNg",
+      "score": 1,
+      "reasons": {
+        "korean": 1
+      },
+      "video": {
+        "id": "GqXwJajyeNg",
+        "title": "이번엔 진짜 다를까? 구글 I/O 2026 삼성 x 구글 x 젠틀몬스터 AI 글라스 공개",
+        "channel": "TechD 테크디",
+        "channel_id": "UC_wiBRZg86vTQfFSJy2cTNw",
+        "views": 22,
+        "duration": 336,
+        "format": "long",
+        "upload_date": "20260521",
+        "thumbnail_url": "https://i.ytimg.com/vi/GqXwJajyeNg/maxresdefault.jpg",
+        "url": "https://youtu.be/GqXwJajyeNg",
+        "thumb": "thumbs/구글-io-2026-한국/GqXwJajyeNg.jpg"
+      },
+      "keywords": [
+        "구글-io-2026-한국"
+      ]
+    },
+    {
+      "id": "S7As-DqK2w0",
+      "score": -1,
+      "reasons": {
+        "korean": 1,
+        "news": -2
+      },
+      "video": {
+        "id": "S7As-DqK2w0",
+        "title": "말만 하면 '척척'…베일 벗은 '삼성 글래스' #소셜픽 / JTBC 아침&",
+        "channel": "JTBC News",
+        "channel_id": "UCsU-I-vHLiaMfV_ceaYz5rQ",
+        "views": 94753,
+        "duration": 77,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/S7As-DqK2w0/maxresdefault.webp",
+        "url": "https://youtu.be/S7As-DqK2w0",
+        "thumb": "thumbs/구글-io-2026-한국/S7As-DqK2w0.jpg"
+      },
+      "keywords": [
+        "구글-io-2026-한국"
+      ]
+    }
+  ],
+  "bottom_8": [
+    {
+      "id": "vw73r_xaeX0",
+      "score": -3,
+      "reasons": {
+        "too_long": -1,
+        "official": -2
+      },
+      "video": {
+        "id": "vw73r_xaeX0",
+        "title": "Google I/O '26 Keynote - American Sign Language",
+        "channel": "Google",
+        "channel_id": "UCK8sQmJBp8GCxrOtXWBpyEA",
+        "views": 120650,
+        "duration": 6675,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi/vw73r_xaeX0/maxresdefault.jpg",
+        "url": "https://youtu.be/vw73r_xaeX0",
+        "thumb": "thumbs/google-io-2026/vw73r_xaeX0.jpg"
+      },
+      "keywords": [
+        "google-io-2026"
+      ]
+    },
+    {
+      "id": "FZ-3BjbfNlI",
+      "score": -3,
+      "reasons": {
+        "dev_channel": -3
+      },
+      "video": {
+        "id": "FZ-3BjbfNlI",
+        "title": "Google I/O 2026 Developer Keynote 5-Minute recap",
+        "channel": "Google for Developers",
+        "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "views": 57324,
+        "duration": 302,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/FZ-3BjbfNlI/maxresdefault.webp",
+        "url": "https://youtu.be/FZ-3BjbfNlI",
+        "thumb": "thumbs/google-io-2026/FZ-3BjbfNlI.jpg"
+      },
+      "keywords": [
+        "google-io-2026",
+        "구글-io-2026"
+      ]
+    },
+    {
+      "id": "2m5BCWB02jY",
+      "score": -3,
+      "reasons": {
+        "shorts": -1,
+        "official": -2
+      },
+      "video": {
+        "id": "2m5BCWB02jY",
+        "title": "Meet Gemini Omni",
+        "channel": "Google",
+        "channel_id": "UCK8sQmJBp8GCxrOtXWBpyEA",
+        "views": 55137,
+        "duration": 51,
+        "format": "shorts",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/2m5BCWB02jY/maxresdefault.webp",
+        "url": "https://youtu.be/2m5BCWB02jY",
+        "thumb": "thumbs/gemini-omni/2m5BCWB02jY.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "yPj41DpBO2A",
+      "score": -3,
+      "reasons": {
+        "shorts": -1,
+        "news": -2
+      },
+      "video": {
+        "id": "yPj41DpBO2A",
+        "title": "グーグル 新AIモデル「Gemini Omni」発表　AIエージェント「Gemini Spark」は複数のアプリを横断し作業も｜TBS NEWS DIG",
+        "channel": "TBS NEWS DIG Powered by JNN",
+        "channel_id": "UC6AG81pAkf6Lbi_1VC5NmPA",
+        "views": 46308,
+        "duration": 36,
+        "format": "shorts",
+        "upload_date": "20260520",
+        "thumbnail_url": "https://i.ytimg.com/vi/yPj41DpBO2A/maxresdefault.jpg",
+        "url": "https://youtu.be/yPj41DpBO2A",
+        "thumb": "thumbs/gemini-spark/yPj41DpBO2A.jpg"
+      },
+      "keywords": [
+        "gemini-spark"
+      ]
+    },
+    {
+      "id": "v1xqYZ3s23s",
+      "score": -3,
+      "reasons": {
+        "dev_channel": -3
+      },
+      "video": {
+        "id": "v1xqYZ3s23s",
+        "title": "Gemini 3.5 Flash is the Best Google Model Yet?",
+        "channel": "Prompt Engineering",
+        "channel_id": "UCDq7SjbgRKty5TgGafW8Clg",
+        "views": 15024,
+        "duration": 1139,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/v1xqYZ3s23s/maxresdefault.webp",
+        "url": "https://youtu.be/v1xqYZ3s23s",
+        "thumb": "thumbs/gemini-35-flash/v1xqYZ3s23s.jpg"
+      },
+      "keywords": [
+        "gemini-35-flash"
+      ]
+    },
+    {
+      "id": "5T0yRNmNRi4",
+      "score": -3,
+      "reasons": {
+        "dev_channel": -3
+      },
+      "video": {
+        "id": "5T0yRNmNRi4",
+        "title": "Introducing Gemini Omni",
+        "channel": "Google for Developers",
+        "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "views": 14576,
+        "duration": 2651,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/5T0yRNmNRi4/maxresdefault.webp",
+        "url": "https://youtu.be/5T0yRNmNRi4",
+        "thumb": "thumbs/gemini-omni/5T0yRNmNRi4.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "uIFwls8r_CY",
+      "score": -3,
+      "reasons": {
+        "dev_channel": -3,
+        "usecase": 1,
+        "shock": -1
+      },
+      "video": {
+        "id": "uIFwls8r_CY",
+        "title": "Google’s New Gemini Omni Is Insane for Web Design",
+        "channel": "WPDev",
+        "channel_id": "UCBw1SEzReiwjgUd6sYsnalw",
+        "views": 4512,
+        "duration": 113,
+        "format": "long",
+        "upload_date": "20260521",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/uIFwls8r_CY/maxresdefault.webp",
+        "url": "https://youtu.be/uIFwls8r_CY",
+        "thumb": "thumbs/gemini-omni/uIFwls8r_CY.jpg"
+      },
+      "keywords": [
+        "gemini-omni"
+      ]
+    },
+    {
+      "id": "aqmpZocmR8o",
+      "score": -4,
+      "reasons": {
+        "dev_channel": -3,
+        "too_long": -1
+      },
+      "video": {
+        "id": "aqmpZocmR8o",
+        "title": "Developer Keynote (Google I/O '26)",
+        "channel": "Google for Developers",
+        "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "views": 148804,
+        "duration": 3527,
+        "format": "long",
+        "upload_date": "20260519",
+        "thumbnail_url": "https://i.ytimg.com/vi/aqmpZocmR8o/maxresdefault.jpg",
+        "url": "https://youtu.be/aqmpZocmR8o",
+        "thumb": "thumbs/google-io-2026/aqmpZocmR8o.jpg"
+      },
+      "keywords": [
+        "google-io-2026"
+      ]
+    }
+  ]
+}
