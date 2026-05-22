@@ -1,0 +1,1493 @@
+{
+  "generated": "2026-05-23",
+  "kr_1man_plus": 183,
+  "tier_top": [
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "curation": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "S5CjDAvcCFE",
+        "title": "챗GPT 왕초보 | 50·60대도 딱 10분! 바로 시작하는 지피티 사용법, 똑똑한 질문 방법",
+        "channel": "시니어 정보탐정",
+        "channel_id": "UC2eaFkMQMgOXcNfFsRN64Mg",
+        "views": 1109448,
+        "duration": 976,
+        "format": "long",
+        "upload_date": "20250801",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/S5CjDAvcCFE/maxresdefault.webp",
+        "url": "https://youtu.be/S5CjDAvcCFE",
+        "thumb": "thumbs/챗gpt/S5CjDAvcCFE.jpg",
+        "analysis": {
+          "copy_pattern": "대비",
+          "person_position": "없음",
+          "main_visual": "스크린샷",
+          "background_tone": "어두움",
+          "colors": [
+            "#1A1A1A",
+            "#FFE100",
+            "#FF6B35"
+          ],
+          "main_copy": "50세이상 보세요 / 챗GPT 시작하기 '이것'만 따라하면 / 카톡보다 쉬워요",
+          "hook_words": [
+            "50세이상",
+            "카톡보다 쉬워요"
+          ]
+        }
+      },
+      "kws": [
+        "챗gpt"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "v6pDubPbpqQ",
+        "title": "아무도 알려준 적 없을겁니다. 쓰면 '인생이 바뀌는' 챗GPT 활용법 (흔한 내용 ❌) [허성범의 AI 학개론 3강]",
+        "channel": "허성범 Horang",
+        "channel_id": "UCWX_9JS3DhPQZIsgjCSU0tw",
+        "views": 1024632,
+        "duration": 769,
+        "format": "long",
+        "upload_date": "20250410",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/v6pDubPbpqQ/maxresdefault.webp",
+        "url": "https://youtu.be/v6pDubPbpqQ",
+        "thumb": "thumbs/챗gpt/v6pDubPbpqQ.jpg",
+        "analysis": {
+          "copy_pattern": "결과",
+          "person_position": "우",
+          "main_visual": "혼합",
+          "background_tone": "어두움",
+          "colors": [
+            "#1A1A1A",
+            "#FFE100",
+            "#2A8A4A"
+          ],
+          "main_copy": "챗GPT, 상위 0.1%만 아는 / 궁극의 사용법",
+          "hook_words": [
+            "상위 0.1%",
+            "궁극"
+          ]
+        }
+      },
+      "kws": [
+        "챗gpt"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "xAUuLECuyd0",
+        "title": "챗GPT 어렵다구요..? 챗GPT (ChatGPT) 사용법 4분만에 배우기(회원가입, 질문방법, 번역하기 등) #chatGPT #챗GPT #사용법",
+        "channel": "국립중앙과학관",
+        "channel_id": "UCXxtwdYcghpqmfb9YyHV0Fg",
+        "views": 800708,
+        "duration": 259,
+        "format": "long",
+        "upload_date": "20230320",
+        "thumbnail_url": "https://i.ytimg.com/vi/xAUuLECuyd0/maxresdefault.jpg",
+        "url": "https://youtu.be/xAUuLECuyd0",
+        "thumb": "thumbs/챗gpt/xAUuLECuyd0.jpg",
+        "analysis": {
+          "copy_pattern": "총정리",
+          "person_position": "없음",
+          "main_visual": "일러스트",
+          "background_tone": "그라데이션",
+          "colors": [
+            "#1FA8A0",
+            "#FFFFFF",
+            "#FFE100"
+          ],
+          "main_copy": "챗GPT 4분 완성 / 4분만에 챗GPT 마스터하기",
+          "hook_words": [
+            "4분 완성",
+            "마스터하기"
+          ]
+        }
+      },
+      "kws": [
+        "챗gpt"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "b8Snx4pgy3M",
+        "title": "(무료) 안 쓰면 후회하는 제미나이 기능들 A~Z 총정리! (챗GPT는 안되는 Gemini기능들 총정리)",
+        "channel": "온선 [온라인 선생님] ",
+        "channel_id": "UC2tHUrXN5fVpooOQ0-SYDfw",
+        "views": 611322,
+        "duration": 1788,
+        "format": "long",
+        "upload_date": "20250519",
+        "thumbnail_url": "https://i.ytimg.com/vi/b8Snx4pgy3M/maxresdefault.jpg",
+        "url": "https://youtu.be/b8Snx4pgy3M",
+        "thumb": "thumbs/제미나이/b8Snx4pgy3M.jpg",
+        "analysis": {
+          "copy_pattern": "대비",
+          "person_position": "우",
+          "main_visual": "혼합",
+          "background_tone": "밝음",
+          "colors": [
+            "#FFFFFF",
+            "#FFE100",
+            "#FF3D3D"
+          ],
+          "main_copy": "내가 요즘 챗GPT 말고 '제미나이'를 쓰는 이유!",
+          "hook_words": [
+            "챗GPT 말고",
+            "쓰는 이유"
+          ]
+        },
+        "sub": "subs/제미나이/b8Snx4pgy3M.ko.srt"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "friendly": 1,
+        "curation": 1,
+        "too_long": -1,
+        "korean": 1
+      },
+      "video": {
+        "id": "F13IRvz2-5Y",
+        "title": "회사에서 바로 쓰는 나노바나나 프로 | 실전 활용법 14가지 (최신 가이드)",
+        "channel": "오빠두엑셀 l 엑셀 강의 대표채널",
+        "channel_id": "UCZ6UHYBQFBe14WUgxlgmYfg",
+        "views": 565341,
+        "duration": 3250,
+        "format": "long",
+        "upload_date": "20251203",
+        "thumbnail_url": "https://i.ytimg.com/vi/F13IRvz2-5Y/maxresdefault.jpg",
+        "url": "https://youtu.be/F13IRvz2-5Y",
+        "thumb": "thumbs/나노바나나/F13IRvz2-5Y.jpg",
+        "analysis": {
+          "copy_pattern": "충격",
+          "person_position": "좌",
+          "main_visual": "혼합",
+          "background_tone": "화려함",
+          "colors": [
+            "#F4D03F",
+            "#FFFFFF",
+            "#1A1A2E"
+          ],
+          "main_copy": "직장인을 위한 실전 예제 14가지 / 나노바나나 / 미쳤습니다",
+          "hook_words": [
+            "미쳤습니다",
+            "실전",
+            "14가지"
+          ]
+        }
+      },
+      "kws": [
+        "나노바나나"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "1nzjMOuDasQ",
+        "title": "제미나이 하나로 5분 만에 '동물 인터뷰' AI 영상 무료로 만드는 법 (강아지 프롬프트, 무료 배포)",
+        "channel": "AI:ON 에이아이온💡돈버는법💡",
+        "channel_id": "UCRA-z2JEptpH4gbbcZ1XIKg",
+        "views": 465247,
+        "duration": 659,
+        "format": "long",
+        "upload_date": "20260114",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/1nzjMOuDasQ/maxresdefault.webp",
+        "url": "https://youtu.be/1nzjMOuDasQ",
+        "thumb": "thumbs/영상-ai/1nzjMOuDasQ.jpg"
+      },
+      "kws": [
+        "영상-ai",
+        "제미나이"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "curation": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "_QDQ4dmmJsM",
+        "title": "\"퇴근이 2시간 빨라집니다\" 대부분 모르는 제미나이 활용법 10가지",
+        "channel": "AI:ON 에이아이온💡돈버는법💡",
+        "channel_id": "UCRA-z2JEptpH4gbbcZ1XIKg",
+        "views": 460057,
+        "duration": 1163,
+        "format": "long",
+        "upload_date": "20260405",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/_QDQ4dmmJsM/maxresdefault.webp",
+        "url": "https://youtu.be/_QDQ4dmmJsM",
+        "thumb": "thumbs/제미나이/_QDQ4dmmJsM.jpg",
+        "analysis": {
+          "copy_pattern": "결과",
+          "person_position": "없음",
+          "main_visual": "로고",
+          "background_tone": "어두움",
+          "colors": [
+            "#1A1A1A",
+            "#FFE100",
+            "#00C896"
+          ],
+          "main_copy": "구글이 또 해냈다! / 레전드 제미나이 활용법 10",
+          "hook_words": [
+            "또 해냈다",
+            "레전드",
+            "10"
+          ]
+        }
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "I-4tJOJyGIA",
+        "title": "(무료 자료 제공) 15분만에 구글 제미나이 마스터하기 (2025)",
+        "channel": "신영선의 AI탐구",
+        "channel_id": "UCBlTB7GyNQLqZMDRFEZ_cSg",
+        "views": 455889,
+        "duration": 924,
+        "format": "long",
+        "upload_date": "20251002",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/I-4tJOJyGIA/maxresdefault.webp",
+        "url": "https://youtu.be/I-4tJOJyGIA",
+        "thumb": "thumbs/제미나이/I-4tJOJyGIA.jpg",
+        "analysis": {
+          "copy_pattern": "총정리",
+          "person_position": "우",
+          "main_visual": "혼합",
+          "background_tone": "어두움",
+          "colors": [
+            "#1A1A1A",
+            "#FFE100",
+            "#00FF80"
+          ],
+          "main_copy": "강의비 50만원 받는 중 / 2025년 제미나이 15분 마스터 강의",
+          "hook_words": [
+            "15분 마스터",
+            "50만원"
+          ]
+        }
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 8,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "friendly": 1,
+        "usecase": 2,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "-YnlVYfoamI",
+        "title": "쉽게 따라하는 AI 활용 유튜브 영상만들기, 무료 프로그램 브루 (Vrew) | 브루 무료 강의",
+        "channel": "디지털거북이",
+        "channel_id": "UCAboHrUEPc4QUeOrmwSn0BQ",
+        "views": 426423,
+        "duration": 759,
+        "format": "long",
+        "upload_date": "20231017",
+        "thumbnail_url": "https://i.ytimg.com/vi/-YnlVYfoamI/maxresdefault.jpg",
+        "url": "https://youtu.be/-YnlVYfoamI",
+        "thumb": "thumbs/영상-ai/-YnlVYfoamI.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 9,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "friendly": 1,
+        "curation": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "8DTK1CQE4Uw",
+        "title": "(무료) 시니어도 쉽게! 구글 제미나이(Gemini) 꿀기능 8가지 총정리",
+        "channel": "알리도콜센터",
+        "channel_id": "UCkpnTJFvSY9urTtX6gaVryA",
+        "views": 362492,
+        "duration": 585,
+        "format": "long",
+        "upload_date": "20250605",
+        "thumbnail_url": "https://i.ytimg.com/vi/8DTK1CQE4Uw/maxresdefault.jpg",
+        "url": "https://youtu.be/8DTK1CQE4Uw",
+        "thumb": "thumbs/제미나이/8DTK1CQE4Uw.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "cWVZ1Cv8PQU",
+        "title": "챗GPT(ChatGPT) 무료 버전 초보자를 위한 기본 사용법｜회원가입부터 활용까지",
+        "channel": "디지털거북이",
+        "channel_id": "UCAboHrUEPc4QUeOrmwSn0BQ",
+        "views": 361434,
+        "duration": 946,
+        "format": "long",
+        "upload_date": "20250316",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/cWVZ1Cv8PQU/maxresdefault.webp",
+        "url": "https://youtu.be/cWVZ1Cv8PQU",
+        "thumb": "thumbs/챗gpt/cWVZ1Cv8PQU.jpg",
+        "analysis": {
+          "copy_pattern": "질문",
+          "person_position": "우",
+          "main_visual": "혼합",
+          "background_tone": "어두움",
+          "colors": [
+            "#1A1A1A",
+            "#00D9C8",
+            "#FFFFFF"
+          ],
+          "main_copy": "Chat GPT / 아직도 안쓰시나요?",
+          "hook_words": [
+            "아직도 안쓰시나요"
+          ]
+        }
+      },
+      "kws": [
+        "챗gpt"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "K_IdmTdzdhE",
+        "title": "갤럭시 사용자라면 제미나이 꼭 쓰세요! 음성 호출로 유튜브 요약, 핸드폰 조작까지! AI사용법",
+        "channel": "스마트딸",
+        "channel_id": "UCS3lz1i_UWefRWdvpn0PknQ",
+        "views": 357910,
+        "duration": 609,
+        "format": "long",
+        "upload_date": "20251212",
+        "thumbnail_url": "https://i.ytimg.com/vi/K_IdmTdzdhE/maxresdefault.jpg",
+        "url": "https://youtu.be/K_IdmTdzdhE",
+        "thumb": "thumbs/제미나이/K_IdmTdzdhE.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 8,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "usecase": 2,
+        "korean": 1
+      },
+      "video": {
+        "id": "E8X4pEKxoWI",
+        "title": "무료! 구글 제미나이 google Gemini 활용법 (유튜브 영상 요약, 이미지 생성, 문서 작성 등)",
+        "channel": "디지털거북이",
+        "channel_id": "UCAboHrUEPc4QUeOrmwSn0BQ",
+        "views": 354693,
+        "duration": 1064,
+        "format": "long",
+        "upload_date": "20250322",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/E8X4pEKxoWI/maxresdefault.webp",
+        "url": "https://youtu.be/E8X4pEKxoWI",
+        "thumb": "thumbs/제미나이/E8X4pEKxoWI.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "ugCzGuccJ2g",
+        "title": "\"대부분 이걸 모릅니다\" 상위 0 1%만 알고있는 챗GPT 제미나이 활용법 | Ep. 책과사람 79 (김덕진 소장 2부)",
+        "channel": "책과삶",
+        "channel_id": "UCgUaqrLRGLL-dHislR1e2TA",
+        "views": 343158,
+        "duration": 1018,
+        "format": "long",
+        "upload_date": "20260430",
+        "thumbnail_url": "https://i.ytimg.com/vi/ugCzGuccJ2g/maxresdefault.jpg",
+        "url": "https://youtu.be/ugCzGuccJ2g",
+        "thumb": "thumbs/챗gpt/ugCzGuccJ2g.jpg"
+      },
+      "kws": [
+        "챗gpt",
+        "제미나이"
+      ]
+    },
+    {
+      "score": 8,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "S4CamLlJXWY",
+        "title": "무료로 AI 애니메이션 영상 만들기 | 제미나이로 캐릭터 제작부터 말하는 영상까지 총정리 (+프롬프트 공개)  | Gemini, 나노바나나",
+        "channel": "홍아린 AI",
+        "channel_id": "UCxPcb3p7xndgnYBvZW_lcmg",
+        "views": 341739,
+        "duration": 549,
+        "format": "long",
+        "upload_date": "20260125",
+        "thumbnail_url": "https://i.ytimg.com/vi/S4CamLlJXWY/sddefault.jpg",
+        "url": "https://youtu.be/S4CamLlJXWY",
+        "thumb": "thumbs/영상-ai/S4CamLlJXWY.jpg"
+      },
+      "kws": [
+        "영상-ai",
+        "제미나이"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "WvXPWAZrT1I",
+        "title": "제미나이 100% 활용법 | 이 '설정' 안하면 GPT보다 못해요 | 제미나이 왕초보 기초 #제미나이 #ai활용 #ai",
+        "channel": "AI놀자",
+        "channel_id": "UCePpYkc46dWg5coCn0qBNmg",
+        "views": 328383,
+        "duration": 1337,
+        "format": "long",
+        "upload_date": "20250921",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/WvXPWAZrT1I/maxresdefault.webp",
+        "url": "https://youtu.be/WvXPWAZrT1I",
+        "thumb": "thumbs/제미나이/WvXPWAZrT1I.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "ZIn53VIic14",
+        "title": "AI 동물 인터뷰 쇼츠 만들기 7분만에 끝! (제미나이, FLOW)",
+        "channel": "김이솝의 AI 가이드",
+        "channel_id": "UCjf8cxzqPlayWaJpmtvNC-A",
+        "views": 315780,
+        "duration": 476,
+        "format": "long",
+        "upload_date": "20260205",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/ZIn53VIic14/maxresdefault.webp",
+        "url": "https://youtu.be/ZIn53VIic14",
+        "thumb": "thumbs/제미나이/ZIn53VIic14.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "friendly": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "IPXKkY4uN68",
+        "title": "스마트폰에서 제미나이 Gemini 앱 AI 비서로 활용하는 꿀팁",
+        "channel": "디지털거북이",
+        "channel_id": "UCAboHrUEPc4QUeOrmwSn0BQ",
+        "views": 293333,
+        "duration": 543,
+        "format": "long",
+        "upload_date": "20250502",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/IPXKkY4uN68/maxresdefault.webp",
+        "url": "https://youtu.be/IPXKkY4uN68",
+        "thumb": "thumbs/제미나이/IPXKkY4uN68.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "HFcVTALckhw",
+        "title": "클로드 쓴다면 당장 이거 써보세요 | 클로드 코워크 15분만에 마스터하기 (비 개발자도 클릭 한 번으로 가능합니다)",
+        "channel": "소소한 AI 입문노트 | 소에노",
+        "channel_id": "UCSftqyavYFpdAcnghLZE05A",
+        "views": 279925,
+        "duration": 879,
+        "format": "long",
+        "upload_date": "20260417",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/HFcVTALckhw/maxresdefault.webp",
+        "url": "https://youtu.be/HFcVTALckhw",
+        "thumb": "thumbs/클로드-ai/HFcVTALckhw.jpg",
+        "analysis": {
+          "copy_pattern": "충격",
+          "person_position": "없음",
+          "main_visual": "일러스트",
+          "background_tone": "어두움",
+          "colors": [
+            "#1A1A4E",
+            "#FFE100",
+            "#FFFFFF"
+          ],
+          "main_copy": "클로드가 나한테 카톡을 보내기 시작했다 / 클로드 코워크 끝장내기",
+          "hook_words": [
+            "카톡을 보내기",
+            "끝장내기"
+          ]
+        }
+      },
+      "kws": [
+        "클로드-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "friendly": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "8rHjdomJFw8",
+        "title": "갤럭시 유저 5060 필수!! 돈 안 드는 만능 비서 '구글 제미나이' 일상 꿀팁 총정리",
+        "channel": "시니어정보 지선쌤",
+        "channel_id": "UCJ7X2GydKMjm6-Z7iH7TosQ",
+        "views": 270828,
+        "duration": 1686,
+        "format": "long",
+        "upload_date": "20260226",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/8rHjdomJFw8/maxresdefault.webp",
+        "url": "https://youtu.be/8rHjdomJFw8",
+        "thumb": "thumbs/제미나이/8rHjdomJFw8.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "zs5_XRdcvbk",
+        "title": "상위 0.1%만 사용하는 제미나이,챗gpt  top 5 활용법(흔한 내용X)",
+        "channel": "소소한 AI 입문노트 | 소에노",
+        "channel_id": "UCSftqyavYFpdAcnghLZE05A",
+        "views": 270322,
+        "duration": 514,
+        "format": "long",
+        "upload_date": "20251025",
+        "thumbnail_url": "https://i.ytimg.com/vi/zs5_XRdcvbk/maxresdefault.jpg",
+        "url": "https://youtu.be/zs5_XRdcvbk",
+        "thumb": "thumbs/챗gpt/zs5_XRdcvbk.jpg"
+      },
+      "kws": [
+        "챗gpt",
+        "제미나이"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "too_long": -1,
+        "korean": 1
+      },
+      "video": {
+        "id": "WCSKT7xWrO8",
+        "title": "[일시무료] 초보자를 위한 챗GPT 사용방법 강의 | Chat GPT Tutorial",
+        "channel": "감자나라ai",
+        "channel_id": "UCPP1HVcKyFThWlpO-JJdXdg",
+        "views": 236536,
+        "duration": 6386,
+        "format": "long",
+        "upload_date": "20241025",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/WCSKT7xWrO8/maxresdefault.webp",
+        "url": "https://youtu.be/WCSKT7xWrO8",
+        "thumb": "thumbs/챗gpt/WCSKT7xWrO8.jpg"
+      },
+      "kws": [
+        "챗gpt"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "REyKGV6Hkjs",
+        "title": "AI 잘쓰는 사람들이 요즘 클로드 스킬에 미쳐있는 이유 | 클로드 쓴다면 무조건 이 기능 쓰셔야합니다 (200% 활용법 전부 공개)",
+        "channel": "긍정필터",
+        "channel_id": "UCOwTVgbotezbpQ8POZ_-pMg",
+        "views": 229673,
+        "duration": 1097,
+        "format": "long",
+        "upload_date": "20260401",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/REyKGV6Hkjs/maxresdefault.webp",
+        "url": "https://youtu.be/REyKGV6Hkjs",
+        "thumb": "thumbs/클로드-ai/REyKGV6Hkjs.jpg",
+        "analysis": {
+          "copy_pattern": "대비",
+          "person_position": "중앙",
+          "main_visual": "인물",
+          "background_tone": "어두움",
+          "colors": [
+            "#1A4030",
+            "#FFE100",
+            "#FFFFFF"
+          ],
+          "main_copy": "(GPT, 제미나이에는 없는 미친 기능!!) / 클로드 쓴다면 당장 / 이 기능부터 써보세요",
+          "hook_words": [
+            "없는 미친 기능",
+            "당장"
+          ]
+        }
+      },
+      "kws": [
+        "클로드-ai"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "WRjR9cw7KyU",
+        "title": "캔바 입문자를 위한, 60분 총정리 특강 | Canva 글로벌 엠베서더가 알려주는 캔바의 모든 것!",
+        "channel": "오빠두엑셀 l 엑셀 강의 대표채널",
+        "channel_id": "UCZ6UHYBQFBe14WUgxlgmYfg",
+        "views": 197703,
+        "duration": 2979,
+        "format": "long",
+        "upload_date": "20240920",
+        "thumbnail_url": "https://i.ytimg.com/vi/WRjR9cw7KyU/maxresdefault.jpg",
+        "url": "https://youtu.be/WRjR9cw7KyU",
+        "thumb": "thumbs/캔바-ai/WRjR9cw7KyU.jpg",
+        "analysis": {
+          "copy_pattern": "총정리",
+          "person_position": "없음",
+          "main_visual": "로고",
+          "background_tone": "그라데이션",
+          "colors": [
+            "#1A1A4E",
+            "#00C8FF",
+            "#FFFFFF"
+          ],
+          "main_copy": "오늘부터 바로 쓰는 캔바 완벽정리 / 초보자를 위한, 60분 특강",
+          "hook_words": [
+            "완벽정리",
+            "60분 특강"
+          ]
+        }
+      },
+      "kws": [
+        "캔바-ai"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 2,
+        "korean": 1
+      },
+      "video": {
+        "id": "N2HVpnh1uiY",
+        "title": "[AI공부] AI 쇼츠영상 이보다 쉬울순 없다! 10분 만에 마스터하는 법",
+        "channel": "공부왕찐천재 홍진경",
+        "channel_id": "UCkxbPwdaV74Erdxt97Nt23w",
+        "views": 189154,
+        "duration": 951,
+        "format": "long",
+        "upload_date": "20260402",
+        "thumbnail_url": "https://i.ytimg.com/vi/N2HVpnh1uiY/maxresdefault.jpg",
+        "url": "https://youtu.be/N2HVpnh1uiY",
+        "thumb": "thumbs/영상-ai/N2HVpnh1uiY.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "SqjOXrbM2c4",
+        "title": "제미나이 (나노바나나) 기능 A~Z까지 총정리! 이제 이미지 관련은 이 영상 하나로 끝!",
+        "channel": "온선 [온라인 선생님] ",
+        "channel_id": "UC2tHUrXN5fVpooOQ0-SYDfw",
+        "views": 178637,
+        "duration": 1495,
+        "format": "long",
+        "upload_date": "20250918",
+        "thumbnail_url": "https://i.ytimg.com/vi/SqjOXrbM2c4/maxresdefault.jpg",
+        "url": "https://youtu.be/SqjOXrbM2c4",
+        "thumb": "thumbs/이미지-ai/SqjOXrbM2c4.jpg"
+      },
+      "kws": [
+        "이미지-ai",
+        "나노바나나"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "fkqXQOjj8cA",
+        "title": "MCP써야 진짜 Claude다! 500% 활용 튜토리얼 (개념부터 활용까지)",
+        "channel": "시민개발자 구씨",
+        "channel_id": "UCDLlMjELbrJdETmSiAB68AA",
+        "views": 171335,
+        "duration": 1564,
+        "format": "long",
+        "upload_date": "20250405",
+        "thumbnail_url": "https://i.ytimg.com/vi/fkqXQOjj8cA/maxresdefault.jpg",
+        "url": "https://youtu.be/fkqXQOjj8cA",
+        "thumb": "thumbs/클로드-ai/fkqXQOjj8cA.jpg"
+      },
+      "kws": [
+        "클로드-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "qrPtpr0ihhI",
+        "title": "소라2 vs Veo3.1 완벽 비교 : 영상 AI 최강자는? (프롬프트 제공)",
+        "channel": "브랜드 도적단 / 반토막AI",
+        "channel_id": "UCcCC48lEdpXPzj5auhnMFxg",
+        "views": 170055,
+        "duration": 960,
+        "format": "long",
+        "upload_date": "20251021",
+        "thumbnail_url": "https://i.ytimg.com/vi/qrPtpr0ihhI/maxresdefault.jpg",
+        "url": "https://youtu.be/qrPtpr0ihhI",
+        "thumb": "thumbs/영상-ai/qrPtpr0ihhI.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 7,
+      "reasons": {
+        "tutorial": 2,
+        "friendly": 2,
+        "usecase": 1,
+        "curation": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "m1uzV_6uYMo",
+        "title": "AI 영상 회사 대표는 나노바나나를 이렇게 씁니다 | AI 이미지 활용 6가지 꿀팁 전부 공개",
+        "channel": "로사장 ",
+        "channel_id": "UCD4-IJEjeAtc2Md6xy6x_zQ",
+        "views": 166734,
+        "duration": 913,
+        "format": "long",
+        "upload_date": "20251226",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/m1uzV_6uYMo/maxresdefault.webp",
+        "url": "https://youtu.be/m1uzV_6uYMo",
+        "thumb": "thumbs/이미지-ai/m1uzV_6uYMo.jpg"
+      },
+      "kws": [
+        "이미지-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "U6KVMa36vpc",
+        "title": "[캔바 기초 강좌 2] 5분안에 무료로 쉽고 빠르게 동영상 만들기(캔바)",
+        "channel": "스마일정쌤",
+        "channel_id": "UC8gDo3LzHdqDdwGf6kemCOg",
+        "views": 138955,
+        "duration": 439,
+        "format": "long",
+        "upload_date": "20220320",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/U6KVMa36vpc/maxresdefault.webp",
+        "url": "https://youtu.be/U6KVMa36vpc",
+        "thumb": "thumbs/캔바-ai/U6KVMa36vpc.jpg",
+        "analysis": {
+          "copy_pattern": "결과",
+          "person_position": "좌",
+          "main_visual": "인물",
+          "background_tone": "어두움",
+          "colors": [
+            "#2A2A2A",
+            "#00C8E8",
+            "#E63985"
+          ],
+          "main_copy": "5분안에 동영상 만들기 / 캔바 이용해서 / 무료로 이렇게 쉽게 만들 수 있다니!",
+          "hook_words": [
+            "5분안에",
+            "무료"
+          ]
+        }
+      },
+      "kws": [
+        "캔바-ai"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "shock": -1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "2WJzwwvzbBQ",
+        "title": "클로드코드 직접 만든 사람이 공개한 사용법, 저도 충격받았습니다",
+        "channel": "메이커 에반 | Maker Evan",
+        "channel_id": "UC0WxGJnTB_04ViIrxPvFRmg",
+        "views": 138690,
+        "duration": 482,
+        "format": "long",
+        "upload_date": "20260226",
+        "thumbnail_url": "https://i.ytimg.com/vi/2WJzwwvzbBQ/maxresdefault.jpg",
+        "url": "https://youtu.be/2WJzwwvzbBQ",
+        "thumb": "thumbs/클로드-ai/2WJzwwvzbBQ.jpg"
+      },
+      "kws": [
+        "클로드-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "friendly": 1,
+        "shorts": -1,
+        "korean": 1
+      },
+      "video": {
+        "id": "xlfpcK_3W54",
+        "title": "제미나이 미친 무료 기능! 안쓰면 실시간으로 손해봅니다 #구글AI  #ai활용법  #꿀팁",
+        "channel": "에이커, 돈이되는 AI와 이커머스",
+        "channel_id": "UC6PuL8-eXqizOYtvLCK9iJQ",
+        "views": 130252,
+        "duration": 63,
+        "format": "shorts",
+        "upload_date": "20251012",
+        "thumbnail_url": "https://i.ytimg.com/vi/xlfpcK_3W54/maxresdefault.jpg",
+        "url": "https://youtu.be/xlfpcK_3W54",
+        "thumb": "thumbs/ai-꿀팁/xlfpcK_3W54.jpg"
+      },
+      "kws": [
+        "ai-꿀팁"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "ytYkxnCKZ3U",
+        "title": "AI 영상 툴 TOP4 장단점 완벽 비교",
+        "channel": "VISIOLAB",
+        "channel_id": "UCTjuJv16RIobb8Ej3LgyVnw",
+        "views": 125453,
+        "duration": 578,
+        "format": "long",
+        "upload_date": "20250327",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/ytYkxnCKZ3U/maxresdefault.webp",
+        "url": "https://youtu.be/ytYkxnCKZ3U",
+        "thumb": "thumbs/영상-ai/ytYkxnCKZ3U.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "1_bRmkUvjHA",
+        "title": "Claude Code 왕초보 입문 튜토리얼 23가지 팁 | 클로드코드 설치 사용법 50분 강의 완전정복 2026 가이드",
+        "channel": "AI싱크클럽",
+        "channel_id": "UCouEEn-xhyTN9K6wSXjBbVQ",
+        "views": 114594,
+        "duration": 2857,
+        "format": "long",
+        "upload_date": "20260211",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/1_bRmkUvjHA/maxresdefault.webp",
+        "url": "https://youtu.be/1_bRmkUvjHA",
+        "thumb": "thumbs/클로드-ai/1_bRmkUvjHA.jpg"
+      },
+      "kws": [
+        "클로드-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "curation": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "Sv617Vjk_zw",
+        "title": "AI 렌더링의 정점, 나노바나나 7가지 활용법 총 정리!",
+        "channel": "feeel.d",
+        "channel_id": "UC4OyAam2-OOjiY1mStJ6yFA",
+        "views": 105537,
+        "duration": 1102,
+        "format": "long",
+        "upload_date": "20250926",
+        "thumbnail_url": "https://i.ytimg.com/vi/Sv617Vjk_zw/maxresdefault.jpg",
+        "url": "https://youtu.be/Sv617Vjk_zw",
+        "thumb": "thumbs/나노바나나/Sv617Vjk_zw.jpg"
+      },
+      "kws": [
+        "나노바나나"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "vkfHgaRpYXg",
+        "title": "7분 완성! 캔바 회원가입, 기본디자인 제작까지 왕초보 특강 1편 ㅣ 이지쌤",
+        "channel": "이지쌤",
+        "channel_id": "UC-6FxcmnbyVeZaYc025I_xQ",
+        "views": 102053,
+        "duration": 470,
+        "format": "long",
+        "upload_date": "20240729",
+        "thumbnail_url": "https://i.ytimg.com/vi/vkfHgaRpYXg/maxresdefault.jpg",
+        "url": "https://youtu.be/vkfHgaRpYXg",
+        "thumb": "thumbs/캔바-ai/vkfHgaRpYXg.jpg",
+        "analysis": {
+          "copy_pattern": "총정리",
+          "person_position": "우",
+          "main_visual": "혼합",
+          "background_tone": "밝음",
+          "colors": [
+            "#FFFFFF",
+            "#00C8E8",
+            "#1A1A1A"
+          ],
+          "main_copy": "캔바 왕초보 강의 1편 / CANVA 사용법 배우기",
+          "hook_words": [
+            "왕초보 강의",
+            "사용법 배우기"
+          ]
+        }
+      },
+      "kws": [
+        "캔바-ai"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "gK5pOtHOaMQ",
+        "title": "AI 영상 만드려면, 무조건 이것부터 써보세요! | 구글이 고퀄리티의 영상 AI를 무료로 풀었습니다. (VEO 3.1 사용법 전부 공개!)",
+        "channel": "긍정필터",
+        "channel_id": "UCOwTVgbotezbpQ8POZ_-pMg",
+        "views": 96625,
+        "duration": 1223,
+        "format": "long",
+        "upload_date": "20260423",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/gK5pOtHOaMQ/maxresdefault.webp",
+        "url": "https://youtu.be/gK5pOtHOaMQ",
+        "thumb": "thumbs/영상-ai/gK5pOtHOaMQ.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "MvhHY7BVR00",
+        "title": "진짜 심각하게 좋아진 GPT Images 2.0 디자인 활용 케이스 싹 정리.",
+        "channel": "디자인하는AI",
+        "channel_id": "UCk_xkR8ORNwtMkaffvYArGA",
+        "views": 79089,
+        "duration": 1639,
+        "format": "long",
+        "upload_date": "20260506",
+        "thumbnail_url": "https://i.ytimg.com/vi/MvhHY7BVR00/maxresdefault.jpg",
+        "url": "https://youtu.be/MvhHY7BVR00",
+        "thumb": "thumbs/이미지-ai/MvhHY7BVR00.jpg"
+      },
+      "kws": [
+        "이미지-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "friendly": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "Sz9DjG8cEEU",
+        "title": "구글 나노바나나의 30가지 활용법 직접 보여드립니다! 초보자부터 전문가까지 활용 가능한 꿀팁!",
+        "channel": "온선 [온라인 선생님] ",
+        "channel_id": "UC2tHUrXN5fVpooOQ0-SYDfw",
+        "views": 70913,
+        "duration": 1209,
+        "format": "long",
+        "upload_date": "20251016",
+        "thumbnail_url": "https://i.ytimg.com/vi/Sz9DjG8cEEU/maxresdefault.jpg",
+        "url": "https://youtu.be/Sz9DjG8cEEU",
+        "thumb": "thumbs/나노바나나/Sz9DjG8cEEU.jpg"
+      },
+      "kws": [
+        "나노바나나"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "curation": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "7f0dJPXs-28",
+        "title": "바이브 코딩 딱 5분만에 마스터 시켜드립니다ㅣ개념, 툴, 사용법 - [메타코드M]",
+        "channel": "메타코드M",
+        "channel_id": "UChu25pJgVZB3p0dVEgmU0PQ",
+        "views": 70905,
+        "duration": 388,
+        "format": "long",
+        "upload_date": "20250616",
+        "thumbnail_url": "https://i.ytimg.com/vi/7f0dJPXs-28/maxresdefault.jpg",
+        "url": "https://youtu.be/7f0dJPXs-28",
+        "thumb": "thumbs/메타-ai-무료/7f0dJPXs-28.jpg"
+      },
+      "kws": [
+        "메타-ai-무료"
+      ]
+    },
+    {
+      "score": 7,
+      "reasons": {
+        "tutorial": 4,
+        "free_kr": 1,
+        "curation": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "PMmiqT4PS4Y",
+        "title": "(무료) 포토샵 이제 필요 없습니다. 아무도 안 알려주는 '나노바나나' 사용법, 딱 5분만 투자하세요!",
+        "channel": "온선 [온라인 선생님] ",
+        "channel_id": "UC2tHUrXN5fVpooOQ0-SYDfw",
+        "views": 68472,
+        "duration": 1013,
+        "format": "long",
+        "upload_date": "20250825",
+        "thumbnail_url": "https://i.ytimg.com/vi/PMmiqT4PS4Y/maxresdefault.jpg",
+        "url": "https://youtu.be/PMmiqT4PS4Y",
+        "thumb": "thumbs/나노바나나/PMmiqT4PS4Y.jpg"
+      },
+      "kws": [
+        "나노바나나"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "Kho8lN551x8",
+        "title": "초보자도 가능한 애니메이션 만들기  | 구글 나노바나나 무료 활용",
+        "channel": "신대표 l AI마스터클래스",
+        "channel_id": "UCWTDCP9N1qnCRohqX1ieCqw",
+        "views": 46556,
+        "duration": 623,
+        "format": "long",
+        "upload_date": "20251221",
+        "thumbnail_url": "https://i.ytimg.com/vi/Kho8lN551x8/sddefault.jpg",
+        "url": "https://youtu.be/Kho8lN551x8",
+        "thumb": "thumbs/나노바나나/Kho8lN551x8.jpg"
+      },
+      "kws": [
+        "나노바나나"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 4,
+        "korean": 1
+      },
+      "video": {
+        "id": "cmSuxdz-TjE",
+        "title": "게임 끝입니다. 혁신을 넘어선 엄청난 기술이 등장했습니다.ㅣ구글 나노바나나 30가지 활용법 직접 보여드리겠습니다.",
+        "channel": "신영선의 AI탐구",
+        "channel_id": "UCBlTB7GyNQLqZMDRFEZ_cSg",
+        "views": 40232,
+        "duration": 985,
+        "format": "long",
+        "upload_date": "20251127",
+        "thumbnail_url": "https://i.ytimg.com/vi/cmSuxdz-TjE/maxresdefault.jpg",
+        "url": "https://youtu.be/cmSuxdz-TjE",
+        "thumb": "thumbs/나노바나나/cmSuxdz-TjE.jpg"
+      },
+      "kws": [
+        "나노바나나"
+      ]
+    }
+  ],
+  "flow_category": [
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "ZIn53VIic14",
+        "title": "AI 동물 인터뷰 쇼츠 만들기 7분만에 끝! (제미나이, FLOW)",
+        "channel": "김이솝의 AI 가이드",
+        "channel_id": "UCjf8cxzqPlayWaJpmtvNC-A",
+        "views": 315780,
+        "duration": 476,
+        "format": "long",
+        "upload_date": "20260205",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/ZIn53VIic14/maxresdefault.webp",
+        "url": "https://youtu.be/ZIn53VIic14",
+        "thumb": "thumbs/제미나이/ZIn53VIic14.jpg"
+      },
+      "kws": [
+        "제미나이"
+      ]
+    },
+    {
+      "score": 2,
+      "reasons": {
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "1VN7D9HJ1dM",
+        "title": "구글 AI 제미나이와 플로우로 끝내는 AI 영상제작   #제미나이 #flow  #veo3  #나노바나나",
+        "channel": "테라아이",
+        "channel_id": "UCr7wynB9MPehAC3I3BnEtWQ",
+        "views": 285578,
+        "duration": 1129,
+        "format": "long",
+        "upload_date": "20251129",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/1VN7D9HJ1dM/maxresdefault.webp",
+        "url": "https://youtu.be/1VN7D9HJ1dM",
+        "thumb": "thumbs/영상-ai/1VN7D9HJ1dM.jpg"
+      },
+      "kws": [
+        "영상-ai",
+        "제미나이"
+      ]
+    },
+    {
+      "score": 2,
+      "reasons": {
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "2t2-RHnzdis",
+        "title": "진짜 AI 전문가가 알려주는, \"AI 영상 제작\" 완벽 가이드 | Sora2 + Veo3 | SoyLab 최돈현 대표",
+        "channel": "오빠두엑셀 l 엑셀 강의 대표채널",
+        "channel_id": "UCZ6UHYBQFBe14WUgxlgmYfg",
+        "views": 235906,
+        "duration": 1957,
+        "format": "long",
+        "upload_date": "20251112",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/2t2-RHnzdis/maxresdefault.webp",
+        "url": "https://youtu.be/2t2-RHnzdis",
+        "thumb": "thumbs/영상-ai/2t2-RHnzdis.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 6,
+      "reasons": {
+        "tutorial": 4,
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "qrPtpr0ihhI",
+        "title": "소라2 vs Veo3.1 완벽 비교 : 영상 AI 최강자는? (프롬프트 제공)",
+        "channel": "브랜드 도적단 / 반토막AI",
+        "channel_id": "UCcCC48lEdpXPzj5auhnMFxg",
+        "views": 170055,
+        "duration": 960,
+        "format": "long",
+        "upload_date": "20251021",
+        "thumbnail_url": "https://i.ytimg.com/vi/qrPtpr0ihhI/maxresdefault.jpg",
+        "url": "https://youtu.be/qrPtpr0ihhI",
+        "thumb": "thumbs/영상-ai/qrPtpr0ihhI.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 2,
+      "reasons": {
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "QV8omcNi2Zc",
+        "title": "상위 1% 고수들이 나노바나나로 상세페이지 이미지 만드는 법 (워크플로우 공개)",
+        "channel": "브랜드 도적단 / 반토막AI",
+        "channel_id": "UCcCC48lEdpXPzj5auhnMFxg",
+        "views": 150118,
+        "duration": 579,
+        "format": "long",
+        "upload_date": "20251202",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/QV8omcNi2Zc/maxresdefault.webp",
+        "url": "https://youtu.be/QV8omcNi2Zc",
+        "thumb": "thumbs/이미지-ai/QV8omcNi2Zc.jpg"
+      },
+      "kws": [
+        "이미지-ai"
+      ]
+    },
+    {
+      "score": 0,
+      "reasons": {
+        "dev_channel": -3,
+        "friendly": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "6Z6Le3Xwqdg",
+        "title": "찐 개발자의 바이브 코딩은 다릅니다 - 클로드코드 바이브코딩 실전 워크플로우 모두 공개",
+        "channel": "김플립 - LLM 코딩",
+        "channel_id": "UCN9T0v5XMOhMgYunUAtVvwQ",
+        "views": 147007,
+        "duration": 707,
+        "format": "long",
+        "upload_date": "20260226",
+        "thumbnail_url": "https://i.ytimg.com/vi/6Z6Le3Xwqdg/maxresdefault.jpg",
+        "url": "https://youtu.be/6Z6Le3Xwqdg",
+        "thumb": "thumbs/클로드-ai/6Z6Le3Xwqdg.jpg"
+      },
+      "kws": [
+        "클로드-ai"
+      ]
+    },
+    {
+      "score": 4,
+      "reasons": {
+        "free_kr": 1,
+        "usecase": 1,
+        "good_length": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "U1h5cSjI3b0",
+        "title": "Google Vids, Veo3.1 무료 공개 | 이제 누구나 AI 영상 만든다",
+        "channel": "Play with AI Lab",
+        "channel_id": "UC6dFCzh2NAcjkc9UklgUDTQ",
+        "views": 112106,
+        "duration": 586,
+        "format": "long",
+        "upload_date": "20260404",
+        "thumbnail_url": "https://i.ytimg.com/vi/U1h5cSjI3b0/maxresdefault.jpg",
+        "url": "https://youtu.be/U1h5cSjI3b0",
+        "thumb": "thumbs/영상-ai/U1h5cSjI3b0.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 5,
+      "reasons": {
+        "tutorial": 2,
+        "free_kr": 1,
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "gK5pOtHOaMQ",
+        "title": "AI 영상 만드려면, 무조건 이것부터 써보세요! | 구글이 고퀄리티의 영상 AI를 무료로 풀었습니다. (VEO 3.1 사용법 전부 공개!)",
+        "channel": "긍정필터",
+        "channel_id": "UCOwTVgbotezbpQ8POZ_-pMg",
+        "views": 96625,
+        "duration": 1223,
+        "format": "long",
+        "upload_date": "20260423",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/gK5pOtHOaMQ/maxresdefault.webp",
+        "url": "https://youtu.be/gK5pOtHOaMQ",
+        "thumb": "thumbs/영상-ai/gK5pOtHOaMQ.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    },
+    {
+      "score": 2,
+      "reasons": {
+        "usecase": 1,
+        "korean": 1
+      },
+      "video": {
+        "id": "XxoSS2a2-R0",
+        "title": "구글 플로우(Flow)로 끝내는 AI 영상 제작! 프롬프트 전부 공개 #ai영상 #플로우 #제미나이 #flow #나노바나나 #veo",
+        "channel": "테라아이",
+        "channel_id": "UCr7wynB9MPehAC3I3BnEtWQ",
+        "views": 84369,
+        "duration": 997,
+        "format": "long",
+        "upload_date": "20260313",
+        "thumbnail_url": "https://i.ytimg.com/vi_webp/XxoSS2a2-R0/maxresdefault.webp",
+        "url": "https://youtu.be/XxoSS2a2-R0",
+        "thumb": "thumbs/영상-ai/XxoSS2a2-R0.jpg"
+      },
+      "kws": [
+        "영상-ai"
+      ]
+    }
+  ]
+}
