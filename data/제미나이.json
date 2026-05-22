@@ -11,7 +11,7 @@
     "제미나이 PRO",
     "제미나이 영상 만들기"
   ],
-  "updated": "2026-05-18 23:21",
+  "updated": "2026-05-22",
   "count": 30,
   "videos": [
     {
@@ -154,34 +154,6 @@
         ]
       },
       "sub": "subs/제미나이/b8Snx4pgy3M.ko.srt"
-    },
-    {
-      "id": "moOmjnDZyC0",
-      "title": "[In The Live] [4K] GEMINI (제미나이) - Hola｜인더라이브, Stone LIVE",
-      "channel": "Stone Music Entertainment",
-      "channel_id": "UC_pwIXKXNm5KGhdEVzmY60A",
-      "views": 603766,
-      "duration": 225,
-      "format": "long",
-      "upload_date": "20221115",
-      "thumbnail_url": "https://i.ytimg.com/vi_webp/moOmjnDZyC0/maxresdefault.webp",
-      "url": "https://youtu.be/moOmjnDZyC0",
-      "thumb": "thumbs/제미나이/moOmjnDZyC0.jpg",
-      "analysis": {
-        "copy_pattern": "정보",
-        "person_position": "중앙",
-        "main_visual": "인물",
-        "background_tone": "어두움",
-        "colors": [
-          "#1A4030",
-          "#FFFFFF",
-          "#00C896"
-        ],
-        "main_copy": "In The Live - GEMINI (가수)",
-        "hook_words": [
-          "In The Live"
-        ]
-      }
     },
     {
       "id": "3x2pM-PhzaY",
