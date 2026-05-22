@@ -156,11 +156,19 @@
   }
 
   // ── GitHub API ─────────────────────────────────────────────
+  // TextEncoder/Decoder 사용 — escape/unescape 방식은 일부 UTF-8 시퀀스에서
+  // "URI malformed" 던짐 (특히 GitHub API가 줄바꿈 \r 섞어 반환할 때)
   function b64encode(s) {
-    return btoa(unescape(encodeURIComponent(s)));
+    const bytes = new TextEncoder().encode(s);
+    let bin = "";
+    for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+    return btoa(bin);
   }
   function b64decode(s) {
-    return decodeURIComponent(escape(atob(s.replace(/\n/g, ""))));
+    const bin = atob(s.replace(/\s/g, ""));
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return new TextDecoder("utf-8").decode(bytes);
   }
 
   async function ghGet(path) {
