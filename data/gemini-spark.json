@@ -4,7 +4,7 @@
   "queries": [
     "Gemini Spark"
   ],
-  "updated": "2026-05-23 01:15",
+  "updated": "2026-05-22",
   "count": 20,
   "videos": [
     {
@@ -253,19 +253,6 @@
       "thumbnail_url": "https://i.ytimg.com/vi/2jD6-iyvYlk/maxresdefault.jpg",
       "url": "https://youtu.be/2jD6-iyvYlk",
       "thumb": "thumbs/gemini-spark/2jD6-iyvYlk.jpg"
-    },
-    {
-      "id": "lapKuDtD7Q8",
-      "title": "Gemini Spark AI 🔥 Google’s Next Big AI Breakthrough!",
-      "channel": "IT Voice ",
-      "channel_id": "UCADk_KDicmV8vAfOZTSBAPg",
-      "views": 171,
-      "duration": 60,
-      "format": "shorts",
-      "upload_date": "20260522",
-      "thumbnail_url": "https://i.ytimg.com/vi/lapKuDtD7Q8/sd2.jpg?sqp=-oaymwEoCIAFEOAD8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYaCBoKGgwDw==&rs=AOn4CLDCNENAM7UWV97Qrckk2-SPxqI96g",
-      "url": "https://youtu.be/lapKuDtD7Q8",
-      "thumb": "thumbs/gemini-spark/lapKuDtD7Q8.jpg"
     }
   ]
 }
