@@ -4,7 +4,7 @@
   "queries": [
     "나노바나나"
   ],
-  "updated": "2026-05-19 23:45",
+  "updated": "2026-05-22",
   "count": 18,
   "videos": [
     {
@@ -123,36 +123,6 @@
           "디자이너 다 잘릴듯",
           "출시",
           "ㄷㄷ"
-        ]
-      }
-    },
-    {
-      "id": "wcl41hexeYU",
-      "title": "구글 제미나이 3.0 나노바나나 대박 기능 13가지 모두 공개합니다 (프롬프트 제공)",
-      "channel": "온선 [온라인 선생님] ",
-      "channel_id": "UC2tHUrXN5fVpooOQ0-SYDfw",
-      "views": 190154,
-      "duration": 1430,
-      "format": "long",
-      "upload_date": "20251128",
-      "thumbnail_url": "https://i.ytimg.com/vi/wcl41hexeYU/maxresdefault.jpg",
-      "url": "https://youtu.be/wcl41hexeYU",
-      "thumb": "thumbs/나노바나나/wcl41hexeYU.jpg",
-      "analysis": {
-        "copy_pattern": "결과",
-        "person_position": "우",
-        "main_visual": "혼합",
-        "background_tone": "밝음",
-        "colors": [
-          "#FFFFFF",
-          "#F4D03F",
-          "#FF3D3D"
-        ],
-        "main_copy": "제미나이 3.0 / 괴물 같은 13가지 기능!",
-        "hook_words": [
-          "괴물",
-          "13가지",
-          "기능"
         ]
       }
     },
