@@ -15,11 +15,25 @@
       "category": "ai"
     },
     {
+      "slug": "메타-ai",
+      "keyword": "메타 AI",
+      "category": "ai",
+      "count": 30,
+      "updated": "2026-05-27 15:12"
+    },
+    {
       "slug": "메타-ai-무료",
       "keyword": "메타 AI 무료",
       "count": 20,
       "updated": "2026-05-19 22:49",
       "category": "ai"
+    },
+    {
+      "slug": "무료-이미지-ai",
+      "keyword": "무료 이미지 AI",
+      "category": "ai",
+      "count": 30,
+      "updated": "2026-05-27 15:09"
     },
     {
       "slug": "영상-ai",
@@ -55,6 +69,13 @@
       "count": 30,
       "updated": "2026-05-18 23:19",
       "category": "ai"
+    },
+    {
+      "slug": "클로드-오퍼스-48",
+      "keyword": "클로드 오퍼스 4.8",
+      "category": "ai",
+      "count": 6,
+      "updated": "2026-05-31 00:11"
     },
     {
       "slug": "공감대화법",
@@ -104,20 +125,6 @@
       "count": 29,
       "updated": "2026-05-19 15:36",
       "category": "books"
-    },
-    {
-      "slug": "메타-ai",
-      "keyword": "메타 AI",
-      "category": "ai",
-      "count": 30,
-      "updated": "2026-05-27 15:12"
-    },
-    {
-      "slug": "무료-이미지-ai",
-      "keyword": "무료 이미지 AI",
-      "category": "ai",
-      "count": 30,
-      "updated": "2026-05-27 15:09"
     },
     {
       "slug": "ai-글래스-한국",
