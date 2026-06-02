@@ -36,6 +36,13 @@
       "updated": "2026-05-27 15:09"
     },
     {
+      "slug": "바이브코딩-홈페이지",
+      "keyword": "바이브코딩 홈페이지",
+      "category": "ai",
+      "count": 23,
+      "updated": "2026-06-03 00:14"
+    },
+    {
       "slug": "영상-ai",
       "keyword": "영상 AI",
       "count": 20,
@@ -76,6 +83,20 @@
       "category": "ai",
       "count": 6,
       "updated": "2026-05-31 00:11"
+    },
+    {
+      "slug": "클로드-코드-1인-자동화",
+      "keyword": "클로드 코드 1인 자동화",
+      "category": "ai",
+      "count": 25,
+      "updated": "2026-06-03 00:15"
+    },
+    {
+      "slug": "클로드-코드-사용법",
+      "keyword": "클로드 코드 사용법",
+      "category": "ai",
+      "count": 17,
+      "updated": "2026-06-03 00:13"
     },
     {
       "slug": "공감대화법",
@@ -174,6 +195,13 @@
       "category": "google-io",
       "count": 25,
       "updated": "2026-05-23 01:14"
+    },
+    {
+      "slug": "구글-옴니-영상변형",
+      "keyword": "구글 옴니 영상 변형",
+      "category": "google-io",
+      "count": 12,
+      "updated": "2026-05-31 23:45"
     },
     {
       "slug": "구글-플로우",
@@ -307,13 +335,6 @@
       "category": "shorts",
       "count": 0,
       "updated": "2026-05-20 09:10"
-    },
-    {
-      "slug": "구글-옴니-영상변형",
-      "keyword": "구글 옴니 영상 변형",
-      "category": "google-io",
-      "count": 12,
-      "updated": "2026-05-31 23:45"
     }
   ]
 }
