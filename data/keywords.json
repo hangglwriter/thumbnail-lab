@@ -3,7 +3,7 @@
     {
       "slug": "meta-ai-vibes",
       "keyword": "Meta AI Vibes",
-      "category": "ai",
+      "category": "ai-model",
       "count": 21,
       "updated": "2026-06-13 23:57"
     },
@@ -12,19 +12,19 @@
       "keyword": "Meta AI 한국",
       "count": 20,
       "updated": "2026-05-19 22:48",
-      "category": "ai"
+      "category": "ai-model"
     },
     {
       "slug": "openai-codex",
       "keyword": "OpenAI Codex",
-      "category": "ai",
+      "category": "vibecoding",
       "count": 30,
       "updated": "2026-06-06 09:43"
     },
     {
       "slug": "구글-ai-스튜디오-앱",
       "keyword": "구글 AI 스튜디오 앱",
-      "category": "ai",
+      "category": "ai-model",
       "count": 30,
       "updated": "2026-06-09 15:44"
     },
@@ -33,12 +33,12 @@
       "keyword": "나노바나나",
       "count": 18,
       "updated": "2026-05-19 23:45",
-      "category": "ai"
+      "category": "ai-image"
     },
     {
       "slug": "메타-ai",
       "keyword": "메타 AI",
-      "category": "ai",
+      "category": "ai-model",
       "count": 30,
       "updated": "2026-05-27 15:12"
     },
@@ -47,26 +47,26 @@
       "keyword": "메타 AI 무료",
       "count": 20,
       "updated": "2026-05-19 22:49",
-      "category": "ai"
+      "category": "ai-model"
     },
     {
       "slug": "무료-ai-영상-툴",
       "keyword": "무료 AI 영상 툴",
-      "category": "ai",
+      "category": "ai-video",
       "count": 30,
       "updated": "2026-06-13 23:56"
     },
     {
       "slug": "무료-이미지-ai",
       "keyword": "무료 이미지 AI",
-      "category": "ai",
+      "category": "ai-image",
       "count": 30,
       "updated": "2026-05-27 15:09"
     },
     {
       "slug": "바이브코딩-홈페이지",
       "keyword": "바이브코딩 홈페이지",
-      "category": "ai",
+      "category": "vibecoding",
       "count": 23,
       "updated": "2026-06-03 00:14"
     },
@@ -75,54 +75,54 @@
       "keyword": "영상 AI",
       "count": 20,
       "updated": "2026-05-19 23:22",
-      "category": "ai"
+      "category": "ai-video"
     },
     {
       "slug": "이미지-ai",
       "keyword": "이미지 AI",
       "count": 6,
       "updated": "2026-05-19 23:22",
-      "category": "ai"
+      "category": "ai-image"
     },
     {
       "slug": "제미나이",
       "keyword": "제미나이",
       "count": 30,
       "updated": "2026-05-18 23:21",
-      "category": "ai"
+      "category": "ai-model"
     },
     {
       "slug": "캔바-ai",
       "keyword": "캔바 AI",
       "count": 4,
       "updated": "2026-05-18 23:18",
-      "category": "ai"
+      "category": "ai-image"
     },
     {
       "slug": "클로드-ai",
       "keyword": "클로드 AI",
       "count": 30,
       "updated": "2026-05-18 23:19",
-      "category": "ai"
+      "category": "ai-model"
     },
     {
       "slug": "클로드-오퍼스-48",
       "keyword": "클로드 오퍼스 4.8",
-      "category": "ai",
+      "category": "ai-model",
       "count": 6,
       "updated": "2026-05-31 00:11"
     },
     {
       "slug": "클로드-코드-1인-자동화",
       "keyword": "클로드 코드 1인 자동화",
-      "category": "ai",
+      "category": "vibecoding",
       "count": 25,
       "updated": "2026-06-03 00:15"
     },
     {
       "slug": "클로드-코드-사용법",
       "keyword": "클로드 코드 사용법",
-      "category": "ai",
+      "category": "vibecoding",
       "count": 17,
       "updated": "2026-06-03 00:13"
     },
@@ -178,91 +178,91 @@
     {
       "slug": "pippit-ai",
       "keyword": "Pippit AI",
-      "category": "general",
+      "category": "ai-video",
       "count": 31,
       "updated": "2026-06-18 11:55"
     },
     {
       "slug": "seedance-20",
       "keyword": "Seedance 2.0",
-      "category": "general",
+      "category": "ai-video",
       "count": 31,
       "updated": "2026-06-18 11:56"
     },
     {
       "slug": "ai-글래스-한국",
       "keyword": "AI 글래스 한국",
-      "category": "google-io",
+      "category": "ai-model",
       "count": 15,
       "updated": "2026-05-23 01:12"
     },
     {
       "slug": "gemini-35-flash",
       "keyword": "Gemini 3.5 Flash",
-      "category": "google-io",
+      "category": "ai-model",
       "count": 30,
       "updated": "2026-05-23 01:16"
     },
     {
       "slug": "gemini-omni",
       "keyword": "Gemini Omni",
-      "category": "google-io",
+      "category": "ai-video",
       "count": 30,
       "updated": "2026-05-23 01:15"
     },
     {
       "slug": "gemini-spark",
       "keyword": "Gemini Spark",
-      "category": "google-io",
+      "category": "ai-video",
       "count": 20,
       "updated": "2026-05-23 01:15"
     },
     {
       "slug": "google-io-2026",
       "keyword": "Google I/O 2026",
-      "category": "google-io",
+      "category": "ai-model",
       "count": 30,
       "updated": "2026-05-23 01:13"
     },
     {
       "slug": "구글-io-2026",
       "keyword": "구글 IO 2026",
-      "category": "google-io",
+      "category": "ai-model",
       "count": 30,
       "updated": "2026-05-23 01:14"
     },
     {
       "slug": "구글-io-2026-한국",
       "keyword": "구글 IO 2026 한국",
-      "category": "google-io",
+      "category": "ai-model",
       "count": 25,
       "updated": "2026-05-23 01:14"
     },
     {
       "slug": "구글-옴니-영상변형",
       "keyword": "구글 옴니 영상 변형",
-      "category": "google-io",
+      "category": "ai-video",
       "count": 12,
       "updated": "2026-05-31 23:45"
     },
     {
       "slug": "구글-플로우",
       "keyword": "구글 플로우",
-      "category": "google-io",
+      "category": "ai-video",
       "count": 20,
       "updated": "2026-05-23 01:12"
     },
     {
       "slug": "제미나이-35-플래시",
       "keyword": "제미나이 3.5 플래시",
-      "category": "google-io",
+      "category": "ai-model",
       "count": 20,
       "updated": "2026-05-23 01:11"
     },
     {
       "slug": "제미나이-옴니",
       "keyword": "제미나이 옴니",
-      "category": "google-io",
+      "category": "ai-video",
       "count": 20,
       "updated": "2026-05-23 01:11"
     },
