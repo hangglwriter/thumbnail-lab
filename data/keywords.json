@@ -176,6 +176,20 @@
       "category": "books"
     },
     {
+      "slug": "pippit-ai",
+      "keyword": "Pippit AI",
+      "category": "general",
+      "count": 31,
+      "updated": "2026-06-18 11:55"
+    },
+    {
+      "slug": "seedance-20",
+      "keyword": "Seedance 2.0",
+      "category": "general",
+      "count": 31,
+      "updated": "2026-06-18 11:56"
+    },
+    {
       "slug": "ai-글래스-한국",
       "keyword": "AI 글래스 한국",
       "category": "google-io",
