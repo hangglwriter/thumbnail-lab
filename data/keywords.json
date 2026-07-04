@@ -358,6 +358,34 @@
       "updated": "2026-05-20 09:10"
     },
     {
+      "slug": "단편소설-낭독",
+      "keyword": "단편소설 낭독",
+      "category": "story",
+      "count": 14,
+      "updated": "2026-07-04 23:36"
+    },
+    {
+      "slug": "명작-오디오북",
+      "keyword": "명작 오디오북",
+      "category": "story",
+      "count": 25,
+      "updated": "2026-07-04 23:36"
+    },
+    {
+      "slug": "잠들기전-이야기",
+      "keyword": "잠들기전 이야기",
+      "category": "story",
+      "count": 13,
+      "updated": "2026-07-04 23:36"
+    },
+    {
+      "slug": "톨스토이-낭독",
+      "keyword": "톨스토이 낭독",
+      "category": "story",
+      "count": 19,
+      "updated": "2026-07-04 23:35"
+    },
+    {
       "slug": "openai-codex",
       "keyword": "OpenAI Codex",
       "category": "vibecoding",

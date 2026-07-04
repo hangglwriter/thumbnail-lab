@@ -100,8 +100,9 @@ const CATEGORY_LABELS = {
   'ai-model':  { label: '🤖 AI 모델·도구',color: 'text-emerald-300', btn: 'border-emerald-700/50 text-emerald-200' },
   'books':     { label: '📚 책·자기계발', color: 'text-amber-300',   btn: 'border-amber-700/50 text-amber-200' },
   'shorts':    { label: '🎞 쇼츠 벤치마킹',color: 'text-pink-300',    btn: 'border-pink-700/50 text-pink-200' },
+  'story':     { label: '📖 스토리·낭독', color: 'text-indigo-300',  btn: 'border-indigo-700/50 text-indigo-200' },
 };
-const CATEGORY_ORDER = ['ai-video', 'ai-image', 'vibecoding', 'ai-model', 'books', 'shorts'];
+const CATEGORY_ORDER = ['ai-video', 'ai-image', 'vibecoding', 'ai-model', 'books', 'shorts', 'story'];
 
 function fmtNum(n) {
   if (n >= 10000) return (n / 10000).toFixed(1).replace(/\.0$/, '') + '만';
