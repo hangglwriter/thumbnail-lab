@@ -2,6 +2,7 @@
 * [🏆 롤모델 - 야나두](/yanadoo)
 * [📐 확정 원칙 10](/principles)
 * [🎬 쇼츠 기획 5편](/shorts)
+* [🎥 책 소개 영상](/video)
 * [🎞 첫 3초 스트립](/frames)
 * [🖼 사례 갤러리](/cases)
 * [📅 발행 역산](/timeline)
