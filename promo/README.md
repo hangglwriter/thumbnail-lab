@@ -1,6 +1,16 @@
 # 『하루 10분, AI 동영상 제작하기』 홍보 쇼츠 기획
 
-> 리얼북스 · 초판 발행 2026-08-01 · 저자 최창희(행글라이터)
+<div style="display:flex;gap:22px;align-items:flex-start;flex-wrap:wrap;margin:22px 0 30px">
+<img src="/promo/img/cover.png" alt="하루 10분, AI 동영상 제작하기 표지" style="width:190px;border-radius:6px;box-shadow:0 6px 22px rgba(0,0,0,.22);flex:none">
+<div style="flex:1;min-width:260px;font-size:14px;line-height:1.8;color:#444">
+<b style="font-size:16px;color:#222">하루 10분, AI 동영상 제작하기</b><br>
+최창희(스토리위너코치) · 리얼북스<br>
+초판 발행 <b>2026-08-01</b> · 296쪽 · 22,000원<br>
+ISBN 979-11-94116-24-0<br><br>
+<span style="color:#888;font-size:13px">챕터3·4에 완성 프로젝트 <b>20개</b> 수록 - 고흐풍/키보드ASMR/동물셰프/캐릭터춤/치킨광고/공룡영화/기상캐스터/옛사진/반전인터뷰/감성드라마/고릴라브이로그/웹드라마/디퓨저/습관영상/클렌징/아바타교육/Kpop챌린지/동물애니/이머시브운동/AI아바타홍보</span>
+</div>
+</div>
+
 > 리서치 에이전트 5개 / 검증 사례 90건+ / yt-dlp 실측 + 첫 3초 프레임 추출 (2026-07-25)
 
 ---
