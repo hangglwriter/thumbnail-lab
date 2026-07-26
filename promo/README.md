@@ -28,6 +28,24 @@
 | 결과물 자랑 | 자청 「이런 AI 영상 30초면 만드는데?」 | 405,207회 / 0.9배 |
 | 말 안 하고 흔적만 | 인생2회차 (폰 화면에 Veo 워터마크만 보임) | 3,358,582회 / 3.2배 |
 
+<div class="case-grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr));max-width:720px">
+<div class="case-card">
+<a class="shot" href="https://www.youtube.com/shorts/dhpuSfUuHzw" target="_blank" rel="noopener">
+<img src="/thumbs/책홍보-저자쇼츠/dhpuSfUuHzw.jpg" alt="">
+<span class="rank warn">🔴 참패</span><span class="views">2,328회</span></a>
+<div class="body"><div class="ch">일잘러 장피엠 · 구독 13.4만</div>
+<div class="ti">이 광고 영상은 제가 실제로 촬영한 영상이 아닙니다.</div>
+<div class="hook">AI 제작을 <b>제작자 사정</b>으로 걸었다. 설명란도 제작 툴 나열 → VOD 할인.</div></div></div>
+
+<div class="case-card">
+<a class="shot" href="https://www.youtube.com/shorts/D5NTLEdRoao" target="_blank" rel="noopener">
+<img src="/thumbs/책홍보-저자쇼츠/D5NTLEdRoao.jpg" alt="">
+<span class="rank good">✅ 생존</span><span class="views">40만회</span></a>
+<div class="body"><div class="ch">라이프해커, 자청 · 구독 44.4만</div>
+<div class="ti">이런 AI 영상 30초면 만드는데? #veo3</div>
+<div class="hook">같은 AI 제작을 <b>시청자 이득</b>으로 번역했다. "너도 할 수 있다".</div></div></div>
+</div>
+
 **갈린 지점은 하나다.** "AI로 만들었다"가 시청자 이득인지, 제작자 사정인지.
 "30초면 만든다"(= 너도 할 수 있다)는 살고, "제가 촬영한 게 아닙니다"(= 내 제작 사정)는 죽었다.
 
@@ -82,6 +100,7 @@
 | [🏆 롤모델 - 야나두](/yanadoo) | 우리와 구조가 같은 한국 최고 검증 사례 해부 |
 | [📐 확정 원칙 10](/principles) | 5개 리서치가 교차 검증한 것만 |
 | [🎬 쇼츠 기획 5편](/shorts) | 첫 3초 스크립트까지 |
+| [🎞 첫 3초 스트립](/frames) | **43편의 0.1/1.0/2.0/3.0초 프레임** - 훅이 실제로 어떻게 생겼는지 |
 | [🖼 사례 갤러리](/cases) | 검증 영상 39편 썸네일 한눈에 |
 | [📅 발행 역산](/timeline) | 8/1 기준 D-day 역산 |
 | [⚖️ 정책 제약](/policy) | 유튜브 2026 정책 + 도서정가제 |

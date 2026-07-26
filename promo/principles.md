@@ -10,6 +10,13 @@
 로고·인트로·"안녕하세요"로 시작한 쇼츠는 표본에 **하나도 없다.**
 자막이 0.3초 뒤에 등장하는 케이스조차 없었다.
 
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/kcX5xQATdGI" target="_blank" rel="noopener"><img src="/promo/frames/kcX5xQATdGI.jpg" alt="언더스탠딩 첫 3초"></a>
+  <div class="ticks"><span>0.15초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">언더스탠딩</span> AI가 이걸 다 알아듣는다고? · <span class="vw">1,402만회</span> · 배율 10.2배 · <a href="https://www.youtube.com/shorts/kcX5xQATdGI" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">정보성 쇼츠 최상단 사례. 0초부터 상단 버건디 배너 <b>AI가 이걸 다 / 알아듣는다고?</b>와 폰 옆 라벨 <b>(챗GPT)</b>가 이미 떠 있다. 그리고 첫 대사가 설명이 아니라 <b>실제 프롬프트를 소리내어 읽는 것</b>이다 - "지금부터 네가 내 중학교 1학년 영어 선생님이 되어줬으면 좋겠는데…"</div>
+</div>
+
 ---
 
 ## 2. 첫 대사는 0.5초 이내
@@ -59,6 +66,20 @@
 - 각지고 굵은 고딕, 자주 이탤릭, 두꺼운 검은 외곽선
 - 화면 세로 높이의 약 **12~18%**
 
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/ADQ8JQs_E_Y" target="_blank" rel="noopener"><img src="/promo/frames/ADQ8JQs_E_Y.png" alt="셜록현준 첫 3초"></a>
+  <div class="ticks"><span>0.15초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">셜록현준</span> 온도보다 습도가 진짜 중요한 이유 (나비엔 협찬) · <span class="vw">310만회</span> · <a href="https://www.youtube.com/shorts/ADQ8JQs_E_Y" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">2줄·2색 배너의 표준형: 흰 <b>백날 온도조절해도 무소용?</b> / 주황 <b>중요한 건 습도다</b>. <b>협찬인데 첫 3초에 제품이 한 프레임도 안 나온다.</b> 전부 인포그래픽 숫자(27°C, 80%)다. 광고를 '물리 상식'으로 재구성한 케이스.</div>
+</div>
+
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/6hNp1QjOsgQ" target="_blank" rel="noopener"><img src="/promo/frames/6hNp1QjOsgQ.png" alt="드로우앤드류 첫 3초"></a>
+  <div class="ticks"><span>0.15초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">드로우앤드류</span> 만만해 보이지 않는 대화법 · <span class="vw">905만회</span> · 배율 12.8배 · <a href="https://www.youtube.com/shorts/6hNp1QjOsgQ" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">위 절반은 롱폼 대담을 세로 크롭, <b>아래 절반에 실제 유튜브 댓글 스크린샷</b>을 붙였다. 사회적 증거를 화면 안에 심어 "이거 나도 겪었다"를 3초 안에 만든다. 롱폼 재활용 + 댓글 삽입이라 <b>제작비가 거의 0</b>이다.</div>
+</div>
+
 ---
 
 ## 5. 첫 문장은 정보가 아니라 고통
@@ -73,6 +94,13 @@
 | 240만 (2024) | "회사에서 이렇게 A4용지에 작성된 데이터를 (…)" |
 | 150만 (2024) | "회사에서 이렇게 사진으로 된 자료를 (…) **어려우셨죠**" |
 
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/A-piTa8csBE" target="_blank" rel="noopener"><img src="/promo/frames/A-piTa8csBE.png" alt="오빠두엑셀 첫 3초"></a>
+  <div class="ticks"><span>0.15초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">오빠두엑셀</span> 엑셀 한 줄로 된 데이터, 여러 줄로 바꾸는 방법 · <span class="vw">984만회</span> · <a href="https://www.youtube.com/shorts/A-piTa8csBE" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">상단 배너가 <b>없는</b> 2021년작. 대신 자막이 <b>회사에서 업무를 보다가</b> → <b>가끔씩 이런 데이터 받았을 때, 참 난감하셨죠?</b>로 흘러간다. 기능 이름은 3초 뒤에야 나온다. 화면은 엑셀 + 카톡 실물.</div>
+</div>
+
 > ### 공식 = `회사에서` + [구체적 상황 재현] + `~하셨죠?`
 
 기능 이름을 먼저 말하지 않는다. **고통을 먼저 재현하고 공감 확인 질문으로 고개를 끄덕이게 한 뒤** 해법으로 넘어간다.
@@ -83,9 +111,17 @@
 |---|---|---|
 | **의심 반문형** | "AI가 이걸 다 알아듣는다고?" | **10.2배** |
 | **1인칭 실패 고백** (2026 최신) | "제미나이가 더 좋다고 해서 갈아탔는데 얘는 한 술 더 떠서" | **20배** |
+
 | 공감 확인형 존댓말 | `~셨죠?` `~시죠?` | 오빠두 전 영상 |
 | 숫자·권위 선치기 | "1년에 20억씩 버는 사람이", "99%가 모르는", "직장인 1%만이" | 자청·1분미만 |
 | 반말 자문형 | "~잖아" "~같지?" | 조코딩·드로우앤드류 |
+
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/2VOZYwfoLL8" target="_blank" rel="noopener"><img src="/promo/frames/2VOZYwfoLL8.jpg" alt="꿀팁노트 첫 3초"></a>
+  <div class="ticks"><span>0.15초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">꿀팁노트</span> 답답한 Ai를 고쳐주는 '비장의 치트키' · <span class="vw">78.9만회</span> · 구독 3.95만 → <span class="vw">배율 20배</span> · <a href="https://www.youtube.com/shorts/2VOZYwfoLL8" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read"><b>2026년 한국 정보성 쇼츠의 새 문법.</b> 화면 전체가 뉴스 기사 페이지로 위장돼 있다 - 노란 띠 로고 + 기사 제목 + <b>○○｜17:35｜조회 187,355</b> 메타정보 줄까지. 영상이 아니라 <b>읽을거리처럼 보여서</b> 스크롤이 멈춘다. 첫 대사는 1인칭 실패담이다.</div>
+</div>
 
 ---
 

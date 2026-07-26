@@ -1,4 +1,5 @@
 * [기획안](#/)
+* [🎞 첫 3초 스트립](#/frames)
 * [🖼 사례 갤러리](#/cases)
 * [🎬 썸네일 랩](/)
 * [📋 기획실](https://youtube-reports.vercel.app)

@@ -26,6 +26,13 @@
 **기억복원소 「Ai 복원의 끝, 유관순 열사가 뛰어나오다」 5,455,849회**
 `좋아요 74,747` · `25초` · `2025-04-13`
 
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/8TcbiWHfXwk" target="_blank" rel="noopener"><img src="/promo/frames/8TcbiWHfXwk.jpg" alt="기억복원소 유관순 첫 3초"></a>
+  <div class="ticks"><span>0.1초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">기억복원소</span> [500만뷰] Ai 복원의 끝, 유관순 열사가 뛰어나오다 · <span class="vw">546만회</span> · <a href="https://www.youtube.com/shorts/8TcbiWHfXwk" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read"><b>기획 A가 그대로 베낄 구조.</b> 0.1초에 이미 복원이 진행 중이고, 3초 안에 인물이 웃으며 앞으로 나온다. 설명 자막이 <b>유관순 열사 / AI 복원의 끝</b> 두 줄뿐이다. 우리가 아는 이미지가 딱 하나(부은 얼굴의 수형사진)뿐인 인물이라 <b>첫 프레임에서 이미 감정이 발생</b>한다.</div>
+</div>
+
 첫 3초: 흑백 수형기록 사진이 컬러 실사 동영상으로 살아나 유관순 열사가 활짝 웃으며 팔을 벌리고 앞으로 나온다. 자막 `유관순 열사 / AI 복원의 끝`
 
 **왜 먹혔나**: 우리가 아는 이미지가 딱 하나(부은 얼굴의 수형사진)뿐인 인물이 웃으며 움직인다.
@@ -179,6 +186,20 @@
 **자청**은 책 파는 쇼츠 2건(200만·153만회)에서 **파는 사람이 질문자 자리로 내려갔다.**
 교수를 인터뷰하는 형식이고, **자기 책 얘기는 0회**다.
 첫 대사가 `아, 혹시 교수님이신가요? 서울대…` / `혹시 잠깐 인터뷰 가능할까요?`다.
+
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/ypwppVcRgM0" target="_blank" rel="noopener"><img src="/promo/frames/ypwppVcRgM0.png" alt="자청 인생책 3권 첫 3초"></a>
+  <div class="ticks"><span>0.15초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">라이프해커, 자청</span> 인생을 바꾸다 못해 뒤집어버리는 책 3권 (김익한 교수) · <span class="vw">200만회</span> · <a href="https://www.youtube.com/shorts/ypwppVcRgM0" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">상단 흰 <b>4000권 읽은</b> / 노랑 <b>서울대 출신 교수 인생책</b>. 서가에서 교수에게 마이크를 들이대는 <b>길거리 인터뷰 포맷</b>이다. 책을 파는 사람이 <b>질문자 자리로 내려가</b> 정보의 출처를 제3자에게 넘겼다. 자기 책 얘기는 0회.</div>
+</div>
+
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/c9BqWdeKe9c" target="_blank" rel="noopener"><img src="/promo/frames/c9BqWdeKe9c.png" alt="자청 서울대 교수 인생책 첫 3초"></a>
+  <div class="ticks"><span>0.15초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">라이프해커, 자청</span> 서울대 교수가 30년간 간직한 인생책 단 1권 (황농문 교수) · <span class="vw">153만회</span> · <a href="https://www.youtube.com/shorts/c9BqWdeKe9c" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">같은 포맷의 반복. 설명 없이 <b>대화 한복판에 떨어뜨리는</b> 진입 방식이다 - "아, 혹시 교수님이신가요? 서울대…"</div>
+</div>
 
 ### 우리 버전
 

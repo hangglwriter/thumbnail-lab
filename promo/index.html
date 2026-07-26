@@ -120,6 +120,55 @@
     }
     .case-card .hook b { color: #c8402c; }
 
+    /* ===== 첫 3초 프레임 스트립 ===== */
+    .strip {
+      margin: 20px 0 30px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,.06);
+    }
+    .strip > a { display: block; line-height: 0; background: #000; }
+    .strip img { width: 100%; display: block; }
+    .strip .ticks {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: #2b2b33;
+      color: #cfcfe0;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+    .strip .ticks span {
+      padding: 5px 0;
+      text-align: center;
+      border-right: 1px solid #3d3d47;
+    }
+    .strip .ticks span:last-child { border-right: 0; }
+    .strip .meta {
+      padding: 9px 13px;
+      font-size: 12.5px;
+      color: #555;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 10px;
+      align-items: baseline;
+      border-top: 1px solid #f0f0f0;
+    }
+    .strip .meta .ch { font-weight: 700; color: #222; }
+    .strip .meta .vw { color: #e0533d; font-weight: 700; }
+    .strip .meta a { color: #666; font-size: 12px; }
+    .strip .read {
+      padding: 10px 13px 13px;
+      font-size: 12.5px;
+      line-height: 1.6;
+      color: #444;
+      background: #faf8f6;
+      border-top: 1px solid #f0f0f0;
+    }
+    .strip .read b { color: #c8402c; }
+
     .sec-note {
       background: #fff8e1;
       border: 1px solid #ffe082;

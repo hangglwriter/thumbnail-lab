@@ -11,6 +11,13 @@
 
 ### 첫 3초 (프레임 실측)
 
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/prJsmxT5cSY" target="_blank" rel="noopener"><img src="/promo/frames/prJsmxT5cSY.jpg" alt="야나두 9탄 첫 3초"></a>
+  <div class="ticks"><span>0.1초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">야나두 영어회화</span> 실수하기 좋은 영어 시리즈 9탄 #이건서비스야 · <span class="vw">1,332만회</span> · <a href="https://www.youtube.com/shorts/prJsmxT5cSY" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">0.1초부터 상단 <b>@이건 서비스야</b>가 이미 박혀 있고 최하단에 <b>AI로 생성된 콘텐츠입니다</b>가 상시 표기된다. 3초 지점에서야 하단에 <b>- 자, 서비스야.</b>가 뜬다. 즉 <b>퀴즈를 먼저 던지고 답은 3초 뒤에</b> 준다. 흑인 손님 + 한국 할머니라는 시각적 부조화는 첫 프레임에 이미 완성되어 있다.</div>
+</div>
+
 **화면**
 따뜻한 조명의 한식당 나무 테이블. 흰 티셔츠 흑인 남성이 고개를 숙이고 국을 숟가락으로 뜬다.
 뒤쪽에서 꽃무늬 블라우스 차림의 한국 할머니가 전 접시를 들고 다가온다.
@@ -42,6 +49,13 @@
 
 ## 11탄 「조용히해주세요」 - 5,049,075회
 
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/drq8Fxt3ITE" target="_blank" rel="noopener"><img src="/promo/frames/drq8Fxt3ITE.jpg" alt="야나두 11탄 첫 3초"></a>
+  <div class="ticks"><span>0.1초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">야나두 영어회화</span> 11탄 #조용히해주세요 · <span class="vw">504만회</span> · <a href="https://www.youtube.com/shorts/drq8Fxt3ITE" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">9탄과 <b>완전히 같은 골격</b>이다. 상단 배너 위치·폰트·하단 고지문이 픽셀 단위로 동일하고 세트(할머니 + 외국인)만 도서관으로 바뀌었다. 이게 <b>프랜차이즈화</b>의 실물이다.</div>
+</div>
+
 첫 3초: 도서관. 할머니와 흑인 남성이 나란히 앉아 각자 책을 펼치고 읽는다.
 상단 `@조용히 해주세요`, 하단 자막이 `- 청주...` → `- 청주... 날씨는...`로 이어진다.
 
@@ -59,6 +73,13 @@
 | 9탄 | 8/10 |
 | 11탄 | 8/13 |
 | 13탄 | 8/17 |
+
+<div class="strip">
+  <a href="https://www.youtube.com/shorts/1dns4C-1Fk4" target="_blank" rel="noopener"><img src="/promo/frames/1dns4C-1Fk4.jpg" alt="야나두 8탄 첫 3초"></a>
+  <div class="ticks"><span>0.1초</span><span>1.0초</span><span>2.0초</span><span>3.0초</span></div>
+  <div class="meta"><span class="ch">야나두 영어회화</span> 8탄 #세트로주세요 · <span class="vw">403만회</span> · <a href="https://www.youtube.com/shorts/1dns4C-1Fk4" target="_blank" rel="noopener">▶ 영상 보기</a></div>
+  <div class="read">8탄·9탄·11탄을 나란히 놓고 보면 <b>바뀌는 건 장소와 대사 한 줄뿐</b>이다. 제작 리소스가 이 구조에서 나온다.</div>
+</div>
 
 **17일에 13편 이상**을 쏟아냈다. 확인된 상위 5편만 합해도 약 2,880만 뷰다.
 
