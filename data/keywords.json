@@ -1,452 +1,487 @@
 {
- "keywords": [
-  {
-   "slug": "comfyui-데스크탑",
-   "keyword": "ComfyUI 데스크탑",
-   "category": "ai",
-   "count": 31,
-   "updated": "2026-06-26 12:54"
-  },
-  {
-   "slug": "seedance-20",
-   "keyword": "Seedance 2.0",
-   "category": "ai",
-   "count": 35,
-   "updated": "2026-06-27 00:16"
-  },
-  {
-   "slug": "나노바나나",
-   "keyword": "나노바나나",
-   "count": 18,
-   "updated": "2026-05-19 23:45",
-   "category": "ai-image"
-  },
-  {
-   "slug": "무료-이미지-ai",
-   "keyword": "무료 이미지 AI",
-   "category": "ai-image",
-   "count": 30,
-   "updated": "2026-05-27 15:09"
-  },
-  {
-   "slug": "이미지-ai",
-   "keyword": "이미지 AI",
-   "count": 6,
-   "updated": "2026-05-19 23:22",
-   "category": "ai-image"
-  },
-  {
-   "slug": "캔바-ai",
-   "keyword": "캔바 AI",
-   "count": 4,
-   "updated": "2026-05-18 23:18",
-   "category": "ai-image"
-  },
-  {
-   "slug": "ai-글래스-한국",
-   "keyword": "AI 글래스 한국",
-   "category": "ai-model",
-   "count": 15,
-   "updated": "2026-05-23 01:12"
-  },
-  {
-   "slug": "gemini-35-flash",
-   "keyword": "Gemini 3.5 Flash",
-   "category": "ai-model",
-   "count": 30,
-   "updated": "2026-05-23 01:16"
-  },
-  {
-   "slug": "google-io-2026",
-   "keyword": "Google I/O 2026",
-   "category": "ai-model",
-   "count": 30,
-   "updated": "2026-05-23 01:13"
-  },
-  {
-   "slug": "meta-ai-vibes",
-   "keyword": "Meta AI Vibes",
-   "category": "ai-model",
-   "count": 21,
-   "updated": "2026-06-13 23:57"
-  },
-  {
-   "slug": "meta-ai-한국",
-   "keyword": "Meta AI 한국",
-   "count": 20,
-   "updated": "2026-05-19 22:48",
-   "category": "ai-model"
-  },
-  {
-   "slug": "구글-ai-스튜디오-앱",
-   "keyword": "구글 AI 스튜디오 앱",
-   "category": "ai-model",
-   "count": 30,
-   "updated": "2026-06-09 15:44"
-  },
-  {
-   "slug": "구글-io-2026",
-   "keyword": "구글 IO 2026",
-   "category": "ai-model",
-   "count": 30,
-   "updated": "2026-05-23 01:14"
-  },
-  {
-   "slug": "구글-io-2026-한국",
-   "keyword": "구글 IO 2026 한국",
-   "category": "ai-model",
-   "count": 25,
-   "updated": "2026-05-23 01:14"
-  },
-  {
-   "slug": "메타-ai",
-   "keyword": "메타 AI",
-   "category": "ai-model",
-   "count": 30,
-   "updated": "2026-05-27 15:12"
-  },
-  {
-   "slug": "메타-ai-무료",
-   "keyword": "메타 AI 무료",
-   "count": 20,
-   "updated": "2026-05-19 22:49",
-   "category": "ai-model"
-  },
-  {
-   "slug": "제미나이",
-   "keyword": "제미나이",
-   "count": 30,
-   "updated": "2026-05-18 23:21",
-   "category": "ai-model"
-  },
-  {
-   "slug": "제미나이-35-플래시",
-   "keyword": "제미나이 3.5 플래시",
-   "category": "ai-model",
-   "count": 20,
-   "updated": "2026-05-23 01:11"
-  },
-  {
-   "slug": "클로드-ai",
-   "keyword": "클로드 AI",
-   "count": 30,
-   "updated": "2026-05-18 23:19",
-   "category": "ai-model"
-  },
-  {
-   "slug": "클로드-오퍼스-48",
-   "keyword": "클로드 오퍼스 4.8",
-   "category": "ai-model",
-   "count": 6,
-   "updated": "2026-05-31 00:11"
-  },
-  {
-   "slug": "ai-영상생성",
-   "keyword": "AI 영상생성",
-   "category": "ai-video",
-   "count": 48,
-   "updated": "2026-07-15 10:42"
-  },
-  {
-   "slug": "gemini-omni",
-   "keyword": "Gemini Omni",
-   "category": "ai-video",
-   "count": 30,
-   "updated": "2026-05-23 01:15"
-  },
-  {
-   "slug": "gemini-spark",
-   "keyword": "Gemini Spark",
-   "category": "ai-video",
-   "count": 20,
-   "updated": "2026-05-23 01:15"
-  },
-  {
-   "slug": "pippit-ai",
-   "keyword": "Pippit AI",
-   "category": "ai-video",
-   "count": 31,
-   "updated": "2026-06-18 11:55"
-  },
-  {
-   "slug": "구글-옴니-영상변형",
-   "keyword": "구글 옴니 영상 변형",
-   "category": "ai-video",
-   "count": 12,
-   "updated": "2026-05-31 23:45"
-  },
-  {
-   "slug": "구글-플로우",
-   "keyword": "구글 플로우",
-   "category": "ai-video",
-   "count": 20,
-   "updated": "2026-05-23 01:12"
-  },
-  {
-   "slug": "무료-ai-영상-툴",
-   "keyword": "무료 AI 영상 툴",
-   "category": "ai-video",
-   "count": 30,
-   "updated": "2026-06-13 23:56"
-  },
-  {
-   "slug": "영상-ai",
-   "keyword": "영상 AI",
-   "count": 20,
-   "updated": "2026-05-19 23:22",
-   "category": "ai-video"
-  },
-  {
-   "slug": "제미나이-옴니",
-   "keyword": "제미나이 옴니",
-   "category": "ai-video",
-   "count": 20,
-   "updated": "2026-05-23 01:11"
-  },
-  {
-   "slug": "공감대화법",
-   "keyword": "공감대화법",
-   "count": 30,
-   "updated": "2026-05-19 15:38",
-   "category": "books"
-  },
-  {
-   "slug": "부부-소통",
-   "keyword": "부부 소통",
-   "count": 30,
-   "updated": "2026-05-19 15:38",
-   "category": "books"
-  },
-  {
-   "slug": "심리-책-추천",
-   "keyword": "심리 책 추천",
-   "count": 30,
-   "updated": "2026-05-19 15:38",
-   "category": "books"
-  },
-  {
-   "slug": "이-책-꼭-읽어야",
-   "keyword": "이 책 꼭 읽어야",
-   "count": 30,
-   "updated": "2026-05-19 15:36",
-   "category": "books"
-  },
-  {
-   "slug": "인생책",
-   "keyword": "인생책",
-   "count": 30,
-   "updated": "2026-05-19 15:36",
-   "category": "books"
-  },
-  {
-   "slug": "자기계발-책-쇼츠",
-   "keyword": "자기계발 책 쇼츠",
-   "count": 30,
-   "updated": "2026-05-19 15:36",
-   "category": "books"
-  },
-  {
-   "slug": "책-추천-쇼츠",
-   "keyword": "책 추천 쇼츠",
-   "count": 29,
-   "updated": "2026-05-19 15:36",
-   "category": "books"
-  },
-  {
-   "slug": "1분-책-요약",
-   "keyword": "1분 책 요약",
-   "category": "shorts",
-   "count": 11,
-   "updated": "2026-05-20 09:10"
-  },
-  {
-   "slug": "ai",
-   "keyword": "AI",
-   "category": "shorts",
-   "count": 30,
-   "updated": "2026-05-20 09:29"
-  },
-  {
-   "slug": "ai-shorts",
-   "keyword": "AI #shorts",
-   "category": "shorts",
-   "count": 4,
-   "updated": "2026-05-20 09:12"
-  },
-  {
-   "slug": "ai-꿀팁",
-   "keyword": "AI 꿀팁",
-   "category": "shorts",
-   "count": 30,
-   "updated": "2026-05-20 09:29"
-  },
-  {
-   "slug": "ai-쇼츠",
-   "keyword": "AI 쇼츠",
-   "category": "shorts",
-   "count": 0,
-   "updated": "2026-05-20 09:10"
-  },
-  {
-   "slug": "ai-활용-쇼츠",
-   "keyword": "AI 활용 쇼츠",
-   "category": "shorts",
-   "count": 0,
-   "updated": "2026-05-20 09:12"
-  },
-  {
-   "slug": "글쓰기-쇼츠",
-   "keyword": "글쓰기 쇼츠",
-   "category": "shorts",
-   "count": 8,
-   "updated": "2026-05-20 09:12"
-  },
-  {
-   "slug": "김요약",
-   "keyword": "김요약",
-   "category": "shorts",
-   "count": 28,
-   "updated": "2026-05-20 10:16"
-  },
-  {
-   "slug": "유튜브-꿀팁-쇼츠",
-   "keyword": "유튜브 꿀팁 쇼츠",
-   "category": "shorts",
-   "count": 1,
-   "updated": "2026-05-20 09:10"
-  },
-  {
-   "slug": "자기계발-책",
-   "keyword": "자기계발 책",
-   "category": "shorts",
-   "count": 30,
-   "updated": "2026-05-20 10:02"
-  },
-  {
-   "slug": "책-요약",
-   "keyword": "책 요약",
-   "category": "shorts",
-   "count": 24,
-   "updated": "2026-05-20 10:02"
-  },
-  {
-   "slug": "책-추천",
-   "keyword": "책 추천",
-   "category": "shorts",
-   "count": 30,
-   "updated": "2026-05-20 09:29"
-  },
-  {
-   "slug": "책식주의",
-   "keyword": "책식주의",
-   "category": "shorts",
-   "count": 25,
-   "updated": "2026-05-20 10:16"
-  },
-  {
-   "slug": "챗gpt",
-   "keyword": "챗GPT",
-   "category": "shorts",
-   "count": 0,
-   "updated": "2026-05-20 09:29"
-  },
-  {
-   "slug": "챗gpt-shorts",
-   "keyword": "챗GPT #shorts",
-   "category": "shorts",
-   "count": 2,
-   "updated": "2026-05-20 09:12"
-  },
-  {
-   "slug": "챗gpt-쇼츠",
-   "keyword": "챗GPT 쇼츠",
-   "category": "shorts",
-   "count": 0,
-   "updated": "2026-05-20 09:10"
-  },
-  {
-   "slug": "단편소설-낭독",
-   "keyword": "단편소설 낭독",
-   "category": "story",
-   "count": 14,
-   "updated": "2026-07-04 23:36"
-  },
-  {
-   "slug": "명작-오디오북",
-   "keyword": "명작 오디오북",
-   "category": "story",
-   "count": 25,
-   "updated": "2026-07-04 23:36"
-  },
-  {
-   "slug": "잠들기전-이야기",
-   "keyword": "잠들기전 이야기",
-   "category": "story",
-   "count": 13,
-   "updated": "2026-07-04 23:36"
-  },
-  {
-   "slug": "톨스토이-낭독",
-   "keyword": "톨스토이 낭독",
-   "category": "story",
-   "count": 19,
-   "updated": "2026-07-04 23:35"
-  },
-  {
-   "slug": "openai-codex",
-   "keyword": "OpenAI Codex",
-   "category": "vibecoding",
-   "count": 30,
-   "updated": "2026-06-06 09:43"
-  },
-  {
-   "slug": "바이브코딩-홈페이지",
-   "keyword": "바이브코딩 홈페이지",
-   "category": "vibecoding",
-   "count": 23,
-   "updated": "2026-06-03 00:14"
-  },
-  {
-   "slug": "클로드-코드-1인-자동화",
-   "keyword": "클로드 코드 1인 자동화",
-   "category": "vibecoding",
-   "count": 25,
-   "updated": "2026-06-03 00:15"
-  },
-  {
-   "slug": "클로드-코드-사용법",
-   "keyword": "클로드 코드 사용법",
-   "category": "vibecoding",
-   "count": 17,
-   "updated": "2026-06-03 00:13"
-  },
-  {
-   "slug": "책홍보-ai쇼츠사례",
-   "keyword": "책홍보 AI쇼츠사례",
-   "category": "책홍보",
-   "count": 34,
-   "updated": "2026-07-30 11:57"
-  },
-  {
-   "slug": "책홍보-저자쇼츠",
-   "keyword": "책홍보 저자쇼츠",
-   "category": "책홍보",
-   "count": 13,
-   "updated": "2026-07-30 11:57"
-  },
-  {
-   "slug": "책홍보-훅검증",
-   "keyword": "책홍보 훅검증",
-   "category": "책홍보",
-   "count": 15,
-   "updated": "2026-07-26 16:34"
-  },
-  {
-   "slug": "책홍보-책벤치",
-   "keyword": "책 홍보 영상 벤치마크",
-   "category": "책홍보",
-   "count": 24,
-   "updated": "2026-07-30 22:30"
-  }
- ]
+  "keywords": [
+    {
+      "slug": "comfyui-데스크탑",
+      "keyword": "ComfyUI 데스크탑",
+      "category": "ai",
+      "count": 31,
+      "updated": "2026-06-26 12:54"
+    },
+    {
+      "slug": "seedance-20",
+      "keyword": "Seedance 2.0",
+      "category": "ai",
+      "count": 35,
+      "updated": "2026-06-27 00:16"
+    },
+    {
+      "slug": "나노바나나",
+      "keyword": "나노바나나",
+      "count": 18,
+      "updated": "2026-05-19 23:45",
+      "category": "ai-image"
+    },
+    {
+      "slug": "무료-이미지-ai",
+      "keyword": "무료 이미지 AI",
+      "category": "ai-image",
+      "count": 30,
+      "updated": "2026-05-27 15:09"
+    },
+    {
+      "slug": "이미지-ai",
+      "keyword": "이미지 AI",
+      "count": 6,
+      "updated": "2026-05-19 23:22",
+      "category": "ai-image"
+    },
+    {
+      "slug": "캔바-ai",
+      "keyword": "캔바 AI",
+      "count": 4,
+      "updated": "2026-05-18 23:18",
+      "category": "ai-image"
+    },
+    {
+      "slug": "ai-글래스-한국",
+      "keyword": "AI 글래스 한국",
+      "category": "ai-model",
+      "count": 15,
+      "updated": "2026-05-23 01:12"
+    },
+    {
+      "slug": "gemini-35-flash",
+      "keyword": "Gemini 3.5 Flash",
+      "category": "ai-model",
+      "count": 30,
+      "updated": "2026-05-23 01:16"
+    },
+    {
+      "slug": "google-io-2026",
+      "keyword": "Google I/O 2026",
+      "category": "ai-model",
+      "count": 30,
+      "updated": "2026-05-23 01:13"
+    },
+    {
+      "slug": "meta-ai-vibes",
+      "keyword": "Meta AI Vibes",
+      "category": "ai-model",
+      "count": 21,
+      "updated": "2026-06-13 23:57"
+    },
+    {
+      "slug": "meta-ai-한국",
+      "keyword": "Meta AI 한국",
+      "count": 20,
+      "updated": "2026-05-19 22:48",
+      "category": "ai-model"
+    },
+    {
+      "slug": "구글-ai-스튜디오-앱",
+      "keyword": "구글 AI 스튜디오 앱",
+      "category": "ai-model",
+      "count": 30,
+      "updated": "2026-06-09 15:44"
+    },
+    {
+      "slug": "구글-io-2026",
+      "keyword": "구글 IO 2026",
+      "category": "ai-model",
+      "count": 30,
+      "updated": "2026-05-23 01:14"
+    },
+    {
+      "slug": "구글-io-2026-한국",
+      "keyword": "구글 IO 2026 한국",
+      "category": "ai-model",
+      "count": 25,
+      "updated": "2026-05-23 01:14"
+    },
+    {
+      "slug": "메타-ai",
+      "keyword": "메타 AI",
+      "category": "ai-model",
+      "count": 30,
+      "updated": "2026-05-27 15:12"
+    },
+    {
+      "slug": "메타-ai-무료",
+      "keyword": "메타 AI 무료",
+      "count": 20,
+      "updated": "2026-05-19 22:49",
+      "category": "ai-model"
+    },
+    {
+      "slug": "제미나이",
+      "keyword": "제미나이",
+      "count": 30,
+      "updated": "2026-05-18 23:21",
+      "category": "ai-model"
+    },
+    {
+      "slug": "제미나이-35-플래시",
+      "keyword": "제미나이 3.5 플래시",
+      "category": "ai-model",
+      "count": 20,
+      "updated": "2026-05-23 01:11"
+    },
+    {
+      "slug": "클로드-ai",
+      "keyword": "클로드 AI",
+      "count": 30,
+      "updated": "2026-05-18 23:19",
+      "category": "ai-model"
+    },
+    {
+      "slug": "클로드-오퍼스-48",
+      "keyword": "클로드 오퍼스 4.8",
+      "category": "ai-model",
+      "count": 6,
+      "updated": "2026-05-31 00:11"
+    },
+    {
+      "slug": "ai-영상생성",
+      "keyword": "AI 영상생성",
+      "category": "ai-video",
+      "count": 48,
+      "updated": "2026-07-15 10:42"
+    },
+    {
+      "slug": "gemini-omni",
+      "keyword": "Gemini Omni",
+      "category": "ai-video",
+      "count": 30,
+      "updated": "2026-05-23 01:15"
+    },
+    {
+      "slug": "gemini-spark",
+      "keyword": "Gemini Spark",
+      "category": "ai-video",
+      "count": 20,
+      "updated": "2026-05-23 01:15"
+    },
+    {
+      "slug": "pippit-ai",
+      "keyword": "Pippit AI",
+      "category": "ai-video",
+      "count": 31,
+      "updated": "2026-06-18 11:55"
+    },
+    {
+      "slug": "구글-옴니-영상변형",
+      "keyword": "구글 옴니 영상 변형",
+      "category": "ai-video",
+      "count": 12,
+      "updated": "2026-05-31 23:45"
+    },
+    {
+      "slug": "구글-플로우",
+      "keyword": "구글 플로우",
+      "category": "ai-video",
+      "count": 20,
+      "updated": "2026-05-23 01:12"
+    },
+    {
+      "slug": "무료-ai-영상-툴",
+      "keyword": "무료 AI 영상 툴",
+      "category": "ai-video",
+      "count": 30,
+      "updated": "2026-06-13 23:56"
+    },
+    {
+      "slug": "영상-ai",
+      "keyword": "영상 AI",
+      "count": 20,
+      "updated": "2026-05-19 23:22",
+      "category": "ai-video"
+    },
+    {
+      "slug": "제미나이-옴니",
+      "keyword": "제미나이 옴니",
+      "category": "ai-video",
+      "count": 20,
+      "updated": "2026-05-23 01:11"
+    },
+    {
+      "slug": "공감대화법",
+      "keyword": "공감대화법",
+      "count": 30,
+      "updated": "2026-05-19 15:38",
+      "category": "books"
+    },
+    {
+      "slug": "부부-소통",
+      "keyword": "부부 소통",
+      "count": 30,
+      "updated": "2026-05-19 15:38",
+      "category": "books"
+    },
+    {
+      "slug": "심리-책-추천",
+      "keyword": "심리 책 추천",
+      "count": 30,
+      "updated": "2026-05-19 15:38",
+      "category": "books"
+    },
+    {
+      "slug": "이-책-꼭-읽어야",
+      "keyword": "이 책 꼭 읽어야",
+      "count": 30,
+      "updated": "2026-05-19 15:36",
+      "category": "books"
+    },
+    {
+      "slug": "인생책",
+      "keyword": "인생책",
+      "count": 30,
+      "updated": "2026-05-19 15:36",
+      "category": "books"
+    },
+    {
+      "slug": "자기계발-책-쇼츠",
+      "keyword": "자기계발 책 쇼츠",
+      "count": 30,
+      "updated": "2026-05-19 15:36",
+      "category": "books"
+    },
+    {
+      "slug": "책-추천-쇼츠",
+      "keyword": "책 추천 쇼츠",
+      "count": 29,
+      "updated": "2026-05-19 15:36",
+      "category": "books"
+    },
+    {
+      "slug": "ai-동영상-만들기",
+      "keyword": "AI 동영상 만들기",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-01 18:38"
+    },
+    {
+      "slug": "ai-영상-프롬프트",
+      "keyword": "AI 영상 프롬프트",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-01 18:36"
+    },
+    {
+      "slug": "veo-프롬프트",
+      "keyword": "Veo 프롬프트",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-01 18:35"
+    },
+    {
+      "slug": "구글-프롬프트-가이드",
+      "keyword": "구글 프롬프트 가이드",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-01 18:37"
+    },
+    {
+      "slug": "프롬프트-공식",
+      "keyword": "프롬프트 공식",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-01 18:37"
+    },
+    {
+      "slug": "1분-책-요약",
+      "keyword": "1분 책 요약",
+      "category": "shorts",
+      "count": 11,
+      "updated": "2026-05-20 09:10"
+    },
+    {
+      "slug": "ai",
+      "keyword": "AI",
+      "category": "shorts",
+      "count": 30,
+      "updated": "2026-05-20 09:29"
+    },
+    {
+      "slug": "ai-shorts",
+      "keyword": "AI #shorts",
+      "category": "shorts",
+      "count": 4,
+      "updated": "2026-05-20 09:12"
+    },
+    {
+      "slug": "ai-꿀팁",
+      "keyword": "AI 꿀팁",
+      "category": "shorts",
+      "count": 30,
+      "updated": "2026-05-20 09:29"
+    },
+    {
+      "slug": "ai-쇼츠",
+      "keyword": "AI 쇼츠",
+      "category": "shorts",
+      "count": 0,
+      "updated": "2026-05-20 09:10"
+    },
+    {
+      "slug": "ai-활용-쇼츠",
+      "keyword": "AI 활용 쇼츠",
+      "category": "shorts",
+      "count": 0,
+      "updated": "2026-05-20 09:12"
+    },
+    {
+      "slug": "글쓰기-쇼츠",
+      "keyword": "글쓰기 쇼츠",
+      "category": "shorts",
+      "count": 8,
+      "updated": "2026-05-20 09:12"
+    },
+    {
+      "slug": "김요약",
+      "keyword": "김요약",
+      "category": "shorts",
+      "count": 28,
+      "updated": "2026-05-20 10:16"
+    },
+    {
+      "slug": "유튜브-꿀팁-쇼츠",
+      "keyword": "유튜브 꿀팁 쇼츠",
+      "category": "shorts",
+      "count": 1,
+      "updated": "2026-05-20 09:10"
+    },
+    {
+      "slug": "자기계발-책",
+      "keyword": "자기계발 책",
+      "category": "shorts",
+      "count": 30,
+      "updated": "2026-05-20 10:02"
+    },
+    {
+      "slug": "책-요약",
+      "keyword": "책 요약",
+      "category": "shorts",
+      "count": 24,
+      "updated": "2026-05-20 10:02"
+    },
+    {
+      "slug": "책-추천",
+      "keyword": "책 추천",
+      "category": "shorts",
+      "count": 30,
+      "updated": "2026-05-20 09:29"
+    },
+    {
+      "slug": "책식주의",
+      "keyword": "책식주의",
+      "category": "shorts",
+      "count": 25,
+      "updated": "2026-05-20 10:16"
+    },
+    {
+      "slug": "챗gpt",
+      "keyword": "챗GPT",
+      "category": "shorts",
+      "count": 0,
+      "updated": "2026-05-20 09:29"
+    },
+    {
+      "slug": "챗gpt-shorts",
+      "keyword": "챗GPT #shorts",
+      "category": "shorts",
+      "count": 2,
+      "updated": "2026-05-20 09:12"
+    },
+    {
+      "slug": "챗gpt-쇼츠",
+      "keyword": "챗GPT 쇼츠",
+      "category": "shorts",
+      "count": 0,
+      "updated": "2026-05-20 09:10"
+    },
+    {
+      "slug": "단편소설-낭독",
+      "keyword": "단편소설 낭독",
+      "category": "story",
+      "count": 14,
+      "updated": "2026-07-04 23:36"
+    },
+    {
+      "slug": "명작-오디오북",
+      "keyword": "명작 오디오북",
+      "category": "story",
+      "count": 25,
+      "updated": "2026-07-04 23:36"
+    },
+    {
+      "slug": "잠들기전-이야기",
+      "keyword": "잠들기전 이야기",
+      "category": "story",
+      "count": 13,
+      "updated": "2026-07-04 23:36"
+    },
+    {
+      "slug": "톨스토이-낭독",
+      "keyword": "톨스토이 낭독",
+      "category": "story",
+      "count": 19,
+      "updated": "2026-07-04 23:35"
+    },
+    {
+      "slug": "openai-codex",
+      "keyword": "OpenAI Codex",
+      "category": "vibecoding",
+      "count": 30,
+      "updated": "2026-06-06 09:43"
+    },
+    {
+      "slug": "바이브코딩-홈페이지",
+      "keyword": "바이브코딩 홈페이지",
+      "category": "vibecoding",
+      "count": 23,
+      "updated": "2026-06-03 00:14"
+    },
+    {
+      "slug": "클로드-코드-1인-자동화",
+      "keyword": "클로드 코드 1인 자동화",
+      "category": "vibecoding",
+      "count": 25,
+      "updated": "2026-06-03 00:15"
+    },
+    {
+      "slug": "클로드-코드-사용법",
+      "keyword": "클로드 코드 사용법",
+      "category": "vibecoding",
+      "count": 17,
+      "updated": "2026-06-03 00:13"
+    },
+    {
+      "slug": "책홍보-책벤치",
+      "keyword": "책 홍보 영상 벤치마크",
+      "category": "책홍보",
+      "count": 24,
+      "updated": "2026-07-30 22:30"
+    },
+    {
+      "slug": "책홍보-ai쇼츠사례",
+      "keyword": "책홍보 AI쇼츠사례",
+      "category": "책홍보",
+      "count": 34,
+      "updated": "2026-07-30 11:57"
+    },
+    {
+      "slug": "책홍보-저자쇼츠",
+      "keyword": "책홍보 저자쇼츠",
+      "category": "책홍보",
+      "count": 13,
+      "updated": "2026-07-30 11:57"
+    },
+    {
+      "slug": "책홍보-훅검증",
+      "keyword": "책홍보 훅검증",
+      "category": "책홍보",
+      "count": 15,
+      "updated": "2026-07-26 16:34"
+    }
+  ]
 }
