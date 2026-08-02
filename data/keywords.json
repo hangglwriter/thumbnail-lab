@@ -253,6 +253,27 @@
       "category": "books"
     },
     {
+      "slug": "ai-filmmaking-tutorial",
+      "keyword": "AI filmmaking tutorial",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 18:05"
+    },
+    {
+      "slug": "ai-short-film",
+      "keyword": "AI short film",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 18:06"
+    },
+    {
+      "slug": "ai-video-workflow",
+      "keyword": "AI video workflow",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 18:06"
+    },
+    {
       "slug": "ai-광고-만들기",
       "keyword": "AI 광고 만들기",
       "category": "general",
@@ -300,6 +321,13 @@
       "category": "general",
       "count": 25,
       "updated": "2026-08-01 18:36"
+    },
+    {
+      "slug": "i-made-a-movie-with-ai",
+      "keyword": "I made a movie with AI",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 18:07"
     },
     {
       "slug": "veo-프롬프트",
