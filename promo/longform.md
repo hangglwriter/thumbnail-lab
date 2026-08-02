@@ -18,6 +18,21 @@
 - **하버드 유료**: 익스텐션 스쿨 "Generative Media and Creative AI" 인증과정 **$14,320** (Fall 2026, 단편영화·영상편집 과목 포함)
 - MIT: 무료 가이드 없음 (해커톤·논문만) / 학술: CVPR 2025 서베이 논문 (보조용)
 
+### 구글 공식 가이드 원문 링크 (복사용)
+
+```
+1. 구글 클라우드 블로그 (프롬프트 공식 본체, 2025-10-16)
+https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1
+
+2. 구글 개발자 문서 (7요소 + 오디오 3종, 한국어 전환 가능)
+https://ai.google.dev/gemini-api/docs/veo
+
+3. 딥마인드 Veo 공식 (최신 버전 확인용)
+https://deepmind.google/models/veo/
+```
+
+- 영상 "공신력 장면"엔 1번 블로그 화면이 그림 제일 좋음 (구글 로고 + "Ultimate prompting guide" 타이틀)
+
 ### 3단 훅 구조 (추천)
 
 1. "기억하시죠? 하버드가 무료로 푼 AI 글쓰기 공식" (전작 연속성)
