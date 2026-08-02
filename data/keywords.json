@@ -253,11 +253,46 @@
       "category": "books"
     },
     {
+      "slug": "ai-광고-만들기",
+      "keyword": "AI 광고 만들기",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 17:38"
+    },
+    {
+      "slug": "ai-노래-만들기",
+      "keyword": "AI 노래 만들기",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 17:37"
+    },
+    {
       "slug": "ai-동영상-만들기",
       "keyword": "AI 동영상 만들기",
       "category": "general",
       "count": 25,
       "updated": "2026-08-01 18:38"
+    },
+    {
+      "slug": "ai-뮤직비디오",
+      "keyword": "AI 뮤직비디오",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 17:38"
+    },
+    {
+      "slug": "ai-아바타-영상",
+      "keyword": "AI 아바타 영상",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 17:39"
+    },
+    {
+      "slug": "ai-애니메이션-만들기",
+      "keyword": "AI 애니메이션 만들기",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 17:37"
     },
     {
       "slug": "ai-영상-프롬프트",
@@ -279,6 +314,20 @@
       "category": "general",
       "count": 25,
       "updated": "2026-08-01 18:37"
+    },
+    {
+      "slug": "사진으로-영상-만들기",
+      "keyword": "사진으로 영상 만들기",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 17:36"
+    },
+    {
+      "slug": "옛날사진-복원",
+      "keyword": "옛날사진 복원",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 17:35"
     },
     {
       "slug": "프롬프트-공식",
