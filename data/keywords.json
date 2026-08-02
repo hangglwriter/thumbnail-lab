@@ -316,6 +316,13 @@
       "updated": "2026-08-02 17:37"
     },
     {
+      "slug": "ai-에이전트",
+      "keyword": "AI 에이전트",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 23:46"
+    },
+    {
       "slug": "ai-영상-프롬프트",
       "keyword": "AI 영상 프롬프트",
       "category": "general",
@@ -349,6 +356,13 @@
       "category": "general",
       "count": 25,
       "updated": "2026-08-01 18:35"
+    },
+    {
+      "slug": "구글-에이전트",
+      "keyword": "구글 에이전트",
+      "category": "general",
+      "count": 25,
+      "updated": "2026-08-02 23:45"
     },
     {
       "slug": "구글-프롬프트-가이드",
